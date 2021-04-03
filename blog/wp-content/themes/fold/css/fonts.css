@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'BYekan';
+    src:  url('../fonts/YekanWeb-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BYekan';
+    src:  url('../fonts/YekanWeb-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'WIranian';
+    src: url('../fonts/IranianSerifWeb.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

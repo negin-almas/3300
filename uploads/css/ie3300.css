@@ -1,0 +1,800 @@
+/* CSS Document */
+body, html {
+    height:100%;
+}
+.fullhi {
+    height:100%;
+}
+body {
+    margin:0px;
+    padding:0px;
+    font-family: Tahoma, Geneva, sans-serif;
+    background:#dedede;
+    font-weight: lighter;
+    color: #474747;
+    text-decoration: none;
+    text-align: justify;
+}
+a, a img {
+    border:none;
+}
+a:active {
+    outline: none;
+    text-decoration:none;
+}
+a:hover {
+    outline: none;
+    text-decoration:none;
+    color:#900;
+}
+a:link {
+    outline: none;
+    text-decoration:none;
+    color:#F00;
+}
+a {
+    outline: none;
+    text-decoration:none;
+    color:#F00;
+}
+a:focus {
+    -moz-outline-style: none;
+    outline:none;
+    text-decoration:none;
+}
+#tooltip {
+    width:190px;
+    position:absolute;
+    display:none;
+    font-family: Tahoma;
+    font-size: 10px;
+    background-color: #62BFE8;
+    -moz-border-radius:		9px;
+    -webkit-border-radius:	9px;
+    -khtml-border-radius: 	9px;
+    border-radius:			9px;
+    color: #003;
+    text-align: justify;
+    vertical-align: text-top;
+    direction:rtl;
+    padding: 14px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-top-color: #003;
+    border-right-color: #006;
+    border-bottom-color: #003;
+    border-left-color: #003;
+}
+/** Menu **/
+.menu {
+    position:relative;
+    float:left;
+    top:60px;
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    font-size:11px;
+    font-weight: bold;
+    width: 100%;
+}
+.menu li {
+    position:relative;
+    float:left;
+    margin:0px 0px 0px 5px;
+    list-style:none;
+}
+.menu a {
+    position:relative;
+    float:left;
+    height:30px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #FFF;
+    color:#003c6c;
+    -moz-border-radius-topleft:12px;
+    -moz-border-radius-topright:12px;
+    -webkit-border-radius-topleft:12px;
+    -webkit-border-radius-topright:12px;
+    -khtml-border-radius-topleft: 12px;
+    -khtml-border-radius-topright:12px;
+    border-top-left-radius:12px;
+    border-top-right-radius:12px;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+.menu a:hover {
+    background:#ffce07;
+    text-shadow:0px 1px 0px #f9f9f9;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-top-color: #977900;
+    border-left-color: #977900;
+    color: #000;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #ffce07;
+}
+.header {
+    background-attachment: scroll;
+    background-image: url(../img/3300/negin-ertebat-3300-bgheader.gif);
+    background-repeat: repeat-x;
+    background-position: center top;
+    height: 152px;
+    width: 100%;
+}
+.unheader {
+    background-attachment: scroll;
+    background-image: url(../img/3300/negin-ertebat-3300-bgunheader.gif);
+    background-repeat: repeat-x;
+    background-position: center top;
+    height: 407px;
+    width: 100%;
+}
+.linemenu {
+    background-attachment: scroll;
+    background-image: url(../img/3300/negin-ertebat-home-bg2.gif);
+    background-repeat: repeat-x;
+    background-position: center top;
+    height: 62px;
+    width: 100%;
+    padding:0px;
+    margin:0px;
+}
+#searchFormWrapper {
+    position:relative;
+    float:left;
+    left:50px;
+    top:25px;
+    padding:0px 5px 5px 5px;
+    width:250px;
+    height:32px;
+    border:1px dashed #b8b2ac;
+    border-top:none;
+    background:#dadada;
+}
+#search {
+    position:relative;
+    float:left;
+    top:-6px;
+    width:250px;
+    height:38px;
+    background-color: #6B0000;
+}
+#search #s {
+    position:relative;
+    float:left;
+    margin:2px 4px 0px 13px;
+    padding:4px 8px;
+    height:15px;
+    width:156px;
+    background:#f9f9f9;
+    background: -moz-linear-gradient(top, #e1e1e1, #ffffff);
+    background: -webkit-gradient(linear, left top, left bottom, from(#e1e1e1), to(#ffffff));
+    filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#e1e1e1', EndColorStr='#ffffff', GradientType=0);
+    border:0px;
+    font-size:12px;
+    line-height:14px;
+    border-color:#003c6b;
+    color:#919191;
+    text-align:right;
+}
+#search #submit {
+    position:relative;
+    float:left;
+    margin:2px 13px 0px 0px;
+    width:43px;
+    height:23px;
+    overflow:hidden;
+    text-indent:-999px;
+    border:0px;
+    cursor:pointer;
+    background-image: url(../img/3300/searchButton.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/** Round Corners **/
+.roundedCorners {
+    -moz-border-radius:12px;
+    -webkit-border-radius:12px;
+    -khtml-border-radius: 12px;
+    border-radius:12px;
+}
+.roundedTopCorners {
+    -moz-border-radius-topleft:12px;
+    -moz-border-radius-topright:12px;
+    -webkit-border-radius-topleft:12px;
+    -webkit-border-radius-topright:12px;
+    -khtml-border-radius-topleft: 12px;
+    -khtml-border-radius-topright:12px;
+    border-top-left-radius:12px;
+    border-top-right-radius:12px;
+}
+.roundedBottomCorners {
+    -moz-border-radius-bottomleft:12px;
+    -moz-border-radius-bottomright:12px;
+    -webkit-border-radius-bottom-left:12px;
+    -webkit-border-radius-bottom-right:12px;
+    -khtml-border-radius-bottomleft: 12px;
+    -khtml-border-radius-bottomright:12px;
+    border-bottom-left-radius:12px;
+    border-bottom-right-radius:12px;
+}
+.roundedBottomCornersLarge {
+    -moz-border-radius-bottomleft:16px;
+    -moz-border-radius-bottomright:16px;
+    -webkit-border-radius-bottom-left:16px;
+    -webkit-border-radius-bottom-right:16px;
+    -khtml-border-radius-bottomleft:16px;
+    -khtml-border-radius-bottomright:16px;
+    border-bottom-left-radius:16px;
+    border-bottom-right-radius:16px;
+}
+.roundedLeftCorners {
+    -moz-border-radius-topleft:12px;
+    -moz-border-radius-bottomleft:12px;
+    -webkit-border-radius-top-left:12px;
+    -webkit-border-radius-bottom-left:12px;
+    -khtml-border-radius-topleft: 12px;
+    -khtml-border-radius-bottomleft:12px;
+    border-top-left-radius:12px;
+    border-bottom-left-radius:12px;
+}
+.roundedRightCorners {
+    -moz-border-radius-topright:12px;
+    -moz-border-radius-bottomright:12px;
+    -webkit-border-radius-top-right:12px;
+    -webkit-border-radius-bottom-right:12px;
+    -khtml-border-radius-topright: 12px;
+    -khtml-border-radius-bottomright:12px;
+    border-top-right-radius:12px;
+    border-bottom-right-radius:12px;
+}
+/* The Nav styling starts here, The above code is just to make the page look nice */
+#dropdown_nav {
+    padding:0px;
+    margin:0px;
+    display:inline-block;
+    list-style:none;
+    font-family:Tahoma, Geneva, sans-serif;
+    color: #666;
+    text-decoration: none;
+    direction:rtl;
+    text-align:center;
+    vertical-align:middle;
+    height:59px;
+    font-size:11px;
+    font-weight:bold;
+}
+#dropdown_nav li {
+    position:relative;
+    display:inline-block;
+    height:59px;
+    margin:0px;
+    text-align:center;
+    vertical-align:middle;
+    background-attachment: scroll;
+    background-image: url(../img/3300/line2.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    z-index:999;
+    line-height:54px;
+}
+#dropdown_nav li a {
+    padding:0px;
+    margin:0px;
+    color:#666;
+}
+#dropdown_nav li a:hover {
+    padding:0px;
+    margin:0px;
+    color:#000;
+}
+#dropdown_nav li a:active {
+    padding:0px;
+    margin:0px;
+}
+#dropdown_nav li a.first {
+    padding:0px;
+    margin:0px;
+}
+/*#dropdown_nav li a.last {
+		}*/
+/* Sub-Nav styling */
+#dropdown_nav .sub_nav {
+    font-size: 10px;
+    font-weight: lighter;
+    width:160px;
+    padding:0px;
+    margin:0px;
+    position:absolute;
+    top:62px;
+    left:0;
+    background-attachment: scroll;
+    background-image: url(../img/3300/bgmenu.gif);
+    background-repeat: repeat-x;
+    background-position: center top;
+    text-align: center;
+    vertical-align: middle;
+    direction: rtl;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: #c6c6c6;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #c6c6c6;
+    z-index:999;
+}
+#dropdown_nav .sub_nav li {
+    width:160px;
+    line-height:40px;
+    height:40px;
+    padding:0px;
+    margin:0px;
+    background-attachment: scroll;
+    background-image: url(../img/3300/bgmenu.gif);
+    background-repeat: repeat-x;
+    background-position: center top;
+    text-align: center;
+    vertical-align: middle;
+    direction: rtl;
+}
+#dropdown_nav .sub_nav li a {
+    display:block;
+    margin:0px;
+    background-attachment: scroll;
+    background-image: url(../img/3300/bgmenu.gif);
+    background-repeat: repeat-x;
+    background-position: center top;
+    text-align: center;
+    vertical-align: middle;
+    direction: rtl;
+    color: #666;
+    text-decoration: none;
+}
+#dropdown_nav .sub_nav li a:hover {
+    background-attachment: scroll;
+    background-image: url(../img/3300/bgmenuh.gif);
+    background-repeat: repeat-x;
+    background-position: center top;
+    text-align: center;
+    vertical-align: middle;
+    direction: rtl;
+    color: #666;
+    text-decoration: none;
+    margin:0px;
+}
+#dropdown_nav .sub_nav li a:active {
+    background-attachment: scroll;
+    background-image: url(../img/3300/bgmenu.gif);
+    background-repeat: repeat-x;
+    background-position: center top;
+    text-align: center;
+    vertical-align: middle;
+    direction: rtl;
+    color: #666;
+    text-decoration: none;
+    margin:0px;
+}
+.footer {
+    background-attachment: scroll;
+    background-color: #fc8700;
+    background-image: url(../img/3300/bg3300footer.gif);
+    background-repeat: repeat-x;
+    background-position: center top;
+    width: 100%;
+    overflow:hidden;
+    display:block;
+    padding:0px;
+    margin:0px;
+}
+.footertxt {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 10px;
+    font-weight: lighter;
+    color: #FF9;
+    text-decoration: none;
+    direction: rtl;
+}
+.main {
+    background-attachment: scroll;
+    background-color: #dedede;
+    background-image: url(../img/3300/bgmain.gif);
+    background-repeat: repeat-x;
+    background-position: center top;
+}
+.main2 {
+    background-attachment: scroll;
+    background-image: url(../img/3300/bgttb.gif);
+    background-repeat: repeat-y;
+    background-position: left top;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 900px;
+}
+.mainnews {
+    font-family:Tahoma, Geneva, sans-serif;
+    font-size: 10px;
+    line-height: 11px;
+    font-weight: lighter;
+    color: #333;
+    background-attachment: scroll;
+    background-image: url(../img/3300/bgnews.gif);
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    text-align: justify;
+    vertical-align: bottom;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    direction:rtl;
+}
+#ticker {
+    position: relative;
+    overflow:hidden;
+    display:block;
+    height:35px;
+}
+#ticker .cursor {
+    display: inline-block;
+    background: #565c61;
+    width: 0.6em;
+    height: 1em;
+    text-align: center;
+}
+.mainbox1 {
+    background-attachment: scroll;
+    background-color: #D7D7D7;
+    background-image: url(../img/3300/ct.gif);
+    background-repeat: repeat-x;
+    background-position: center top;
+    height: 16px;
+    width: 100%;
+}
+.mainbox2 {
+    background-attachment: scroll;
+    background-color: #D7D7D7;
+    background-image: url(../img/3300/cm.gif);
+    background-repeat: repeat;
+    background-position: center center;
+    width: 100%;
+    font-size: 11px;
+    text-decoration: none;
+}
+.mainbox3 {
+    background-attachment: scroll;
+    background-color: #D7D7D7;
+    background-image: url(../img/3300/cb.gif);
+    background-repeat: repeat-x;
+    background-position: center top;
+    height: 16px;
+    width: 100%;
+}
+.mainbox4 {
+    background-attachment: scroll;
+    background-color: #D7D7D7;
+    background-image: url(../img/3300/rm.gif);
+    background-repeat: repeat-y;
+    background-position: left top;
+    width: 17px;
+}
+.mainbox5 {
+    background-attachment: scroll;
+    background-color: #D7D7D7;
+    background-image: url(../img/3300/lm.gif);
+    background-repeat: repeat-y;
+    background-position: right top;
+    width: 17px;
+}
+#nav a, #nav a:active, #nav a:visited {
+    display:block;
+    float:right;
+    color:#FFF;
+    text-decoration:none;
+    outline:none;
+    font-family: Tahoma;
+    font-size: 11px;
+    font-weight: bold;
+    background-attachment: scroll;
+    background-image: url(../img/3300/link1.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    text-align: center;
+    vertical-align: middle;
+    height: 130px;
+    width: 127px;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    text-shadow:0px 1px 0px #006;
+}
+#nav a.selected, #nav a.selected:active, #nav a.selected:visited {
+    color:#FFF;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #006;
+    outline:none;
+    font-family: Tahoma;
+    font-size: 11px;
+    font-weight: bold;
+    background-attachment: scroll;
+    background-image: url(../img/3300/link1.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    text-align: center;
+    vertical-align: top;
+    margin-top:20px;
+    height: 130px;
+    width: 127px;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+.hiddencontent {
+    display:none;
+}
+.clear {
+    clear:both;
+}
+.txt {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 11px;
+    font-weight: lighter;
+    color: #1D2025;
+    line-height: 20px;
+    text-decoration: none;
+    text-align: justify;
+    vertical-align: top;
+    direction: rtl;
+    padding-left:15px;
+    padding-right:15px;
+}
+.txt a:active, .txt a:visited, .txt a {
+    color:#C60000;
+    text-decoration:none;
+}
+.txt a:hover {
+    color:#FFF;
+    text-decoration:none;
+    background-color:#C60000;
+}
+/** Contact Forms **/
+.email {
+    text-align:center;
+}
+.email .textInput {
+    margin-top:5px;
+    text-align:justify;
+    direction:rtl;
+    height:14px;
+    width:200px;
+    background:#c46900;
+    border:none;
+    border:1px solid #a05600;
+    font-size:10px;
+    line-height:12px;
+    color:#FFFF99;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.email textarea.textInput, .email textarea {
+    height:50px;
+    margin-top:5px;
+    text-align:justify;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    direction:rtl;
+    font-family:Tahoma, Geneva, sans-serif;
+    font-size:10px;
+    line-height:12px;
+    overflow:hidden;
+    background-color: #c46900;
+    color:#FFFF99;
+}
+.email .textInput.textShadow {
+    text-shadow:0px 1px 0px #00233f;
+}
+#footerSubmit {
+    padding:7px;
+    margin-top:5px;
+    width:200px;
+    -moz-box-shadow:	0px 1px 0px #374c54;
+    -webkit-box-shadow:	0px 1px 0px #374c54;
+    box-shadow:			0px 1px 0px #374c54;
+    background: #b8b8b8;
+    background: -moz-linear-gradient(top, #e3e1df, #a49d99);
+    background: -webkit-gradient(linear, left top, left bottom, from(#e3e1df), to(#a49d99));
+    filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#e3e1df', EndColorStr='#a49d99', GradientType=0);
+    border:none;
+    color:#454545;
+    text-transform:uppercase;
+    text-align:center;
+    font-size:10px;
+    line-height:14px;
+    cursor:pointer;
+}
+#footerSubmit.textShadow {
+    text-shadow:0px 1px 0px #DDD;
+}
+#footerSubmit:hover {
+    -moz-box-shadow:	0px -1px 0px #374c54;
+    -webkit-box-shadow:	0px -1px 0px #374c54;
+    box-shadow:			0px -1px 0px #374c54;
+    background: #b8b8b8;
+    background: -moz-linear-gradient(top, #a49d99, #e3e1df);
+    background: -webkit-gradient(linear, left top, left bottom, from(#a49d99), to(#e3e1df));
+    filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#a49d99', EndColorStr='#e3e1df', GradientType=0);
+    text-shadow:0px -1px 0px #DDD;
+}
+.tit {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight:bold;
+    color: #F4F4F4;
+    text-decoration: none;
+    background-attachment: scroll;
+    background-image: url(../img/3300/bgtitc.gif);
+    background-repeat: repeat-x;
+    background-position: center top;
+    text-align: right;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+.tit2 {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 13px;
+    line-height: 30px;
+    font-weight:bold;
+    color: #F4F4F4;
+    text-decoration: none;
+    background-attachment: scroll;
+    background-image: url(../img/3300/bgtitc2.gif);
+    background-repeat: repeat-x;
+    background-position: center top;
+    text-align: right;
+    vertical-align: middle;
+}
+.inputtxtrasel {
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    -khtml-border-radius: 10px;
+    border-radius:10px;
+    font-family: Tahoma;
+    font-size: 11px;
+    font-weight: lighter;
+    color: #900;
+    text-decoration: none;
+    background-attachment: scroll;
+    background-color: #b5b5b5;
+    background-image: url(../img/3300/bgtextinput.gif);
+    background-repeat: repeat-x;
+    background-position: center top;
+    text-align: right;
+    vertical-align: middle;
+    height: 24px;
+    width: 130px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: #878787;
+}
+.Submitrasel {
+    padding:7px;
+    margin-top:20px;
+    width:140px;
+    -moz-box-shadow:	0px 1px 0px #374c54;
+    -webkit-box-shadow:	0px 1px 0px #374c54;
+    box-shadow:			0px 1px 0px #374c54;
+    background: -moz-linear-gradient(top, #cccdcd, #a4a4a5);
+    background: -webkit-gradient(linear, left top, left bottom, from(#cccdcd), to(#a4a4a5));
+    filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#cccdcd', EndColorStr='#a4a4a5', GradientType=0);
+    border:none;
+    color:#454545;
+    text-transform:uppercase;
+    text-align:center;
+    font-size:11px;
+    line-height:14px;
+    font-weight:bold;
+    cursor:pointer;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    -khtml-border-radius: 10px;
+    border-radius:10px;
+    font-family:Tahoma;
+}
+.Submitrasel:hover {
+    -moz-box-shadow:	0px -1px 0px #374c54;
+    -webkit-box-shadow:	0px -1px 0px #374c54;
+    box-shadow:			0px -1px 0px #374c54;
+    background: -moz-linear-gradient(top, #a4a4a5, #cccdcd);
+    background: -webkit-gradient(linear, left top, left bottom, from(#a4a4a5), to(#cccdcd));
+    filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#a4a4a5', EndColorStr='#cccdcd', GradientType=0);
+    text-shadow:0px -1px 0px #DDD;
+    width:140px;
+}
+#slideTop{
+    height:369px;
+    width:428px;
+}
+#slideLeft{
+    height:350px;
+    width:248px;
+    overflow:hidden;
+    display:block;
+    margin:0px;
+    padding:0px;
+    top:0px;
+}
+#slideLogo{
+    height:157px;
+    width:150px;
+    overflow:hidden;
+    display:block;
+    margin:0px;
+    padding:0px;
+}
+.arrow{z-index:10; position:relative; top:350px;}
+/* IE6 css fixer v0.95: Mon, 16 May 2011 20:00:35 +0200 */
+
+/* ============================================= */
+/* safe settings                                 */
+
+/* add display:inline to floated elements */
+* html .menu,
+* html .menu li,
+* html .menu a,
+* html #searchFormWrapper,
+* html #search,
+* html #search #s,
+* html #search #submit,
+* html #nav a, * html #nav a:active, * html #nav a:visited {display:inline;}
+
+/* add zoom:1 to overflow:hidden */
+* html .menu,
+* html .menu li,
+* html .menu a,
+* html #searchFormWrapper,
+* html #search,
+* html #search #s,
+* html #search #submit,
+* html #nav a, * html #nav a:active, * html #nav a:visited {zoom:1;}
+
+/* add zoom:1 to pos:relative elements */
+* html .menu,
+* html .menu li,
+* html .menu a,
+* html #searchFormWrapper,
+* html #search,
+* html #search #s,
+* html #dropdown_nav li {zoom:1;}
+
+/* add zoom:1; display:inline; to inline-block elements */
+* html #dropdown_nav,
+* html #dropdown_nav li,
+* html #ticker .cursor {zoom:1; display:inline;}
+
+/* add overflow:visible to (submit) buttons */
+* html input, * html button {overflow:visible;}
+
+/* Ehsanjs */
+#slideLeftDiv{
+position: static;
+}

@@ -1,0 +1,183 @@
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+
+
+
+	/*==========  Mobile First Method  ==========*/
+
+	/* Custom, iPhone Retina */ 
+	@media only screen and (min-width : 320px) {
+		
+	}
+
+	/* Extra Small Devices, Phones */ 
+	@media only screen and (min-width : 480px) {
+
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (min-width : 768px) {
+	}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (min-width : 992px) {
+	}
+
+	/* Large Devices, Wide Screens */
+	@media only screen and (min-width : 1200px) {
+
+	}
+
+
+
+	/*==========  Non-Mobile First Method  ==========*/
+
+	/* Large Devices, Wide Screens */
+	@media only screen and (max-width : 1200px) {
+
+	}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (max-width : 992px) {
+		.sidebar {
+			padding-right: 15px;
+		}
+		#main-content .col-md-8 + .sidebar {
+			padding-left: 15px;
+		}
+		.col-md-12 .su-custom-gallery-slide {
+			width: 20%;
+		}
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (max-width : 768px) {
+		#header {
+			line-height: normal!important;
+			height: auto!important;
+		}
+		#header {
+			padding-top: 20px;
+			text-align: center;
+		}
+		#header .logo {
+			margin-bottom: 8px;
+		}
+		.header-left {
+			display: none;
+		}
+		.responsive-menu {
+			display: block;
+		}
+		.post-head {
+			padding-bottom: 20px;
+		}
+		.post-meta {
+			padding-top: 20px;
+		}
+		.post-meta li {
+			width: 49%;
+			margin-right: 0;
+			margin-bottom: 2px;
+		}
+		.jp-progress, .jp-duration {
+			display: none;
+		}
+		.jp-video-container, .jp-audio-container {
+			margin-left: -89px;
+		}
+		.widget .grid-pics a {
+			width: 14%;
+		}
+		.grid-pics a img {
+			height: 85px;
+		}
+		#footer {
+			text-align: center;
+		}
+		#footer .go-top, #footer .social-icons, #footer p {
+			display: inline-block;
+			float: none;
+			border-left: 0;
+			padding: 0;
+			margin: 0;
+		}
+		#footer p {
+			padding-top: 5px;
+		}
+		#footer .social-icons a {
+			margin-left: 10px;
+		}
+		.col-md-12 .su-custom-gallery-slide {
+			width: 25%;
+		}
+	}
+
+	/* Extra Small Devices, Phones */ 
+	@media only screen and (max-width : 480px) {
+		.post-meta li {
+			width: 100%;
+		}
+		.post-entry-bottom {
+			text-align: center;
+		}
+		.post-entry-bottom .read-more {
+			margin-bottom: 10px;
+		}
+		.post-entry-bottom .read-more, .post-entry-bottom .post-love-share {
+			float: none;
+			display: inline-block;
+		}
+		.widget .grid-pics a {
+			width: 17%;
+		}
+		.grid-pics a img {
+			height: 45px;
+		}
+		.commentlist li li {
+			padding-left: 0;
+		}
+		input[type="text"], input[type="password"], input[type="email"] {
+			max-width: 100%;
+		}
+		.map-container, .about-me-page .my-pic {
+			width: 220px;
+			height: 220px;
+		}
+		#gmap {
+			width: 320px;
+			height: 320px;
+		}
+		.col-md-12 .su-custom-gallery-slide {
+			width: 33.333%;
+		}
+		.su-custom-gallery-slide span {
+			bottom: 20%!important;
+		}
+		.error-msg p {
+			padding: 0 15px;
+		}
+	}
+
+	/* Custom, iPhone Retina */ 
+	@media only screen and (max-width : 320px) {
+		.widget .grid-pics a {
+			width: 16.6%;
+		}
+		.grid-pics a img {
+			height: 40px;
+		}
+		.map-container, .about-me-page .my-pic {
+			width: 170px;
+			height: 170px;
+		}
+		#gmap {
+			width: 270px;
+			height: 270px;
+		}
+		.col-md-12 .su-custom-gallery-slide {
+			width: 50%;
+		}
+	}

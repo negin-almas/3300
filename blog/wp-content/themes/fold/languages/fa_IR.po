@@ -1,0 +1,3099 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fold\n"
+"POT-Creation-Date: 2014-07-11 21:07+0330\n"
+"PO-Revision-Date: 2014-07-16 15:58+0330\n"
+"Last-Translator: \n"
+"Language-Team: راست چین\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../fold/404.php:11
+msgid "404"
+msgstr ""
+
+#: ../fold/404.php:12
+msgid "Opps! Page Not Found"
+msgstr "شرمنده! صفحه یافت نشد :("
+
+#: ../fold/404.php:13
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "با عرض پوزش، چیزی که شما دنبالش میگردین اینجا نیست."
+
+#: ../fold/archive.php:24
+msgid "Posts in the Category:"
+msgstr "مطالب در دسته بندی:"
+
+#: ../fold/archive.php:26
+msgid "Posts Tagged with:"
+msgstr "مطالب با برچسب:"
+
+#: ../fold/archive.php:28
+msgid "Posts By:"
+msgstr "مطالب نوشته شده توسط:"
+
+#: ../fold/archive.php:30
+msgid "Daily Archives:"
+msgstr "آرشیو روزانه:"
+
+#: ../fold/archive.php:32
+msgid "Monthly Archives:"
+msgstr "آرشیو ماهانه:"
+
+#: ../fold/archive.php:34
+msgid "Yearly Archives:"
+msgstr "آرشیو سالانه:"
+
+#: ../fold/archive.php:75 ../fold/category.php:72 ../fold/index.php:66
+#: ../fold/search.php:74 ../fold/single.php:58
+msgid "Older Entries"
+msgstr "مطالب قدیمی تر"
+
+#: ../fold/archive.php:76 ../fold/category.php:73 ../fold/index.php:67
+#: ../fold/search.php:75 ../fold/single.php:59
+msgid "Newer Entries"
+msgstr "مطالب جدیدتر"
+
+#: ../fold/archive.php:85 ../fold/category.php:82 ../fold/index.php:77
+#: ../fold/search.php:84 ../fold/single.php:67
+msgid "No results found! Please make sure all words are spelled correctly"
+msgstr "نتیجه‌ای یافت نشد."
+
+#: ../fold/archives.php:51
+msgid "Latest Posts"
+msgstr "آخرین مطالب"
+
+#: ../fold/archives.php:74
+msgid "Monthly Archives"
+msgstr "آرشیو ماهانه"
+
+#: ../fold/archives.php:85
+msgid "Post Categories"
+msgstr "دسته بندی ها"
+
+#: ../fold/archives.php:105
+msgid "Authors"
+msgstr "نویسندگان"
+
+#: ../fold/archives.php:121 ../fold/includes/post-bottom.php:6
+msgid "Tags"
+msgstr "برچسب ها"
+
+#: ../fold/archives.php:141 ../fold/page-about-me.php:93
+#: ../fold/page-contact.php:52 ../fold/page.php:45
+#: ../twentyfourteen/content-aside.php:48
+#: ../twentyfourteen/content-audio.php:48
+#: ../twentyfourteen/content-gallery.php:48
+#: ../twentyfourteen/content-image.php:48
+#: ../twentyfourteen/content-link.php:48 ../twentyfourteen/content-page.php:22
+#: ../twentyfourteen/content-quote.php:48
+#: ../twentyfourteen/content-video.php:48 ../twentyfourteen/content.php:56
+#: ../twentyfourteen/image.php:54 ../twentythirteen/content-aside.php:14
+#: ../twentythirteen/content-audio.php:25
+#: ../twentythirteen/content-chat.php:24
+#: ../twentythirteen/content-gallery.php:25
+#: ../twentythirteen/content-image.php:24
+#: ../twentythirteen/content-link.php:25
+#: ../twentythirteen/content-quote.php:14
+#: ../twentythirteen/content-status.php:14
+#: ../twentythirteen/content-video.php:24 ../twentythirteen/content.php:42
+#: ../twentythirteen/image.php:70 ../twentythirteen/page.php:35
+#: ../twentytwelve/content-page.php:21 ../twentytwelve/content.php:45
+#: ../twentytwelve/image.php:102
+msgid "Pages:"
+msgstr "برگه ها:"
+
+#: ../fold/category.php:22
+msgid "Category"
+msgstr "دسته بندی"
+
+#: ../fold/category.php:37 ../fold/index.php:31 ../fold/search.php:37
+msgid "Older Posts"
+msgstr "مطالب قدیمی تر"
+
+#: ../fold/comments.php:14
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../fold/comments.php:33
+#: ../fold/framework/widgets/widget-recent-posts.php:65
+#: ../fold/includes/post-meta.php:4 ../fold/includes/related-posts.php:49
+msgid "0 Comments"
+msgstr "0 دیدگاه"
+
+#: ../fold/comments.php:33
+#: ../fold/framework/widgets/widget-recent-posts.php:65
+#: ../fold/includes/post-meta.php:4 ../fold/includes/related-posts.php:49
+#: ../twentyfourteen/content-aside.php:37
+#: ../twentyfourteen/content-audio.php:37
+#: ../twentyfourteen/content-gallery.php:37
+#: ../twentyfourteen/content-image.php:37
+#: ../twentyfourteen/content-link.php:37
+#: ../twentyfourteen/content-quote.php:37
+#: ../twentyfourteen/content-video.php:37 ../twentyfourteen/content.php:38
+#: ../twentyfourteen/inc/widgets.php:194
+msgid "1 Comment"
+msgstr "1 دیدگاه"
+
+#: ../fold/comments.php:33
+#: ../fold/framework/widgets/widget-recent-posts.php:65
+#: ../fold/includes/post-meta.php:4 ../fold/includes/related-posts.php:49
+#: ../twentyfourteen/content-aside.php:37
+#: ../twentyfourteen/content-audio.php:37
+#: ../twentyfourteen/content-gallery.php:37
+#: ../twentyfourteen/content-image.php:37
+#: ../twentyfourteen/content-link.php:37
+#: ../twentyfourteen/content-quote.php:37
+#: ../twentyfourteen/content-video.php:37 ../twentyfourteen/content.php:38
+#: ../twentyfourteen/inc/widgets.php:194
+msgid "% Comments"
+msgstr "% دیدگاه"
+
+#: ../fold/comments.php:45
+msgid "Trackbacks for this post"
+msgstr "بازتابهای این مطلب"
+
+#: ../fold/comments.php:67 ../twentyfourteen/comments.php:59
+#: ../twentythirteen/comments.php:52 ../twentytwelve/comments.php:53
+msgid "Comments are closed."
+msgstr "دیدگاه ها بسته شده اند."
+
+#: ../fold/comments.php:86
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "شما باید <a href=\"%s\">وارد شوید</a>، تا دیدگاه ارسال کنید."
+
+#: ../fold/comments.php:87
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out &raquo;</a>"
+msgstr ""
+"وارد شده بعنوان<a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"خروج از "
+"این اکانت\">خروج &raquo;</a>"
+
+#: ../fold/comments.php:90
+msgid "Leave a Reply"
+msgstr "ارسال پاسخ"
+
+#: ../fold/comments.php:91
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "ارسال پاسخ برای %s"
+
+#: ../fold/comments.php:92
+msgid "Cancel Reply"
+msgstr "انصراف از پاسخ"
+
+#: ../fold/comments.php:93
+msgid "Post Comment"
+msgstr "ارسال دیدگاه"
+
+#: ../fold/comments.php:94
+msgid "Comment"
+msgstr "دیدگاه"
+
+#: ../fold/comments.php:99
+msgid "Name"
+msgstr "نام"
+
+#: ../fold/comments.php:104
+msgid "Email"
+msgstr "ایمیل"
+
+#: ../fold/comments.php:110
+msgid "Website"
+msgstr "وب سایت"
+
+#: ../fold/footer.php:62
+msgid ""
+"&copy; Copyright 2014 <a href=\"http://rtl-theme.com\">Rtl-Theme</a> / "
+"Powered by <a href=\"http://wordpress.org\">WordPress</a>"
+msgstr ""
+"&copy; 1393 فارسی سازی توسط <a href=\"http://rtl-theme.com\">راست چین</a>، "
+"با افتخار نیرو گرفته از <a href=\"http://rtl-theme.com/category/wordpress"
+"\">وردپرس</a>"
+
+#: ../fold/functions.php:57 ../twentytwelve/functions.php:242
+msgid "Main Sidebar"
+msgstr "سایدبار اصلی"
+
+#: ../fold/functions.php:65
+msgid "Single Sidebar"
+msgstr "سایدبار تک"
+
+#: ../fold/functions.php:74 ../fold/framework/functions/admin-config.php:466
+#: ../fold/framework/functions/admin-config.php:724
+msgid "Off-Canvas"
+msgstr ""
+
+#: ../fold/functions.php:200
+msgid "0 View"
+msgstr "0 بازدید"
+
+#: ../fold/functions.php:202
+msgid " Views"
+msgstr " بازدید"
+
+#: ../fold/functions.php:234
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: ../fold/functions.php:237 ../twentytwelve/functions.php:334
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../fold/functions.php:238 ../twentyfourteen/content-aside.php:40
+#: ../twentyfourteen/content-audio.php:40
+#: ../twentyfourteen/content-gallery.php:40
+#: ../twentyfourteen/content-image.php:40
+#: ../twentyfourteen/content-link.php:40 ../twentyfourteen/content-page.php:28
+#: ../twentyfourteen/content-quote.php:40
+#: ../twentyfourteen/content-video.php:40 ../twentyfourteen/content.php:42
+#: ../twentyfourteen/image.php:34
+#: ../twentyfourteen/page-templates/contributors.php:35
+#: ../twentythirteen/content-aside.php:20
+#: ../twentythirteen/content-aside.php:28
+#: ../twentythirteen/content-audio.php:31
+#: ../twentythirteen/content-chat.php:29
+#: ../twentythirteen/content-gallery.php:39
+#: ../twentythirteen/content-image.php:35
+#: ../twentythirteen/content-link.php:19
+#: ../twentythirteen/content-quote.php:25
+#: ../twentythirteen/content-status.php:19
+#: ../twentythirteen/content-video.php:35 ../twentythirteen/content.php:31
+#: ../twentythirteen/image.php:44 ../twentythirteen/page.php:39
+#: ../twentytwelve/content-aside.php:26 ../twentytwelve/content-image.php:26
+#: ../twentytwelve/content-link.php:24 ../twentytwelve/content-page.php:24
+#: ../twentytwelve/content-quote.php:23 ../twentytwelve/content-status.php:40
+#: ../twentytwelve/content.php:51 ../twentytwelve/functions.php:345
+#: ../twentytwelve/image.php:37
+msgid "Edit"
+msgstr "ویرایش"
+
+#: ../fold/functions.php:241 ../twentytwelve/functions.php:340
+msgid "Your comment is awaiting moderation."
+msgstr "دیدگاه شما در انتظار تایید مدیریت است."
+
+#: ../fold/header.php:42
+msgid "Show Menu"
+msgstr "نمایش فهرست"
+
+#: ../fold/header.php:54
+msgid "Enter your keywords..."
+msgstr "کلمات کلیدی را وارد کنید..."
+
+#: ../fold/search.php:22
+msgid "Search results for"
+msgstr "نتایج جستجو برای "
+
+#: ../fold/searchform.php:3
+msgid "Enter Keywords..."
+msgstr "کلمات کلیدی را وارد کنید..."
+
+#: ../fold/searchform.php:4 ../twentyfourteen/header.php:48
+msgid "Search"
+msgstr "جستجو"
+
+#: ../fold/framework/admin/class.redux-plugin.php:308
+msgid "Redux Framework has an embedded demo."
+msgstr ""
+
+#: ../fold/framework/admin/class.redux-plugin.php:308
+msgid "Click here to activate the sample config file."
+msgstr ""
+
+#: ../fold/framework/admin/class.redux-plugin.php:412
+msgid "Repo"
+msgstr ""
+
+#: ../fold/framework/admin/class.redux-plugin.php:413
+msgid "Generator"
+msgstr ""
+
+#: ../fold/framework/admin/class.redux-plugin.php:414
+msgid "Issues"
+msgstr ""
+
+#: ../fold/framework/admin/class.redux-plugin.php:415
+msgid "Documentation"
+msgstr "راهنما"
+
+#: ../fold/framework/admin/class.redux-plugin.php:420
+msgid "Deactivate Demo Mode"
+msgstr ""
+
+#: ../fold/framework/admin/class.redux-plugin.php:422
+msgid "Activate Demo Mode"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/framework.php:229
+#, php-format
+msgid "Options panel created using %1$s"
+msgstr "پنل تنظیمات فارسی شده توسط %1$s"
+
+#: ../fold/framework/admin/ReduxCore/framework.php:229
+msgid "Redux Framework"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/framework.php:232
+#: ../fold/framework/admin/ReduxCore/framework.php:235
+#: ../fold/framework/admin/ReduxCore/framework.php:1229
+msgid "Options"
+msgstr "تنظیمات"
+
+#: ../fold/framework/admin/ReduxCore/framework.php:1173
+#: ../fold/framework/admin/ReduxCore/framework.php:1174
+#: ../fold/framework/admin/ReduxCore/framework.php:2982
+#: ../fold/framework/admin/ReduxCore/framework.php:3053
+msgid "System Info"
+msgstr "اطلاعات سیستم"
+
+#: ../fold/framework/admin/ReduxCore/framework.php:1637
+#: ../fold/framework/admin/ReduxCore/extensions/customizer/extension_customizer.php:447
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/framework.php:1638
+#: ../fold/framework/admin/ReduxCore/extensions/customizer/extension_customizer.php:448
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/framework.php:1639
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/framework.php:1640
+#: ../fold/framework/admin/ReduxCore/extensions/customizer/extension_customizer.php:449
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/framework.php:1641
+msgid "Please Wait"
+msgstr "لطفاً صبر کنید"
+
+#: ../fold/framework/admin/ReduxCore/framework.php:1778
+msgid "Hints"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/framework.php:1779
+msgid "<p>"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/framework.php:1887
+#: ../fold/framework/meta/init.php:251
+msgid "Default"
+msgstr "پیش فرض"
+
+#: ../fold/framework/admin/ReduxCore/framework.php:2805
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/framework.php:2866
+msgid "Expand"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/framework.php:2868
+#: ../fold/framework/admin/ReduxCore/framework.php:3103
+msgid "Save Changes"
+msgstr "ذخیره تغییرات"
+
+#: ../fold/framework/admin/ReduxCore/framework.php:2870
+#: ../fold/framework/admin/ReduxCore/framework.php:3105
+msgid "Reset Section"
+msgstr "ریست بخش"
+
+#: ../fold/framework/admin/ReduxCore/framework.php:2872
+#: ../fold/framework/admin/ReduxCore/framework.php:3107
+msgid "Reset All"
+msgstr "ریست کلی"
+
+#: ../fold/framework/admin/ReduxCore/framework.php:2875
+#: ../fold/framework/admin/ReduxCore/framework.php:3110
+msgid "Working..."
+msgstr "در حال کار..."
+
+#: ../fold/framework/admin/ReduxCore/framework.php:2893
+msgid "Settings Imported!"
+msgstr "تنظیمات وارد شد!"
+
+#: ../fold/framework/admin/ReduxCore/framework.php:2906
+msgid "All Defaults Restored!"
+msgstr "کلیه پیش فرض ها جایگذاری شدند!"
+
+#: ../fold/framework/admin/ReduxCore/framework.php:2918
+msgid "Section Defaults Restored!"
+msgstr "پیشفرض های بخش بازیابی شدند!"
+
+#: ../fold/framework/admin/ReduxCore/framework.php:2925
+msgid "Settings Saved!"
+msgstr "تنظیمات ذخیره شدند!"
+
+#: ../fold/framework/admin/ReduxCore/framework.php:2934
+msgid "Settings have changed, you should save them!"
+msgstr "تنظیمات تغییر کرده ‌اند، برای اعمال باید ذخیره کنید!"
+
+#: ../fold/framework/admin/ReduxCore/framework.php:2935
+msgid "error(s) were found!"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/framework.php:2936
+msgid "warning(s) were found!"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/extensions/customizer/extension_customizer.php:480
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/extensions/customizer/extension_customizer.php:481
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/extensions/customizer/extension_customizer.php:482
+msgid ""
+"Your current options will be replaced with the values of this preset.  Would "
+"you like to proceed?"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/class.redux_functions.php:182
+msgid "Dismiss"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/debug.php:41
+#: ../fold/framework/admin/ReduxCore/inc/debug.php:69
+#: ../fold/framework/admin/ReduxCore/inc/debug.php:76
+#: ../fold/framework/admin/ReduxCore/inc/debug.php:77
+msgid "Options Object"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/debug.php:54
+msgid "Show Object in Javascript Console Object"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/tracking.php:111
+msgid "Help improve Our Panel"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/tracking.php:112
+msgid ""
+"Please helps us improve our panel by allowing us to gather anonymous usage "
+"stats so we know which configurations, plugins and themes to test to ensure "
+"compatability."
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/tracking.php:117
+msgid "Allow tracking"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/tracking.php:122
+msgid "Do not allow tracking"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/tracking.php:132
+msgid "Welcome to the Redux Demo Panel"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/tracking.php:133
+msgid "Getting Started"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/tracking.php:133
+#, php-format
+msgid ""
+"This panel demonstrates the many features of Redux.  Before digging in, we "
+"suggest you get up to speed by reviewing %1$s."
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/tracking.php:133
+msgid "our documentation"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/tracking.php:134
+msgid "Redux Generator"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/tracking.php:134
+#, php-format
+msgid ""
+"Want to get a head start? Use the %1$s. It will create a customized "
+"boilerplate theme or a standalone admin folder complete with all things "
+"Redux (with the help of Underscores and TGM). Save yourself a headache and "
+"try it today."
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/tracking.php:135
+msgid "Redux Extensions"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/tracking.php:135
+#, php-format
+msgid ""
+"Did you know we have extensions, which greatly enhance the features of "
+"Redux?  Visit our %1$s to learn more!"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/tracking.php:135
+msgid "extensions directory"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/tracking.php:136
+msgid "Like Redux?"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/tracking.php:136
+#, php-format
+msgid ""
+"If so, please %1$s and consider making a %2$s to keep development of Redux "
+"moving forward."
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/tracking.php:136
+msgid "leave us a favorable review on WordPress.org"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/tracking.php:136
+msgid "donation"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/tracking.php:137
+msgid "Newsletter"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/tracking.php:137
+msgid ""
+"If you'd like to keep up to with all things Redux, please subscribe to our "
+"newsletter"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/tracking.php:138
+msgid "Email address"
+msgstr "آدرس ایمیل"
+
+#: ../fold/framework/admin/ReduxCore/inc/tracking.php:138
+msgid "Subscribe"
+msgstr "عضویت"
+
+#: ../fold/framework/admin/ReduxCore/inc/tracking.php:147
+msgid "Close"
+msgstr "بستن"
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/background/field_background.php:118
+#: ../fold/framework/admin/ReduxCore/inc/fields/color/field_color.php:72
+#: ../fold/framework/admin/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:81
+#: ../fold/framework/admin/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:91
+#: ../fold/framework/admin/ReduxCore/inc/fields/color_rgba/field_color_rgba.php:85
+#: ../fold/framework/functions/extend-sc.php:46
+msgid "Transparent"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/background/field_background.php:135
+#: ../fold/framework/functions/admin-config.php:788
+msgid "Background Repeat"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/background/field_background.php:151
+msgid "Background Clip"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/background/field_background.php:167
+msgid "Background Origin"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/background/field_background.php:182
+msgid "Background Size"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/background/field_background.php:197
+msgid "Background Attachment"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/background/field_background.php:217
+#: ../fold/framework/functions/admin-config.php:769
+msgid "Background Position"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/background/field_background.php:272
+#: ../fold/framework/admin/ReduxCore/inc/fields/media/field_media.php:116
+msgid "No media selected"
+msgstr "هیچ فایلی انتخاب نشده است"
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/background/field_background.php:306
+#: ../fold/framework/admin/ReduxCore/inc/fields/media/field_media.php:155
+#: ../fold/framework/admin/ReduxCore/inc/fields/slides/field_slides.php:121
+#: ../fold/framework/admin/ReduxCore/inc/fields/slides/field_slides.php:190
+msgid "Upload"
+msgstr "آپلود"
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/background/field_background.php:312
+#: ../fold/framework/admin/ReduxCore/inc/fields/media/field_media.php:161
+#: ../fold/framework/admin/ReduxCore/inc/fields/multi_text/field_multi_text.php:75
+#: ../fold/framework/admin/ReduxCore/inc/fields/multi_text/field_multi_text.php:79
+#: ../fold/framework/admin/ReduxCore/inc/fields/multi_text/field_multi_text.php:82
+#: ../fold/framework/admin/ReduxCore/inc/fields/slides/field_slides.php:128
+#: ../fold/framework/admin/ReduxCore/inc/fields/slides/field_slides.php:192
+#: ../fold/framework/meta/helpers/cmb_Meta_Box_types.php:305
+#: ../fold/framework/meta/helpers/cmb_Meta_Box_types.php:705
+#: ../fold/framework/meta/helpers/cmb_Meta_Box_types.php:765
+msgid "Remove"
+msgstr "حذف"
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/border/field_border.php:113
+#: ../fold/framework/admin/ReduxCore/inc/fields/spacing/field_spacing.php:151
+msgid "All"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/border/field_border.php:126
+#: ../fold/framework/admin/ReduxCore/inc/fields/spacing/field_spacing.php:175
+msgid "Top"
+msgstr "بالا"
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/border/field_border.php:133
+#: ../fold/framework/admin/ReduxCore/inc/fields/spacing/field_spacing.php:182
+#: ../fold/framework/meta/meta-config.php:287
+msgid "Right"
+msgstr "راست"
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/border/field_border.php:140
+#: ../fold/framework/admin/ReduxCore/inc/fields/spacing/field_spacing.php:189
+msgid "Bottom"
+msgstr "پایین"
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/border/field_border.php:147
+#: ../fold/framework/admin/ReduxCore/inc/fields/spacing/field_spacing.php:196
+#: ../fold/framework/meta/meta-config.php:286
+msgid "Left"
+msgstr "چپ"
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/border/field_border.php:162
+msgid "Border style"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:73
+msgid "From "
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:84
+msgid "To "
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/dimensions/field_dimensions.php:125
+msgid "Width"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/dimensions/field_dimensions.php:141
+#: ../fold/framework/admin/ReduxCore/inc/fields/typography/field_typography.php:381
+msgid "Height"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/dimensions/field_dimensions.php:153
+#: ../fold/framework/admin/ReduxCore/inc/fields/dimensions/field_dimensions.php:154
+#: ../fold/framework/admin/ReduxCore/inc/fields/spacing/field_spacing.php:206
+#: ../fold/framework/admin/ReduxCore/inc/fields/spacing/field_spacing.php:207
+msgid "Units"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/gallery/field_gallery.php:77
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/gallery/field_gallery.php:78
+msgid "Clear Gallery"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/group/field_group.php:82
+msgid "New "
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/group/field_group.php:125
+msgid "Delete"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/group/field_group.php:129
+msgid "Add"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/import_export/import_export.php:77
+msgid "Import / Export Options"
+msgstr "تنظیمات درون‌ریزی / برون‌ریزی"
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/import_export/import_export.php:80
+msgid "Import Options"
+msgstr "تنظیمات درون‌ریزی"
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/import_export/import_export.php:81
+msgid "Import from file"
+msgstr "درون‌ریزی با استفاده فایل"
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/import_export/import_export.php:81
+msgid "Import from URL"
+msgstr "درون‌ریزی با URL"
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/import_export/import_export.php:85
+msgid ""
+"Input your backup file below and hit Import to restore your sites options "
+"from a backup."
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/import_export/import_export.php:93
+msgid ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/import_export/import_export.php:99
+msgid "Import"
+msgstr "درون‌ریزی"
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/import_export/import_export.php:99
+msgid ""
+"WARNING! This will overwrite all existing option values, please proceed with "
+"caution!"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/import_export/import_export.php:102
+msgid "Export Options"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/import_export/import_export.php:105
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as "
+"you can use it as a backup should anything go wrong, or you can use it to "
+"restore your settings on this site (or any other site)."
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/import_export/import_export.php:109
+msgid "Copy"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/import_export/import_export.php:109
+#: ../fold/framework/meta/helpers/cmb_Meta_Box_types.php:705
+#: ../fold/framework/meta/helpers/cmb_Meta_Box_types.php:765
+msgid "Download"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/import_export/import_export.php:109
+msgid "Copy Link"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/import_export/import_export.php:149
+#: ../fold/framework/admin/ReduxCore/inc/fields/import_export/import_export.php:158
+#: ../fold/framework/admin/ReduxCore/inc/fields/import_export/import_export.php:159
+msgid "Import / Export"
+msgstr "درون‌ریزی / برون‌ریزی"
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/link_color/field_link_color.php:92
+msgid "Regular"
+msgstr "عادی"
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/link_color/field_link_color.php:96
+msgid "Hover"
+msgstr "فعال (hover)"
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/link_color/field_link_color.php:100
+msgid "Visited"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/link_color/field_link_color.php:104
+msgid "Active"
+msgstr "کلیک شده (Active)"
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/multi_text/field_multi_text.php:65
+msgid "Add More"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/password/field_password.php:55
+msgid "Password"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/password/field_password.php:56
+msgid "Username"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/select/field_select.php:76
+#: ../fold/framework/admin/ReduxCore/inc/fields/select_image/field_select_image.php:58
+msgid "Select an item"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/select/field_select.php:117
+#: ../fold/framework/admin/ReduxCore/inc/fields/select_image/field_select_image.php:133
+msgid "No items of this type were found."
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/slides/field_slides.php:133
+#: ../fold/framework/admin/ReduxCore/inc/fields/slides/field_slides.php:197
+#: ../fold/framework/widgets/widget-flickr.php:213
+msgid "Title"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/slides/field_slides.php:135
+#: ../fold/framework/admin/ReduxCore/inc/fields/slides/field_slides.php:199
+msgid "Description"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/slides/field_slides.php:137
+#: ../fold/framework/admin/ReduxCore/inc/fields/slides/field_slides.php:201
+msgid "URL"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/slides/field_slides.php:168
+#: ../fold/framework/admin/ReduxCore/inc/fields/slides/field_slides.php:231
+msgid "Delete Slide"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/slides/field_slides.php:234
+msgid "Add Slide"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/switch/field_switch.php:42
+#: ../fold/framework/functions/admin-config.php:557
+#: ../fold/framework/functions/admin-config.php:577
+#: ../fold/framework/functions/admin-config.php:586
+#: ../fold/framework/functions/admin-config.php:595
+#: ../fold/framework/functions/admin-config.php:616
+#: ../fold/framework/functions/admin-config.php:1300
+msgid "On"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/switch/field_switch.php:49
+#: ../fold/framework/functions/admin-config.php:558
+#: ../fold/framework/functions/admin-config.php:578
+#: ../fold/framework/functions/admin-config.php:587
+#: ../fold/framework/functions/admin-config.php:596
+#: ../fold/framework/functions/admin-config.php:617
+#: ../fold/framework/functions/admin-config.php:1301
+msgid "Off"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/typography/field_typography.php:168
+msgid "Font family"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/typography/field_typography.php:184
+msgid "Standard Fonts"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/typography/field_typography.php:248
+msgid "Backup Font Family"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/typography/field_typography.php:268
+#: ../fold/framework/admin/ReduxCore/inc/fields/typography/field_typography.php:272
+msgid "Font style"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/typography/field_typography.php:272
+#: ../fold/framework/functions/extend-sc.php:50
+msgid "Style"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/typography/field_typography.php:301
+msgid "Font subsets"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/typography/field_typography.php:302
+msgid "Subsets"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/typography/field_typography.php:302
+msgid "Font script"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/typography/field_typography.php:319
+#: ../fold/framework/admin/ReduxCore/inc/fields/typography/field_typography.php:320
+msgid "Text Align"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/typography/field_typography.php:343
+#: ../fold/framework/admin/ReduxCore/inc/fields/typography/field_typography.php:344
+msgid "Text Transform"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/typography/field_typography.php:373
+msgid "Size"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/typography/field_typography.php:389
+msgid "Word Spacing"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/typography/field_typography.php:398
+msgid "Letter Spacing"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/typography/field_typography.php:415
+msgid "Font color"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/fields/typography/field_typography.php:752
+#: ../fold/framework/admin/ReduxCore/inc/fields/typography/field_typography.php:780
+msgid "Google Webfonts"
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/validation/color/validation_color.php:16
+#: ../fold/framework/admin/ReduxCore/inc/validation/colorrgba/validation_colorrgba.php:17
+#: ../fold/framework/admin/ReduxCore/inc/validation/color_rgba/validation_color_rgba.php:15
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/validation/comma_numeric/validation_comma_numeric.php:17
+msgid ""
+"You must provide a comma separated list of numerical values for this option."
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/validation/date/validation_date.php:17
+msgid "This field must be a valid date."
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/validation/email/validation_email.php:17
+#: ../fold/framework/admin/ReduxCore/inc/validation/email_not_empty/validation_email_not_empty.php:17
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/validation/not_empty/validation_not_empty.php:17
+msgid "This field cannot be empty. Please provide a value."
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/validation/no_html/validation_no_html.php:16
+msgid ""
+"You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/validation/no_special_chars/validation_no_special_chars.php:17
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/validation/numeric/validation_numeric.php:17
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: ../fold/framework/admin/ReduxCore/inc/validation/url/validation_url.php:17
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: ../fold/framework/admin/tests/includes/class-tivwp-dm-controller.php:28
+msgid "Must call in of after the \"plugins_loaded\" action."
+msgstr ""
+
+#: ../fold/framework/admin/tests/includes/class-tivwp-dm-controller.php:138
+#, php-format
+msgid "Unknown action \"%1$s\" specified for %2$s"
+msgstr ""
+
+#: ../fold/framework/admin/tests/includes/class-tivwp-dm-controller.php:143
+#, php-format
+msgid "The unknown action has been replaced with \"%s\""
+msgstr ""
+
+#: ../fold/framework/admin/tests/includes/class-tivwp-dm-controller.php:158
+#, php-format
+msgid "Automatic action performed: \"%s\""
+msgstr ""
+
+#: ../fold/framework/admin/tests/includes/class-tivwp-dm.php:112
+msgid "Activate Development Plugins"
+msgstr ""
+
+#: ../fold/framework/admin/tests/includes/class-tivwp-dm.php:119
+msgid "Deactivate Development Plugins"
+msgstr ""
+
+#: ../fold/framework/admin/tests/includes/class-tivwp-dm.php:131
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:47
+msgid "Theme Options Panel"
+msgstr "پنل تنظیمات قالب"
+
+#: ../fold/framework/functions/admin-config.php:83
+#: ../fold/framework/functions/admin-config.php:87
+msgid "Theme Options"
+msgstr "تنظیمات قالب"
+
+#: ../fold/framework/functions/admin-config.php:170
+msgid "General"
+msgstr "عمومی"
+
+#: ../fold/framework/functions/admin-config.php:176
+msgid "Favicon"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:178
+msgid "Upload your custom site favicon."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:184
+msgid "Apple iPhone Icon "
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:186
+msgid "Upload your custom iPhone icon (60px by 60px)."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:192
+msgid "Apple iPhone Retina Icon "
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:194
+msgid "Upload your custom iPhone retina icon (120px by 120px)."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:200
+msgid "Apple iPad Icon "
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:202
+msgid "Upload your custom iPad icon (76px by 76px)."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:208
+msgid "Apple iPad Retina Icon "
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:210
+msgid "Upload your custom iPad retina icon (152px by 152px)."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:215
+msgid "Tracking Code"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:216
+msgid ""
+"Paste your Google Analytics (or other) tracking code here. This will be "
+"added into the footer template of your theme."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:225
+#: ../twentyfourteen/inc/customizer.php:50
+msgid "Layout"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:230
+msgid "Home Layout."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:231
+msgid "Select your preferred layout for home page."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:232
+#: ../fold/framework/functions/admin-config.php:246
+#: ../fold/framework/functions/admin-config.php:260
+#: ../fold/framework/functions/admin-config.php:274
+msgid "<strong>Left Sidebar, Right Sidebar, Full-width, Centered</strong>"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:244
+msgid "Archive Page Layout."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:245
+msgid "Select your preferred layout for archive page."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:258
+msgid "Search Results Page Layout."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:259
+msgid "Select your preferred layout for search results page."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:272
+msgid "Category Page Layout."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:273
+msgid "Select your preferred layout for category page."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:290
+msgid "Header &amp; Footer"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:295
+msgid "Header Options"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:300
+msgid "Logo Image?"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:307
+msgid "Logo"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:308
+msgid "Upload your custom site logo."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:316
+msgid "Retina Logo"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:317
+msgid "Upload your retina logo (optional)."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:324
+msgid "Tagline?"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:325
+msgid "This text will be added beside the logo."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:330
+msgid "Header Height"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:331
+msgid "Enter your custom header height in pixels."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:340
+msgid "Header Search"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:341
+msgid "Toggle the search function in the header Enabled or Disabled."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:349
+msgid "Footer Options"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:354
+msgid "Back To Top Button"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:355
+msgid "Toggle the back to top button on or off."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:363
+msgid "Footer Social Icons?"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:364
+msgid "Social Icons will be displayed on Footer section."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:372
+#: ../fold/framework/functions/admin-config.php:1209
+msgid "Facebook URL"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:378
+#: ../fold/framework/functions/admin-config.php:1215
+msgid "Twitter URL"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:384
+#: ../fold/framework/functions/admin-config.php:1221
+msgid "Google+ URL"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:390
+#: ../fold/framework/functions/admin-config.php:1227
+msgid "Dribbble URL"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:396
+#: ../fold/framework/functions/admin-config.php:1233
+msgid "Github URL"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:402
+#: ../fold/framework/functions/admin-config.php:1239
+msgid "Instagram URL"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:408
+#: ../fold/framework/functions/admin-config.php:1245
+msgid "Linkedin URL"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:414
+#: ../fold/framework/functions/admin-config.php:1251
+msgid "Tumblr URL"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:420
+#: ../fold/framework/functions/admin-config.php:1257
+msgid "Flickr URL"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:426
+#: ../fold/framework/functions/admin-config.php:1263
+msgid "Pinterest URL"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:432
+#: ../fold/framework/functions/admin-config.php:1269
+msgid "Vimeo URL"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:438
+#: ../fold/framework/functions/admin-config.php:1275
+msgid "Skype URL"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:444
+#: ../fold/framework/functions/admin-config.php:1281
+msgid "Youtube URL"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:450
+msgid "Copyright"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:451
+msgid "Enter yoru custom copyright text."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:461
+msgid "Off-Canvas Options"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:474
+msgid "Off-Canvas Position"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:485
+msgid "Transition Effects"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:486
+msgid ""
+"Here is some inspiration for showing them in style using CSS transitions."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:514
+msgid "Blog Options"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:519
+msgid "Pagination Style"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:520
+msgid "Select your preferred pagination style for the blog."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:523
+msgid "Standard"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:524
+msgid "Next &amp; Prev"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:525
+msgid "Ajax Load More"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:531
+msgid "Display Posts"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:532
+msgid ""
+"Number of posts to display in the loop (posts_per_page). <strong>Default is "
+"5.</strong>"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:542
+msgid "The Loading Animation"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:543
+msgid "Select the loading posts animation."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:546
+msgid "Fade"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:547
+msgid "Slide"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:554
+msgid "Entry Auto Excerpts"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:555
+msgid "Toggle your blog auto excerpts on or off."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:563
+msgid "Entry Excerpt Length"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:564
+msgid "How many words do you want to show for your blog entry excerpts?"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:574
+msgid "Social Share"
+msgstr "اشتراک گذاری در شبکه های اجتماعی"
+
+#: ../fold/framework/functions/admin-config.php:575
+msgid "Toggle the social sharing for this section of your site on or off."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:583
+msgid "Author Bio"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:584
+msgid "Toggle the author bio box on single blog posts on or off."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:592
+#: ../fold/includes/related-posts.php:22
+msgid "Related Posts"
+msgstr "مطالب مرتبط"
+
+#: ../fold/framework/functions/admin-config.php:593
+msgid "Toggle the related articles section on single blog posts on or off."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:607
+msgid "Styling"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:613
+msgid "Custom Styling"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:614
+msgid ""
+"Use this option to toggle the custom styling options below on or off. Great "
+"for testing purposes."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:622
+msgid "Main"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:628
+msgid "Primary Color"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:629
+msgid "Pick a primary color."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:630
+msgid "Theme Primary color has all of accent colors of this theme."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:638
+msgid "Links Color"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:639
+msgid "Pick a links color."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:651
+#: ../fold/framework/functions/admin-config.php:1024
+msgid "Header"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:657
+msgid "Header Background"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:658
+msgid "Pick a header background color."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:666
+msgid "Logo Color"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:667
+msgid "Pick a Logo color."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:676
+msgid "Tagline Color"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:677
+msgid "Pick a tagline text color."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:685
+msgid "Menu Link Color"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:686
+msgid "Pick a menu link color."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:698
+msgid "Search Link Color"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:699
+msgid "Pick a search link color."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:711
+#: ../fold/framework/functions/admin-config.php:739
+msgid "Off-Canvas Link Color"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:712
+msgid "Pick a off-canvas link color."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:730
+msgid "Off-Canvas Text Color"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:731
+msgid "Pick a Off-Canvas text color."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:740
+msgid "Pick a Off-Canvas link color."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:752
+msgid "Off-Canvas Background Color"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:753
+msgid "Select your custom hex color."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:762
+msgid "Off-Canvas Background Image"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:763
+msgid ""
+"Upload your custom Off-Canvas Background Image. <strong>(Optional)</strong>"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:783
+msgid "Select the background position. <strong>(Optional)</strong>"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:795
+msgid "Select the background repeat. <strong>(Optional)</strong>"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:800
+#: ../fold/framework/functions/admin-config.php:807
+msgid "Custom CSS"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:808
+msgid ""
+"Quickly add some CSS to your theme to make design adjustements by adding it "
+"to this block. It is a much better solution then manually editing style.css"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:819
+msgid "Typography"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:825
+#: ../fold/framework/functions/admin-config.php:830
+msgid "Body"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:845
+msgid "Select your custom font options for your main body font."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:857
+msgid "Headings"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:862
+msgid "H1 Heading"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:877
+msgid "Select your custom font options for H1 font."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:889
+msgid "H2 Heading"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:904
+msgid "Select your custom font options for H2 font."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:916
+msgid "H3 Heading"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:931
+msgid "Select your custom font options for H3 font."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:943
+msgid "H4 Heading"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:958
+msgid "Select your custom font options for H4 font."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:970
+msgid "H5 Heading"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:985
+msgid "Select your custom font options for H5 font."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:997
+msgid "H6 Heading"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:1012
+msgid "Select your custom font options for H6 font."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:1029
+msgid "Logo Font"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:1044
+msgid "Select your custom font options for Logo."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:1055
+msgid "Menu Font"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:1070
+#: ../fold/framework/functions/admin-config.php:1126
+#: ../fold/framework/functions/admin-config.php:1153
+#: ../fold/framework/functions/admin-config.php:1180
+msgid "Select your custom font options for your main navigation menu."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:1080
+msgid "Menu Dropdowns Font"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:1095
+msgid ""
+"Select your custom font options for your main navigation menu dropdowns."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:1106
+msgid "Other"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:1111
+msgid "Page Title Font"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:1138
+msgid "Page Subheading Font"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:1165
+msgid "Post Title Font"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:1196
+msgid "About Me Page"
+msgstr "صفحه درباره من"
+
+#: ../fold/framework/functions/admin-config.php:1203
+msgid "Your Picture"
+msgstr "تصویر شما"
+
+#: ../fold/framework/functions/admin-config.php:1204
+msgid "Upload your picture."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:1292
+msgid "Contact Page"
+msgstr "صفحه تماس"
+
+#: ../fold/framework/functions/admin-config.php:1298
+msgid "Page Siderbar"
+msgstr "سایدبار برگه"
+
+#: ../fold/framework/functions/admin-config.php:1306
+#: ../fold/framework/meta/meta-config.php:293
+msgid "Page Layout"
+msgstr "طرح برگه"
+
+#: ../fold/framework/functions/admin-config.php:1307
+msgid "Select your preferred layout for your contact page."
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:1318
+msgid "Map Address"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:1319
+msgid ""
+"Enter your company address <br/><strong>eg: Banha, Qalyubia, Egypt</strong>"
+msgstr ""
+
+#: ../fold/framework/functions/admin-config.php:1324
+msgid "Map Zoom"
+msgstr ""
+
+#: ../fold/framework/functions/excerpts.php:26
+msgid "view post"
+msgstr ""
+
+#: ../fold/framework/functions/extend-sc.php:39
+msgid "Divider"
+msgstr ""
+
+#: ../fold/framework/functions/extend-sc.php:47
+msgid "Solid Line"
+msgstr ""
+
+#: ../fold/framework/functions/extend-sc.php:51
+msgid "Divider Style"
+msgstr ""
+
+#: ../fold/framework/functions/extend-sc.php:59
+msgid "Top Margin"
+msgstr ""
+
+#: ../fold/framework/functions/extend-sc.php:67
+msgid "Bottom Margin"
+msgstr ""
+
+#: ../fold/framework/functions/extend-sc.php:71
+#: ../fold/framework/functions/extend-sc.php:107
+#: ../fold/framework/functions/extend-sc.php:133
+msgid "Class"
+msgstr ""
+
+#: ../fold/framework/functions/extend-sc.php:72
+#: ../fold/framework/functions/extend-sc.php:108
+#: ../fold/framework/functions/extend-sc.php:134
+msgid "Extra CSS class"
+msgstr ""
+
+#: ../fold/framework/functions/extend-sc.php:75
+msgid "Space with adjustable margins"
+msgstr ""
+
+#: ../fold/framework/functions/extend-sc.php:81
+msgid "Progress Bar"
+msgstr ""
+
+#: ../fold/framework/functions/extend-sc.php:87
+msgid "Progress Bar Label"
+msgstr ""
+
+#: ../fold/framework/functions/extend-sc.php:95
+msgid "Progress Bar Value"
+msgstr ""
+
+#: ../fold/framework/functions/extend-sc.php:103
+msgid "Progress Bar Animation Delay"
+msgstr ""
+
+#: ../fold/framework/functions/extend-sc.php:111
+msgid "Add progress bar block"
+msgstr ""
+
+#: ../fold/framework/functions/extend-sc.php:117
+msgid "Image Lightbox"
+msgstr ""
+
+#: ../fold/framework/functions/extend-sc.php:123
+msgid "Content Source"
+msgstr ""
+
+#: ../fold/framework/functions/extend-sc.php:124
+msgid "Insert here lightbox image URL"
+msgstr ""
+
+#: ../fold/framework/functions/extend-sc.php:128
+msgid "Caption"
+msgstr ""
+
+#: ../fold/framework/functions/extend-sc.php:129
+msgid "Insert here image caption"
+msgstr ""
+
+#: ../fold/framework/functions/extend-sc.php:137
+msgid "Add Lightbox Image"
+msgstr ""
+
+#: ../fold/framework/functions/love/love-plugin.php:83
+msgid "Love this"
+msgstr ""
+
+#: ../fold/framework/functions/love/love-plugin.php:86
+msgid "You already love this!"
+msgstr ""
+
+#: ../fold/framework/meta/init.php:250
+msgid "Clear"
+msgstr ""
+
+#: ../fold/framework/meta/init.php:252
+msgid "Select Color"
+msgstr ""
+
+#: ../fold/framework/meta/init.php:253
+msgid "Current Color"
+msgstr ""
+
+#: ../fold/framework/meta/init.php:1129
+msgid "Save"
+msgstr "ذخیره"
+
+#: ../fold/framework/meta/meta-config.php:29
+msgid "Image Settings"
+msgstr "تنظیمات تصویر"
+
+#: ../fold/framework/meta/meta-config.php:36
+msgid "Image LightBox?"
+msgstr ""
+
+#: ../fold/framework/meta/meta-config.php:37
+#: ../fold/framework/meta/meta-config.php:182
+msgid "Upload an image or enter a URL."
+msgstr "یک تصویر آپلود کنید یا یک لینک وارد نمایید."
+
+#: ../fold/framework/meta/meta-config.php:50
+msgid "Gallery Settings"
+msgstr "تنظیمات گالری"
+
+#: ../fold/framework/meta/meta-config.php:57
+msgid "Gallery Images"
+msgstr "تصاویر گالری"
+
+#: ../fold/framework/meta/meta-config.php:58
+msgid "Upload Your Gallery images."
+msgstr "تصاویر گالری خود را آپلود کنید."
+
+#: ../fold/framework/meta/meta-config.php:72
+msgid "Status Settings"
+msgstr "تنظیمات وضعیت"
+
+#: ../fold/framework/meta/meta-config.php:79
+msgid "Embed Status"
+msgstr ""
+
+#: ../fold/framework/meta/meta-config.php:80
+msgid "Embed Status Here , Embed your tweet status heres."
+msgstr ""
+
+#: ../fold/framework/meta/meta-config.php:85
+msgid "Status Background"
+msgstr "پس زمینه وضعیت"
+
+#: ../fold/framework/meta/meta-config.php:86
+msgid ""
+"Select your preferred color for this status background.<br/> Also you can "
+"upload the background image by using <b>featured image.</b>"
+msgstr ""
+"رنگ دلخواه خود را برای پس زمینه انتخاب کنید.<br/> شما همچنین میتوانید با "
+"استفاده از <b>تصویر  شاخص</b> یک عکس برای پس زمینه آپلود کنید."
+
+#: ../fold/framework/meta/meta-config.php:100
+msgid "Quote Settings"
+msgstr "تنظیمات نقل قول (گفتاورد)"
+
+#: ../fold/framework/meta/meta-config.php:107
+msgid "Author"
+msgstr "نویسنده"
+
+#: ../fold/framework/meta/meta-config.php:108
+msgid "Insert the Quote Author."
+msgstr "نویسنده نقل قول را وارد کنید"
+
+#: ../fold/framework/meta/meta-config.php:113
+msgid "Show Post Head?"
+msgstr "نمایش سربرگ مطلب؟"
+
+#: ../fold/framework/meta/meta-config.php:114
+msgid "Show The Post Head."
+msgstr "نمایش سربرگ مطلب"
+
+#: ../fold/framework/meta/meta-config.php:119
+msgid "Quote Background"
+msgstr "پس زمینه‌ی نقل قول"
+
+#: ../fold/framework/meta/meta-config.php:120
+#: ../fold/framework/meta/meta-config.php:148
+msgid ""
+"Select your preferred color for this post background.<br/> Also you can "
+"upload the background image by using <b>featured image.</b>"
+msgstr ""
+"رنگ دلخواه خود را برای پس زمینه انتخاب کنید.<br/> شما همچنین میتوانید با "
+"استفاده از <b>تصویر  شاخص</b> یک عکس برای پس زمینه آپلود کنید."
+
+#: ../fold/framework/meta/meta-config.php:134
+msgid "Link Settings"
+msgstr "تنظیمات لینک"
+
+#: ../fold/framework/meta/meta-config.php:141
+msgid "The Link"
+msgstr "لینک"
+
+#: ../fold/framework/meta/meta-config.php:142
+msgid "Insert your link URL, e.g. http://www.zoom-arts.com"
+msgstr "لینک خود را وارد کنید، برای مثال: http://www.rtl-theme.com"
+
+#: ../fold/framework/meta/meta-config.php:147
+msgid "Link Background"
+msgstr "پس زمینه‌ی لینک"
+
+#: ../fold/framework/meta/meta-config.php:162
+msgid "Video Settings"
+msgstr "تنظیمات ویدئو"
+
+#: ../fold/framework/meta/meta-config.php:169
+msgid "M4V File URL"
+msgstr ""
+
+#: ../fold/framework/meta/meta-config.php:170
+msgid "The URL to the .m4v video file."
+msgstr ""
+
+#: ../fold/framework/meta/meta-config.php:175
+msgid "OGV File URL"
+msgstr ""
+
+#: ../fold/framework/meta/meta-config.php:176
+msgid "The URL to the .ogv video file."
+msgstr ""
+
+#: ../fold/framework/meta/meta-config.php:181
+msgid "Video Poster Image"
+msgstr ""
+
+#: ../fold/framework/meta/meta-config.php:187
+#: ../fold/framework/meta/meta-config.php:226
+msgid "Embedded Code"
+msgstr ""
+
+#: ../fold/framework/meta/meta-config.php:188
+msgid ""
+"If you are using something other than self hosted video such as Youtube or "
+"Vimeo, paste the video url here.<br/><strong>This field will override the "
+"above.</strong>"
+msgstr ""
+
+#: ../fold/framework/meta/meta-config.php:201
+msgid "Audio Settings"
+msgstr "تنظیمات صوت"
+
+#: ../fold/framework/meta/meta-config.php:208
+msgid "MP3 File URL"
+msgstr ""
+
+#: ../fold/framework/meta/meta-config.php:209
+msgid "The URL to the .mp3 video file."
+msgstr ""
+
+#: ../fold/framework/meta/meta-config.php:214
+msgid "OGA File URL"
+msgstr ""
+
+#: ../fold/framework/meta/meta-config.php:215
+msgid "The URL to the .oga video file."
+msgstr ""
+
+#: ../fold/framework/meta/meta-config.php:220
+msgid "Audio Poster Image"
+msgstr "تصویر کاور صوت"
+
+#: ../fold/framework/meta/meta-config.php:221
+msgid "Enter a image url for audio poster."
+msgstr ""
+
+#: ../fold/framework/meta/meta-config.php:227
+msgid ""
+"If you are using something other than self hosted audio such as Soundcloud, "
+"paste the audio url here.<br/><strong>This field will override the above.</"
+"strong>"
+msgstr ""
+
+#: ../fold/framework/meta/meta-config.php:240
+msgid "Post Options"
+msgstr "تنظیمات مطلب"
+
+#: ../fold/framework/meta/meta-config.php:247
+msgid "Post Layout"
+msgstr "طرح"
+
+#: ../fold/framework/meta/meta-config.php:248
+msgid "Select your preferred layout for this post."
+msgstr "طرح دلخواه خود را برای این مطلب انتخاب کنید."
+
+#: ../fold/framework/meta/meta-config.php:252
+#: ../fold/framework/meta/meta-config.php:298
+msgid "Left Sidebar"
+msgstr "سایدبار چپ"
+
+#: ../fold/framework/meta/meta-config.php:253
+#: ../fold/framework/meta/meta-config.php:299
+msgid "Right Sidebar"
+msgstr "سایدبار راست"
+
+#: ../fold/framework/meta/meta-config.php:254
+#: ../fold/framework/meta/meta-config.php:300
+msgid "Centered"
+msgstr "وسط"
+
+#: ../fold/framework/meta/meta-config.php:255
+#: ../fold/framework/meta/meta-config.php:301
+msgid "Fullwidth"
+msgstr "تمام صفحه"
+
+#: ../fold/framework/meta/meta-config.php:269
+msgid "Page Options"
+msgstr "تنظیمات برگه"
+
+#: ../fold/framework/meta/meta-config.php:276
+msgid "Page Subheading"
+msgstr "عنوان فرعی برگه"
+
+#: ../fold/framework/meta/meta-config.php:277
+msgid "Enter your page subheading."
+msgstr "عنوان فرعی برگه خود را وارد کنید."
+
+#: ../fold/framework/meta/meta-config.php:282
+msgid "Page Header Style"
+msgstr "استایل سربرگ برگه"
+
+#: ../fold/framework/meta/meta-config.php:288
+msgid "Center"
+msgstr "وسط"
+
+#: ../fold/framework/meta/meta-config.php:294
+msgid "Select your preferred layout for this page."
+msgstr "طرح دلخواه خود را برای این برگه انتخاب کنید."
+
+#: ../fold/framework/meta/helpers/cmb_Meta_Box_ajax.php:47
+msgid "Please Try Again"
+msgstr ""
+
+#: ../fold/framework/meta/helpers/cmb_Meta_Box_ajax.php:131
+msgid "Remove Embed"
+msgstr ""
+
+#: ../fold/framework/meta/helpers/cmb_Meta_Box_ajax.php:134
+#, php-format
+msgid "No oEmbed Results Found for %s. View more info at"
+msgstr ""
+
+#: ../fold/framework/meta/helpers/cmb_Meta_Box_field.php:449
+msgid "Add Group"
+msgstr ""
+
+#: ../fold/framework/meta/helpers/cmb_Meta_Box_field.php:450
+msgid "Remove Group"
+msgstr ""
+
+#: ../fold/framework/meta/helpers/cmb_Meta_Box_types.php:249
+msgid "Add Row"
+msgstr ""
+
+#: ../fold/framework/meta/helpers/cmb_Meta_Box_types.php:600
+#: ../fold/framework/meta/helpers/cmb_Meta_Box_types.php:634
+msgid "No terms"
+msgstr ""
+
+#: ../fold/framework/meta/helpers/cmb_Meta_Box_types.php:673
+#: ../fold/framework/meta/helpers/cmb_Meta_Box_types.php:727
+msgid "Add or Upload File"
+msgstr ""
+
+#: ../fold/framework/meta/helpers/cmb_Meta_Box_types.php:694
+#: ../fold/framework/meta/helpers/cmb_Meta_Box_types.php:757
+msgid "Remove Image"
+msgstr ""
+
+#: ../fold/framework/meta/helpers/cmb_Meta_Box_types.php:705
+#: ../fold/framework/meta/helpers/cmb_Meta_Box_types.php:765
+msgid "File:"
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:161
+#: ../fold/framework/plugins/install-plugin.php:72
+msgid "Install Required Plugins"
+msgstr "افزونه های ضروری را نصب کنید"
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:162
+#: ../fold/framework/plugins/install-plugin.php:73
+msgid "Install Plugins"
+msgstr "نصب افزونه ها"
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:163
+#: ../fold/framework/plugins/install-plugin.php:74
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "نصب افزونه: %s"
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:164
+msgid "Something went wrong."
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:175
+#: ../fold/framework/plugins/install-plugin.php:86
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:176
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:177
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:1945
+#: ../fold/framework/plugins/install-plugin.php:87
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:178
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:179
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:180
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:534
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:2162
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:1169
+msgid "Private Repository"
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:1172
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:1177
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:1180
+msgid "Required"
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:1180
+msgid "Recommended"
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:1183
+msgid "Not Installed"
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:1185
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:1290
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:1398
+msgid "Install"
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:1312
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:1399
+msgid "Activate"
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:1361
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:1377
+msgid "Plugin"
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:1378
+msgid "Source"
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:1379
+msgid "Type"
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:1380
+msgid "Status"
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:1928
+msgid "Install package not available."
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:1929
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:1930
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:1931
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:1932
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:1933
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:1944
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:2058
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:2059
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:2059
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:2068
+msgid "Show Details"
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:2059
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:2068
+msgid "Hide Details"
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:2060
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:2061
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:2065
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:2066
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:2068
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:2069
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../fold/framework/plugins/class-tgm-plugin-activation.php:2070
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../fold/framework/plugins/install-plugin.php:75
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../fold/framework/plugins/install-plugin.php:88
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../fold/framework/widgets/widget-about.php:21
+msgid "About Widget"
+msgstr "درباره من"
+
+#: ../fold/framework/widgets/widget-about.php:24
+msgid "Custom About Widget."
+msgstr "ابزارک درباره من "
+
+#: ../fold/framework/widgets/widget-about.php:161
+msgid "Name:"
+msgstr "نام:"
+
+#: ../fold/framework/widgets/widget-about.php:165
+msgid "Job:"
+msgstr "شغل:"
+
+#: ../fold/framework/widgets/widget-about.php:169
+msgid "Some Words About Yourself:"
+msgstr "کمی درباره خودتان بنویسید:"
+
+#: ../fold/framework/widgets/widget-about.php:173
+msgid "Your Picture:"
+msgstr "عکس شما:"
+
+#: ../fold/framework/widgets/widget-about.php:177
+msgid "Block Background:"
+msgstr "تصویر پس زمینه:"
+
+#: ../fold/framework/widgets/widget-about.php:181
+msgid "Facebook Url:"
+msgstr ""
+
+#: ../fold/framework/widgets/widget-about.php:185
+msgid "Twitter Url:"
+msgstr ""
+
+#: ../fold/framework/widgets/widget-about.php:189
+msgid "Dribbble Url:"
+msgstr ""
+
+#: ../fold/framework/widgets/widget-about.php:193
+msgid "Google Plus Url:"
+msgstr ""
+
+#: ../fold/framework/widgets/widget-about.php:197
+msgid "Github Url:"
+msgstr ""
+
+#: ../fold/framework/widgets/widget-about.php:201
+msgid "Instagram Url:"
+msgstr ""
+
+#: ../fold/framework/widgets/widget-about.php:205
+msgid "Linkedin Url:"
+msgstr ""
+
+#: ../fold/framework/widgets/widget-about.php:209
+msgid "Tumblr Url:"
+msgstr ""
+
+#: ../fold/framework/widgets/widget-about.php:213
+msgid "Flickr Url:"
+msgstr ""
+
+#: ../fold/framework/widgets/widget-about.php:217
+msgid "Pinterest Url:"
+msgstr ""
+
+#: ../fold/framework/widgets/widget-about.php:221
+msgid "Vimeo Url:"
+msgstr ""
+
+#: ../fold/framework/widgets/widget-about.php:225
+msgid "Skype Url:"
+msgstr ""
+
+#: ../fold/framework/widgets/widget-about.php:229
+msgid "Youtube Url:"
+msgstr ""
+
+#: ../fold/framework/widgets/widget-flickr.php:108
+msgid "Display recent images from a designated Flickr account."
+msgstr ""
+
+#: ../fold/framework/widgets/widget-flickr.php:111
+msgid "Flickr"
+msgstr ""
+
+#: ../fold/framework/widgets/widget-flickr.php:152
+msgid "No images found."
+msgstr ""
+
+#: ../fold/framework/widgets/widget-flickr.php:201
+msgid "Flickr Feed"
+msgstr ""
+
+#: ../fold/framework/widgets/widget-flickr.php:218
+msgid "Flickr User or Group ID"
+msgstr ""
+
+#: ../fold/framework/widgets/widget-flickr.php:223
+msgid "This is a Flickr Group stream"
+msgstr ""
+
+#: ../fold/framework/widgets/widget-flickr.php:227
+msgid "Display in Slider"
+msgstr ""
+
+#: ../fold/framework/widgets/widget-flickr.php:231
+msgid "Images to Show"
+msgstr ""
+
+#: ../fold/framework/widgets/widget-flickr.php:232
+msgid "Max: 20"
+msgstr ""
+
+#: ../fold/framework/widgets/widget-recent-comments.php:15
+msgid "Smart Recent Comments Widget"
+msgstr "ابزارک هوشمند آخرین دیدگاه‌ها"
+
+#: ../fold/framework/widgets/widget-recent-comments.php:16
+msgid "Smart Recent Comments"
+msgstr "آخرین دیدگاه‌های هوشمند"
+
+#: ../fold/framework/widgets/widget-recent-comments.php:21
+#: ../fold/framework/widgets/widget-recent-comments.php:72
+msgid "Recent Comments"
+msgstr "آخرین دیدگاه‌ها"
+
+#: ../fold/framework/widgets/widget-recent-comments.php:77
+msgid "Title "
+msgstr "عنوان"
+
+#: ../fold/framework/widgets/widget-recent-comments.php:82
+msgid "Number of comments to show: "
+msgstr "تعداد دیدگاه‌های جهت نمایش:"
+
+#: ../fold/framework/widgets/widget-recent-posts.php:20
+msgid "A widget displays recent post"
+msgstr "ابزارک هوشمند آخرین مطالب"
+
+#: ../fold/framework/widgets/widget-recent-posts.php:111
+msgid "Smart Recent Post"
+msgstr "آخرین مطالب هوشمند"
+
+#: ../fold/framework/widgets/widget-recent-posts.php:139
+#: ../twentyfourteen/inc/widgets.php:255
+msgid "Title:"
+msgstr "عنوان:"
+
+#: ../fold/framework/widgets/widget-recent-posts.php:142
+msgid "Number of post to show"
+msgstr "تعداد مطالب جهت نمایش"
+
+#: ../fold/framework/widgets/widget-recent-posts.php:144
+msgid "Featured Image?"
+msgstr "نمایش تصویر شاخص؟"
+
+#: ../fold/framework/widgets/widget-recent-posts.php:147
+msgid "Post Order:"
+msgstr "ترتیب مطالب:"
+
+#: ../fold/framework/widgets/widget-recent-posts.php:153
+msgid "Select categories to include in the recent posts list:"
+msgstr "دسته‌بندی‌هایی که میخواهید در لیست آخرین مطالب وارد شوند را انتخاب کنید:"
+
+#: ../fold/framework/widgets/twitter/controller/twitter_widget.class.php:240
+#, php-format
+msgid "%1$s%2$s"
+msgstr ""
+
+#: ../fold/includes/content-audio.php:12
+#: ../fold/includes/content-gallery.php:11
+#: ../fold/includes/content-image.php:11 ../fold/includes/content-image.php:36
+#: ../fold/includes/content-image.php:46 ../fold/includes/content-image.php:47
+#: ../fold/includes/content-quote.php:19 ../fold/includes/content-quote.php:41
+#: ../fold/includes/content-standard.php:6
+#: ../fold/includes/content-standard.php:25
+#: ../fold/includes/content-status.php:14
+#: ../fold/includes/content-video.php:12
+#, php-format
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: ../fold/includes/post-bottom.php:4
+msgid "Read More"
+msgstr "بیشتر بخوانید"
+
+#: ../fold/includes/post-bottom.php:19
+msgid "Share"
+msgstr "اشتراک‌گذاری"
+
+#: ../twentyfourteen/404.php:17 ../twentythirteen/404.php:16
+msgid "Not Found"
+msgstr "یافت نشد"
+
+#: ../twentyfourteen/404.php:21 ../twentythirteen/404.php:22
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: ../twentyfourteen/archive.php:31 ../twentythirteen/archive.php:29
+#: ../twentytwelve/archive.php:29
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "آرشیو روزانه: %s"
+
+#: ../twentyfourteen/archive.php:34 ../twentythirteen/archive.php:31
+#: ../twentytwelve/archive.php:31
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: ../twentyfourteen/archive.php:37 ../twentythirteen/archive.php:33
+#: ../twentytwelve/archive.php:33
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: ../twentyfourteen/archive.php:40
+#: ../twentyfourteen/taxonomy-post_format.php:51
+#: ../twentythirteen/archive.php:35 ../twentytwelve/archive.php:35
+msgid "Archives"
+msgstr ""
+
+#: ../twentyfourteen/author.php:31 ../twentythirteen/author.php:31
+#, php-format
+msgid "All posts by %s"
+msgstr ""
+
+#: ../twentyfourteen/category.php:20 ../twentythirteen/category.php:19
+#: ../twentytwelve/category.php:21
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: ../twentyfourteen/comments.php:34 ../twentyfourteen/comments.php:52
+#: ../twentythirteen/comments.php:45 ../twentytwelve/comments.php:42
+msgid "Comment navigation"
+msgstr ""
+
+#: ../twentyfourteen/comments.php:35 ../twentyfourteen/comments.php:53
+#: ../twentythirteen/comments.php:46 ../twentytwelve/comments.php:43
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../twentyfourteen/comments.php:36 ../twentyfourteen/comments.php:54
+#: ../twentythirteen/comments.php:47 ../twentytwelve/comments.php:44
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../twentyfourteen/content-aside.php:37
+#: ../twentyfourteen/content-audio.php:37
+#: ../twentyfourteen/content-gallery.php:37
+#: ../twentyfourteen/content-image.php:37
+#: ../twentyfourteen/content-link.php:37
+#: ../twentyfourteen/content-quote.php:37
+#: ../twentyfourteen/content-video.php:37 ../twentyfourteen/content.php:38
+#: ../twentyfourteen/inc/widgets.php:194
+#: ../twentythirteen/content-gallery.php:36
+#: ../twentythirteen/content-image.php:32
+#: ../twentythirteen/content-quote.php:22
+#: ../twentythirteen/content-video.php:32 ../twentythirteen/content.php:49
+msgid "Leave a comment"
+msgstr ""
+
+#: ../twentyfourteen/content-aside.php:46
+#: ../twentyfourteen/content-audio.php:46
+#: ../twentyfourteen/content-gallery.php:46
+#: ../twentyfourteen/content-image.php:46
+#: ../twentyfourteen/content-link.php:46
+#: ../twentyfourteen/content-quote.php:46
+#: ../twentyfourteen/content-video.php:46 ../twentyfourteen/content.php:54
+#: ../twentyfourteen/inc/widgets.php:127 ../twentyfourteen/inc/widgets.php:172
+#: ../twentythirteen/content-aside.php:13
+#: ../twentythirteen/content-audio.php:24
+#: ../twentythirteen/content-gallery.php:24
+#: ../twentythirteen/content-image.php:23
+#: ../twentythirteen/content-link.php:24
+#: ../twentythirteen/content-quote.php:13
+#: ../twentythirteen/content-status.php:13
+#: ../twentythirteen/content-video.php:23 ../twentythirteen/content.php:41
+#: ../twentytwelve/content-aside.php:15 ../twentytwelve/content-image.php:13
+#: ../twentytwelve/content-link.php:14 ../twentytwelve/content-quote.php:13
+#: ../twentytwelve/content-status.php:31 ../twentytwelve/content.php:44
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../twentyfourteen/content-none.php:12 ../twentythirteen/content-none.php:12
+#: ../twentytwelve/content-none.php:13 ../twentytwelve/index.php:49
+#: ../twentytwelve/search.php:34
+msgid "Nothing Found"
+msgstr ""
+
+#: ../twentyfourteen/content-none.php:18 ../twentythirteen/content-none.php:18
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../twentyfourteen/content-none.php:22
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../twentyfourteen/content-none.php:27 ../twentythirteen/content-none.php:27
+#: ../twentytwelve/404.php:21
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../twentyfourteen/footer.php:21 ../twentythirteen/footer.php:19
+#: ../twentytwelve/footer.php:16
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: ../twentyfourteen/footer.php:21 ../twentythirteen/footer.php:19
+#: ../twentytwelve/footer.php:16
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: ../twentyfourteen/functions.php:83
+msgid "Top primary menu"
+msgstr ""
+
+#: ../twentyfourteen/functions.php:84
+msgid "Secondary menu in left sidebar"
+msgstr ""
+
+#: ../twentyfourteen/functions.php:171
+msgid "Primary Sidebar"
+msgstr ""
+
+#: ../twentyfourteen/functions.php:173
+msgid "Main sidebar that appears on the left."
+msgstr ""
+
+#: ../twentyfourteen/functions.php:180
+msgid "Content Sidebar"
+msgstr ""
+
+#: ../twentyfourteen/functions.php:182
+msgid "Additional sidebar that appears on the right."
+msgstr ""
+
+#: ../twentyfourteen/functions.php:189
+msgid "Footer Widget Area"
+msgstr ""
+
+#: ../twentyfourteen/functions.php:191 ../twentythirteen/functions.php:233
+msgid "Appears in the footer section of the site."
+msgstr ""
+
+#: ../twentyfourteen/functions.php:254
+msgid "Previous"
+msgstr ""
+
+#: ../twentyfourteen/functions.php:255
+msgid "Next"
+msgstr ""
+
+#: ../twentyfourteen/functions.php:488 ../twentythirteen/functions.php:218
+#: ../twentytwelve/functions.php:213
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../twentyfourteen/header.php:52 ../twentytwelve/functions.php:64
+msgid "Primary Menu"
+msgstr ""
+
+#: ../twentyfourteen/header.php:53 ../twentythirteen/header.php:44
+#: ../twentytwelve/header.php:44
+msgid "Skip to content"
+msgstr ""
+
+#: ../twentyfourteen/image.php:65
+msgid "Previous Image"
+msgstr ""
+
+#: ../twentyfourteen/image.php:66
+msgid "Next Image"
+msgstr ""
+
+#: ../twentyfourteen/search.php:18 ../twentythirteen/search.php:18
+#: ../twentytwelve/search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../twentyfourteen/tag.php:22 ../twentythirteen/tag.php:21
+#: ../twentytwelve/tag.php:21
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: ../twentyfourteen/taxonomy-post_format.php:30
+#: ../twentyfourteen/inc/widgets.php:79
+msgid "Asides"
+msgstr ""
+
+#: ../twentyfourteen/taxonomy-post_format.php:33
+#: ../twentyfourteen/inc/widgets.php:54
+msgid "Images"
+msgstr ""
+
+#: ../twentyfourteen/taxonomy-post_format.php:36
+#: ../twentyfourteen/inc/widgets.php:58
+msgid "Videos"
+msgstr ""
+
+#: ../twentyfourteen/taxonomy-post_format.php:39
+#: ../twentyfourteen/inc/widgets.php:62
+msgid "Audio"
+msgstr ""
+
+#: ../twentyfourteen/taxonomy-post_format.php:42
+#: ../twentyfourteen/inc/widgets.php:66
+msgid "Quotes"
+msgstr ""
+
+#: ../twentyfourteen/taxonomy-post_format.php:45
+#: ../twentyfourteen/inc/widgets.php:70
+msgid "Links"
+msgstr ""
+
+#: ../twentyfourteen/taxonomy-post_format.php:48
+#: ../twentyfourteen/inc/widgets.php:74
+msgid "Galleries"
+msgstr ""
+
+#: ../twentyfourteen/inc/back-compat.php:37
+#: ../twentyfourteen/inc/back-compat.php:47
+#: ../twentyfourteen/inc/back-compat.php:60
+#, php-format
+msgid ""
+"Twenty Fourteen requires at least WordPress version 3.6. You are running "
+"version %s. Please upgrade and try again."
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:19
+#: ../twentyfourteen/inc/customizer.php:20
+msgid "Background may only be visible on wide screens."
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:28
+msgid "Site Title Color"
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:31
+msgid "Display Site Title &amp; Tagline"
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:35
+#: ../twentyfourteen/inc/featured-content.php:408
+msgid "Featured Content"
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:36
+#: ../twentyfourteen/inc/featured-content.php:409
+#, php-format
+msgid ""
+"Use a <a href=\"%1$s\">tag</a> to feature your posts. If no posts match the "
+"tag, <a href=\"%2$s\">sticky posts</a> will be displayed instead."
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:54
+msgid "Grid"
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:55
+msgid "Slider"
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:99
+msgid "Twenty Fourteen"
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:102
+#, php-format
+msgid ""
+"The home page features your choice of up to 6 posts prominently displayed in "
+"a grid or slider, controlled by a <a href=\"%1$s\">tag</a>; you can change "
+"the tag and layout in <a href=\"%2$s\">Appearance &rarr; Customize</a>. If "
+"no posts match the tag, <a href=\"%3$s\">sticky posts</a> will be displayed "
+"instead."
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:103
+#, php-format
+msgid ""
+"Enhance your site design by using <a href=\"%s\">Featured Images</a> for "
+"posts you&rsquo;d like to stand out (also known as post thumbnails). This "
+"allows you to associate an image with your post without inserting it. Twenty "
+"Fourteen uses featured images for posts and pages&mdash;above the "
+"title&mdash;and in the Featured Content area on the home page."
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:104
+#, php-format
+msgid ""
+"For an in-depth tutorial, and more tips and tricks, visit the <a href=\"%s"
+"\">Twenty Fourteen documentation</a>."
+msgstr ""
+
+#: ../twentyfourteen/inc/featured-content.php:431
+msgid "Tag Name"
+msgstr ""
+
+#: ../twentyfourteen/inc/featured-content.php:436
+msgid "Don&rsquo;t display tag on front end."
+msgstr ""
+
+#: ../twentyfourteen/inc/template-tags.php:45 ../twentytwelve/image.php:41
+msgid "&larr; Previous"
+msgstr "&larr; قبلی"
+
+#: ../twentyfourteen/inc/template-tags.php:46 ../twentytwelve/image.php:42
+msgid "Next &rarr;"
+msgstr "بعدی &rarr;"
+
+#: ../twentyfourteen/inc/template-tags.php:53
+#: ../twentythirteen/functions.php:266
+msgid "Posts navigation"
+msgstr ""
+
+#: ../twentyfourteen/inc/template-tags.php:80
+#: ../twentythirteen/functions.php:300 ../twentytwelve/functions.php:286
+#: ../twentytwelve/single.php:20
+msgid "Post navigation"
+msgstr ""
+
+#: ../twentyfourteen/inc/template-tags.php:84
+msgid "<span class=\"meta-nav\">Published In</span>%title"
+msgstr ""
+
+#: ../twentyfourteen/inc/template-tags.php:86
+msgid "<span class=\"meta-nav\">Previous Post</span>%title"
+msgstr ""
+
+#: ../twentyfourteen/inc/template-tags.php:87
+msgid "<span class=\"meta-nav\">Next Post</span>%title"
+msgstr ""
+
+#: ../twentyfourteen/inc/template-tags.php:104
+#: ../twentythirteen/functions.php:322
+msgid "Sticky"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:34
+msgid "Twenty Fourteen Ephemera"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:36
+msgid ""
+"Use this widget to list your recent Aside, Quote, Video, Audio, Image, "
+"Gallery, and Link posts."
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:55
+msgid "More images"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:59
+msgid "More videos"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:63
+msgid "More audio"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:67
+msgid "More quotes"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:71
+msgid "More links"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:75
+msgid "More galleries"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:80
+msgid "More asides"
+msgstr ""
+
+#. translators: used with More archives link
+#: ../twentyfourteen/inc/widgets.php:206
+#, php-format
+msgid "%s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:258
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:261
+msgid "Post format to show:"
+msgstr ""
+
+#: ../twentythirteen/404.php:21 ../twentytwelve/404.php:17
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#: ../twentythirteen/author-bio.php:26 ../twentytwelve/author.php:63
+#: ../twentytwelve/content.php:62
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: ../twentythirteen/author-bio.php:30 ../twentytwelve/content.php:66
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../twentythirteen/content-gallery.php:36
+#: ../twentythirteen/content-image.php:32
+#: ../twentythirteen/content-quote.php:22
+#: ../twentythirteen/content-video.php:32 ../twentythirteen/content.php:49
+msgid "One comment so far"
+msgstr ""
+
+#: ../twentythirteen/content-gallery.php:36
+#: ../twentythirteen/content-image.php:32
+#: ../twentythirteen/content-quote.php:22
+#: ../twentythirteen/content-video.php:32 ../twentythirteen/content.php:49
+#, php-format
+msgid "View all % comments"
+msgstr ""
+
+#: ../twentythirteen/content-none.php:22
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+
+#: ../twentythirteen/functions.php:97
+msgid "Navigation Menu"
+msgstr ""
+
+#: ../twentythirteen/functions.php:231
+msgid "Main Widget Area"
+msgstr ""
+
+#: ../twentythirteen/functions.php:241
+msgid "Secondary Widget Area"
+msgstr ""
+
+#: ../twentythirteen/functions.php:243
+msgid "Appears on posts and pages in the sidebar."
+msgstr ""
+
+#: ../twentythirteen/functions.php:270 ../twentytwelve/functions.php:287
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: ../twentythirteen/functions.php:274 ../twentytwelve/functions.php:288
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../twentythirteen/functions.php:328 ../twentythirteen/functions.php:334
+#: ../twentytwelve/functions.php:370 ../twentytwelve/functions.php:373
+msgid ", "
+msgstr ""
+
+#: ../twentythirteen/functions.php:343 ../twentytwelve/functions.php:384
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: ../twentythirteen/functions.php:369 ../twentytwelve/content-aside.php:20
+#: ../twentytwelve/content-link.php:18 ../twentytwelve/content-quote.php:17
+#: ../twentytwelve/content-status.php:15
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: ../twentythirteen/header.php:43 ../twentytwelve/header.php:43
+msgid "Menu"
+msgstr ""
+
+#: ../twentythirteen/image.php:22
+#, php-format
+msgid ""
+"<span class=\"attachment-meta\">Published on <time class=\"entry-date\" "
+"datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title=\"Return to %4$s\" "
+"rel=\"gallery\">%5$s</a></span>"
+msgstr ""
+
+#: ../twentythirteen/image.php:39
+msgid "Full resolution"
+msgstr ""
+
+#: ../twentythirteen/image.php:51
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: ../twentythirteen/image.php:52
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../twentythirteen/taxonomy-post_format.php:23
+#, php-format
+msgid "%s Archives"
+msgstr ""
+
+#: ../twentythirteen/inc/back-compat.php:37
+#: ../twentythirteen/inc/back-compat.php:47
+#: ../twentythirteen/inc/back-compat.php:60
+#, php-format
+msgid ""
+"Twenty Thirteen requires at least WordPress version 3.6. You are running "
+"version %s. Please upgrade and try again."
+msgstr ""
+
+#: ../twentytwelve/author.php:32
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: ../twentytwelve/content-aside.php:23 ../twentytwelve/content-image.php:23
+#: ../twentytwelve/content-link.php:21 ../twentytwelve/content-quote.php:20
+#: ../twentytwelve/content-status.php:37 ../twentytwelve/content.php:33
+msgid "Leave a reply"
+msgstr ""
+
+#: ../twentytwelve/content-aside.php:23 ../twentytwelve/content-image.php:23
+#: ../twentytwelve/content-link.php:21 ../twentytwelve/content-quote.php:20
+#: ../twentytwelve/content-status.php:37 ../twentytwelve/content.php:33
+msgid "1 Reply"
+msgstr ""
+
+#: ../twentytwelve/content-aside.php:23 ../twentytwelve/content-image.php:23
+#: ../twentytwelve/content-link.php:21 ../twentytwelve/content-quote.php:20
+#: ../twentytwelve/content-status.php:37 ../twentytwelve/content.php:33
+msgid "% Replies"
+msgstr ""
+
+#: ../twentytwelve/content-link.php:12
+msgid "Link"
+msgstr ""
+
+#: ../twentytwelve/content-none.php:17 ../twentytwelve/index.php:53
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+
+#: ../twentytwelve/content.php:16
+msgid "Featured post"
+msgstr ""
+
+#: ../twentytwelve/functions.php:244
+msgid ""
+"Appears on posts and pages except the optional Front Page template, which "
+"has its own widgets"
+msgstr ""
+
+#: ../twentytwelve/functions.php:252
+msgid "First Front Page Widget Area"
+msgstr ""
+
+#: ../twentytwelve/functions.php:254 ../twentytwelve/functions.php:264
+msgid ""
+"Appears when using the optional Front Page template with a page set as "
+"Static Front Page"
+msgstr ""
+
+#: ../twentytwelve/functions.php:262
+msgid "Second Front Page Widget Area"
+msgstr ""
+
+#: ../twentytwelve/functions.php:313
+msgid "Pingback:"
+msgstr ""
+
+#: ../twentytwelve/functions.php:313
+msgid "(Edit)"
+msgstr "(ویرایش)"
+
+#: ../twentytwelve/functions.php:328
+msgid "Post author"
+msgstr "نویسنده"
+
+#: ../twentytwelve/functions.php:349
+msgid "Reply"
+msgstr "پاسخ"
+
+#: ../twentytwelve/functions.php:390
+#, php-format
+msgid ""
+"This entry was posted in %1$s and tagged %2$s on %3$s<span class=\"by-author"
+"\"> by %4$s</span>."
+msgstr ""
+
+#: ../twentytwelve/functions.php:392
+#, php-format
+msgid ""
+"This entry was posted in %1$s on %3$s<span class=\"by-author\"> by %4$s</"
+"span>."
+msgstr ""
+
+#: ../twentytwelve/functions.php:394
+#, php-format
+msgid "This entry was posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr ""
+
+#: ../twentytwelve/image.php:26
+#, php-format
+msgid ""
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
+"\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></"
+"span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; "
+"%5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</"
+"a>."
+msgstr ""
+
+#: ../twentytwelve/index.php:38
+msgid "No posts to display"
+msgstr ""
+
+#: ../twentytwelve/index.php:42
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr ""
+
+#: ../twentytwelve/search.php:38
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#~ msgid "Options Menu"
+#~ msgstr "فهرست تنظیمات"
+
+#~ msgid "General Settings"
+#~ msgstr "تنظیمات عمومی"

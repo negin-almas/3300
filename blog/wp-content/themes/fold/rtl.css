@@ -1,0 +1,884 @@
+/*
+Theme Name: فولد
+Theme URI: http://rtl-theme.com
+Description: A well designed, clean and stylish blog theme.
+
+Author: Peyman Naeimi
+Author URI: http://piman.ir
+Version: 1.0
+
+Copyright (C) 2013
+License: GNU General Public License, version 3 (GPLv3)
+License URI: license.txt 
+*/
+@import url(css/bootstrap-rtl.min.css);
+@import url(css/fonts.css);
+
+
+body {
+	font-family: 'BYekan', Tahoma, Arial, sans-serif;
+	font-size: 13px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'BYekan', Tahoma, Arial, sans-serif;
+	font-weight: 300;
+	margin: 0;
+	color: #777;
+	text-transform: capitalize;
+}
+
+h1 {
+    font-size: 30px;
+	line-height: 30px;
+}
+
+h2 {
+    font-size: 22px;
+	line-height: 28px;
+}
+
+h3 {
+    font-size: 18px;
+	line-height: 24px;
+}
+
+h4 {
+    font-size: 13px;
+	line-height: 22px;
+}
+
+h5 {
+    font-size: 13px;
+	line-height: 20px;
+}
+
+h6 {
+    font-size: 12px;
+	line-height: 18px;
+}
+
+p {
+    margin: 0;
+}
+
+strong {
+	font-weight: bold;
+}
+
+input, textarea, button {
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 18px
+}
+button {
+	font-family: 'BYekan', Tahoma, Arial, sans-serif;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    padding: 7px 10px;
+}
+
+a.main-button i {
+	font-size: 13px;
+}
+
+textarea {
+	font-size: 13px;
+	line-height: 20px;
+}
+
+blockquote, .su-quote-inner {
+	font-size: 13px;
+	line-height: 26px;
+}
+
+.su-quote-inner .su-quote-cite {
+	font-size: 13px;
+}
+.progress-label {
+	font-size: 13px;
+}
+
+.progress-bar span {
+	right: auto;
+	left: -0px;
+	font-size: 11px;
+}
+
+.progress-bar span:after {
+	left: auto;
+	right: 14px;
+}
+
+#header h1 {
+	font-weight: 900;
+	font-size: 40px;
+}
+
+#header .tagline {
+	letter-spacing: 0.5px;
+	font-size: 13px;
+	margin: 0 5px 0 0;
+}
+
+.header-left {
+	float: left;
+}
+
+.header-left .show-sidebar, .header-left .show-search {
+	margin-left: 0px;
+	margin-right: 16px;
+}
+
+.header-left .nav-menu + .show-search {
+	padding-left: 0;
+	margin-left: 0;
+	border-left: 0px solid rgba(0,0,0,0.1);
+	padding-right: 25px;
+	margin-right: 25px;
+	border-right: 1px solid rgba(0,0,0,0.1);
+}
+
+.header-left .show-sidebar i, .header-left .show-search i {
+	font-size: 13px;
+}
+
+
+.nav-menu > ul > li {
+	padding-left: 0;
+	margin-left: 0px;
+	padding-right: 15px;
+	margin-right: 15px;
+}
+
+.nav-menu ul ul li a {
+	font-size: 13px;
+}
+
+.nav-menu > ul > li > ul.sub-menu {
+	left: auto;
+	right: 0;
+}
+
+.nav-menu li li ul {
+	left: auto;
+	right: 100%;
+}
+
+.nav-menu li a {
+	font-size: 13px;
+}
+
+.responsive-menu {
+	text-align: right;
+}
+
+.responsive-menu .toggle-menu {
+	font-size: 12px;
+}
+
+.responsive-menu .toggle-menu i {
+	float: left;
+}
+
+.responsive-menu .nav-menu li ul.sub-menu {
+	right: auto;
+}
+
+.responsive-menu .nav-menu ul ul li a {
+	font-size: 12px;
+}
+
+.search-modal .close {
+	right: auto;
+	left: 20px;
+}
+
+.search-modal input {
+	font-size: 36px;
+	font-family: BYekan;
+	width: 70%;
+}
+
+.search-modal button {
+	font-size: 3em;
+	margin-left: 0px;
+	margin-right: 15px;
+}
+
+.sidebar {
+	padding-left: 0px;
+	padding-right: 40px;
+}
+
+.sidebar {
+	padding-right: 15px;
+	padding-left: 40px;
+}
+
+#main-content .col-md-8 + .sidebar {
+	padding-left: 15px;
+	padding-right: 40px;
+}
+
+.sidebar .widget:before {
+  	right: auto;
+  	left: 0;
+  	border-width: 16px 16px 0 0;
+  	border-color: #eee #fff #fff #fff;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.08), 1px 1px 1px rgba(0,0,0,0.08);
+  	-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.08), 1px 1px 1px rgba(0,0,0,0.08);
+  	box-shadow: 0 1px 1px rgba(0,0,0,0.08), 1px 1px 1px rgba(0,0,0,0.08);
+}
+
+.widget h3.widget-title {
+	font-size: 13px;
+	letter-spacing: 0px;
+}
+
+.widget_search input[type="text"] {
+	margin-right: 0px;
+	margin-left: 3px;
+}
+
+.widget_search input[type="submit"] {
+	right: auto;
+	left: 0;
+	border-radius: 2px 0 0 2px;
+}
+
+.widget.widget_categories > ul > li, .widget.widget_pages > ul > li, .widget.widget_archive > ul > li, .widget.widget_recent_entries > ul > li, .widget.widget_meta > ul > li {
+	font-size: 13px;
+	text-transform: capitalize;
+}
+
+.widget.widget_categories ul ul, .widget.widget_meta ul ul, .widget.widget_pages ul ul, .widget.widget_archive ul ul, .widget.widget_recent_entries ul ul {
+	padding-left: 0px;
+	padding-right: 20px;
+}
+
+.widget.widget_categories ul ul li, .widget.widget_meta ul ul li, .widget.widget_pages ul ul li, .widget.widget_archive ul ul li, .widget.widget_recent_entries ul ul li {
+	font-size: 13px;
+}
+
+.widget.widget_categories ul li i, .widget.widget_pages ul li i, .widget.widget_archive ul li i, .widget.widget_recent_entries ul li i {
+	margin-right: 0px;
+	margin-left: 10px;
+	font-size: 13px;
+}
+
+.widget.widget-about .head-bg .my-pic {
+	left: auto;
+	right: 30px;
+}
+
+.widget.widget-about .head-bg .my-data {
+	padding-left: 0px;
+	padding-right: 130px;
+}
+
+.widget.widget-about .head-bg .my-data span {
+	letter-spacing: 0px;
+	text-transform: none;
+}
+
+.widget.widget-about .head-bg .my-data .my-name {
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.widget.widget-about .head-bg .my-data .my-job {
+	font-size: 13px;
+}
+
+.widget.widget-about .my-words {
+	font-size: 13px;
+	line-height: 21px;
+}
+
+.widget.widget-about .social-icon a {
+	margin-right: 0px;
+	margin-left: 6px;
+	font-size: 13px;
+}
+
+.widget.widget-about .social-icon a i {
+	font-size: 13px;
+	line-height: 25px;
+}
+
+.widget .tagcloud a {
+	margin: 0 0 6px 3px;
+	font-size: 14px!important;
+}
+
+#wp-calendar {
+	font-size: 13px;
+	font-weight: 300;
+	margin-left: 0px;
+	margin-right: -2px;
+}
+
+#wp-calendar tfoot td#prev a, #wp-calendar tfoot td#next a {
+	font-size: 13px;
+	font-weight: 400;
+}
+
+#wp-calendar tfoot td#prev {
+	text-align: right;
+}
+
+#wp-calendar tfoot td#next {
+	text-align: left;
+}
+
+#wp-calendar thead th {
+	font-size: 13px;
+}
+
+.widget .grid-pics a {
+	margin-right: 0;
+	margin-left: 2%;
+}
+
+.widget .grid-pics a:nth-child(5n+0) {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.widget .grid-pics a:after {
+	left: auto;
+	right: 0;
+}
+
+.widget .widget-slider .owl-buttons {
+	right: auto;
+	left: 8px;
+}
+
+.widget .widget-slider .owl-buttons > div {
+	margin-left: 0px;
+	margin-right: 3px;
+}
+
+.widget .smart_post .post-thumb {
+	float: right;
+}
+
+.widget .smart_post .post-thumb a {
+	float: right;
+}
+
+.widget .smart_post .post-right {
+	padding-left: 0px;
+	padding-right: 60px;
+}
+
+.widget .smart_post .post-right h3 {
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 17px;
+}
+
+.widget .smart_post .post-right .post-meta {
+	font-size: 13px;
+}
+
+.widget .recentcomments .alignleft {
+	float: right;
+}
+
+.widget .recentcomments .comment-right {
+	padding-left: 0px;
+	padding-right: 60px;
+	font-size: 13px;
+	line-height: 19px;
+}
+
+.widget .recentcomments .comment-author {
+	text-transform: capitalize;
+}
+
+.widget .fetched_tweets li .wdtf-user-card {
+	float: right;
+}
+
+.widget .fetched_tweets li .tweet_data {
+	padding-left: 0px;
+	padding-right: 62px;
+}
+
+.widget .fetched_tweets li .wdtf-screen-name {
+	float: right;
+}
+
+.widget .fetched_tweets li .wdtf-screen-name a {
+	text-transform: capitalize;
+}
+
+.widget .fetched_tweets li .times {
+	float: left;
+}
+
+.widget .fetched_tweets li .times a {
+	font-size: 13px;
+	font-style: italic;
+}
+
+.st-pusher::after {
+	right: auto;
+	left: 0;
+}
+
+.st-menu::after {
+	right: auto;
+	left: 0;
+}
+
+/* .position-left .st-menu {
+	left: auto;
+	right: 0;
+}
+
+.position-left .st-pusher {
+	left: auto;
+	right: 0;
+}
+
+.position-right .st-menu {
+	right: auto;
+	left: 0;
+}
+
+.position-right .st-pusher {
+	right: auto;
+	left: 0;
+}
+*/
+.st-menu  .widget.widget-about .head-bg .my-pic {
+	left: auto;
+	right: 15px;
+}
+
+.st-menu .widget.widget-about .head-bg .my-data {
+	padding-left: 0px;
+	padding-right: 85px;
+}
+
+.no-csstransforms3d .position-left .st-pusher,
+.no-js .position-left .st-pusher {
+	padding-left: 0px;
+	padding-right: 300px;
+}
+
+.no-csstransforms3d .position-right .st-pusher,
+.no-js .position-right .st-pusher {
+	padding-right: 0px;
+	padding-left: 300px;
+}
+
+.blog-posts .post:before {
+  	right: auto;
+	left: 0;
+	border-width: 16px 16px 0 0;
+	border-color: #eee #fff #fff #fff;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.08), 1px 1px 1px rgba(0,0,0,0.08);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.08), 1px 1px 1px rgba(0,0,0,0.08);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.08), 1px 1px 1px rgba(0,0,0,0.08);
+}
+
+.blog-posts .post.sticky .sticky-icon {
+	left: auto;
+	right: -49px;
+}
+
+.blog-posts .post.sticky .sticky-icon i {
+	font-size: 13px;
+	line-height: 78px;
+}
+
+.post-head {
+	padding: 30px 40px 25px 140px;
+}
+
+.post-head h2.post-title {
+	font-size: 22px;
+	line-height: 28px;
+}
+
+.post-avatar {
+	right: auto;
+	left: 40px;
+}
+
+.post-meta li {
+	font-size: 13px;
+	margin-right: 0px;
+	margin-left: 20px;
+	line-height: 28px;
+}
+
+.post-meta li i {
+	font-size: 13px;
+	margin-right: 0px;
+	margin-left: 5px;
+	float: right;
+	line-height: 28px;
+}
+
+.post-gallery .owl-pagination {
+	left: auto;
+	right: 0;
+}
+
+.post-gallery .owl-buttons > div i {
+	line-height: 47px;
+	font-size: 13px;
+}
+
+.owl-carousel {
+	direction: ltr;
+}
+
+.lightbox-overlay {
+	font-size: 18px;
+}
+
+.lightbox-overlay i {
+	left: auto;
+	right: 50%;
+	margin-left: 0px;
+	margin-right: -22px;
+}
+
+.post-thumb .post-type-icon {
+	left: auto;
+	right: 50%;
+	margin-left: 0px;
+	margin-right: -22px;
+}
+
+.post-thumb .post-type-icon i {
+	font-size: 18px;
+}
+
+.post-quote-bg .post-type-icon {
+	right: auto;
+	left: 45px;
+	font-size: 3em;
+}
+
+.post-link .post-type-icon {
+	right: auto;
+	left: 48px;
+}
+
+.post-link .link {
+	font-size: 22px;
+}
+
+.content-area ol, .comment-body ol {
+	padding-left: 0px;
+	padding-right: 5px;
+}
+
+.content-area ol ol, .comment-body ol ol {
+	padding-left: 0px;
+	padding-right: 30px;
+}
+
+.content-area ul, .comment-body ul {
+	padding-left: 0px;
+	padding-right: 5px;
+}
+
+.content-area ul ul, .comment-body ul ul {
+	padding-left: 0px;
+	padding-right: 30px;
+}
+
+.post-entry-bottom .read-more {
+	float: right;
+	font-size: 13px;
+	letter-spacing: 0px;
+}
+
+.post-entry-bottom .read-more i {
+	margin-left: 0px;
+	margin-right: 3px;
+	font-size: 13px;
+}
+
+.post-entry-bottom .post-tags {
+	font-size: 13px;
+	float: right;
+}
+
+.post-entry-bottom .post-love-share {
+	float: left;
+	font-size: 13px;
+}
+
+.post-entry-bottom .post-love-share .post-share, .post-entry-bottom .post-love-share .post-love {
+	margin-left: 0px;
+	margin-right: 4px;
+}
+
+.post-entry-bottom .post-love-share .post-share a i, .post-entry-bottom .post-love-share .post-love a i {
+	font-size: 13px;
+	margin-left: 0px;
+	margin-right: 1px;
+}
+
+.sharing-modal .close {
+	right: auto;
+	left: 20px;
+}
+
+.sharing-modal .modal-dialog h2 {
+	font-size: 22px;
+}
+
+.sharing-modal .modal-dialog .social-icons a i {
+	font-size: 22px;
+}
+
+.author-bio .author-avatar {
+	float: right;
+}
+
+.author-bio .about-author {
+	padding-left: 0px;
+	padding-right: 80px;
+}
+
+.author-bio .about-author .author-name {
+	font-weight: 400;
+}
+.related-posts span, .related-posts span a {
+	font-size: 13px;
+}
+
+.commentlist li li {
+	padding-left: 0px;
+	padding-right: 50px;
+}
+
+.commentlist li .avatar {
+	float: right;
+}
+
+.commentlist li .comment-right {
+	padding-left: 0px;
+	padding-right: 70px;
+}
+
+.commentlist li .comment-right .comment-meta {
+	font-size: 13px;
+}
+
+#commentform p label, .wpcf7-form p label {
+	font-size: 13px;
+	line-height: 14px;
+}
+
+.about-me-page .my-social a i {
+	font-size: 13px;
+}
+
+.page-navigation .nav-next {
+	float: left;
+}
+
+.page-navigation .nav-previous {
+	float: right;
+}
+
+.page-navigation div a i {
+	font-size: 18px;
+}
+
+.page-navigation .nav-next span {
+	margin-right: 0px;
+	margin-left: 4px;
+}
+
+.page-navigation .nav-previous span {
+	margin-left: 0px;
+	margin-right: 4px;
+}
+
+.page-pagination li a, .page-pagination li span {
+	font-size: 13px;
+}
+
+button#load-more{
+	font-size: 13px;
+}
+
+button#load-more.loading{
+	padding-left: 5px;
+	padding-right: 40px;
+}
+
+button#load-more.loading:before {
+	left: auto;
+	right: 0;
+}
+	
+.page-inner:before {
+  	right: auto;
+	left: 0;
+	border-width: 16px 16px 0 0;
+	border-color: #eee #fff #fff #fff;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.08), 1px 1px 1px rgba(0,0,0,0.08);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.08), 1px 1px 1px rgba(0,0,0,0.08);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.08), 1px 1px 1px rgba(0,0,0,0.08);
+}
+
+.page-inner .page-header {
+	font-size: 22px;
+	line-height: 30px;
+}
+
+.error-msg h1 {
+	font-size: 120px;
+}
+
+.error-msg h2 {
+	font-size: 50px;
+}
+
+.no-results-msg p {
+	font-size: 13px;
+}
+
+.page-header, .search-results-title {
+	font-size: 22px;
+}
+
+.page-desc {
+	font-size: 13px;
+	letter-spacing: 0px;
+}
+
+.page-header:after, .search-results-title:after {
+	left: auto;
+	right: 0;
+}
+
+#gmap {
+	left:auto;
+	right: -50px;
+}
+
+div.wpcf7-response-output {
+	font-size: 13px;
+}
+
+div.wpcf7 img.ajax-loader {
+	left: auto;
+	right: 50%;
+}
+
+span.wpcf7-not-valid-tip {
+	font-size: 13px;
+}
+
+#footer p {
+	font-size: 13px;
+	float: right;
+}
+
+#footer .go-top {
+	float: left;
+	margin-left: 0px;
+	padding-left: 0px;
+	border-left: 0px solid rgba(0,0,0,0.1);
+	margin-right: 20px;
+	padding-right: 20px;
+	border-right: 1px solid rgba(0,0,0,0.1);
+}
+
+#footer .go-top a {
+	font-size: 13px;
+}
+
+#footer .social-icons {
+	float: left;
+}
+
+#footer .social-icons a {
+	font-size: 13px;
+	margin-left: 0px;
+	margin-right: 15px;
+}
+
+.toggle-item .panel-title a {
+	font-size: 13px;
+	letter-spacing: 0px;
+}
+
+.toggle-item .panel-title a:after {
+	left: auto;
+	right: 0;
+}
+
+.toggle-item .panel-title a i {
+	right: auto;
+	left: 0;
+	font-size: 13px;
+}
+
+.toggle-item .panel-collapse ul li i {
+	font-size: 13px;
+	margin-right: 0px;
+	margin-left: 12px;
+}
+
+.su-custom-gallery-slide a::before {
+	left: auto;
+	right: 0;
+}
+
+.su-custom-gallery-slide span {
+	right: 0!important;
+	left: auto!important;
+	font-size: 14px!important;
+	font-weight: 400;
+}
+
+pre,.su-slider {
+	direction: ltr;
+}
+
+.fa-angle-left:before {
+	content: "\f105";
+}
+
+.fa-angle-right:before {
+	content: "\f104";
+}
+
+.fa-caret-right:before {
+	content: "\f0d9";
+}
+
+.fa-caret-left:before {
+	content: "\f0da";
+
+}
+.su-quote-style-default:after {
+	bottom: auto !important;
+	top: 0 !important;
+}
+.su-quote-style-default:before {
+	top: auto !important;
+	bottom: 0 !important;
+}
+@media only screen and (max-width: 480px) {
+	.post-entry-bottom .read-more, .post-entry-bottom .post-love-share {
+		float: none;
+	}
+}

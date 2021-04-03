@@ -1,0 +1,109 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0051)http://www.talaserver.com/webservice/price_live.php -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>قیمت آنلاین و لحظه ای طلا / سکه / ارز</TITLE>
+<META http-equiv=content-type content="text/html; charset=utf-8">
+<META content="index, follow" name=robots>
+<META content="قیمت آنلاین و لحظه ای طلا  / سکه / ارز" name=description>
+<META content="MSHTML 6.00.3790.4732" name=GENERATOR>
+<META http-equiv=refreshx content=11>
+<SCRIPT language=javascript 
+src="قیمت آنلاین و لحظه ای طلا - سکه - ارز_files/ajax.js"></SCRIPT>
+
+<SCRIPT>
+setTimeout("ajax_request()",5000);
+/**Ajax Request (Submits the form below through AJAX
+ *               and then calls the ajax_response function)
+ */
+function ajax_request() {
+
+
+  var submitTo = 'price_live.php?mode=ajax';
+  //location.href = submitTo; //uncomment if you need for debugging
+  http('POST', submitTo, ajax_response,'salaam jeeegar khoobi');
+}
+
+/**Ajax Response (Called when ajax data has been retrieved)
+ *
+ * @param   object  data   Javascript (JSON) data object received
+ *                         through ajax call
+ */
+function ajax_response(data) {
+
+	
+  for(var key in data) {
+//	alert (key + " : "+ data[key]);
+	ccolor = "";
+	if (document.getElementById(key).innerHTML < data[key]) ccolor = "#FF0000";
+	if (document.getElementById(key).innerHTML > data[key]) ccolor = "#0000FF";
+//	if (document.getElementById(key).innerHTML == data[key]) ccolor = "#000000";
+	if (ccolor) document.getElementById(key).style.color = ccolor;
+//	alert (ccolor);
+	if (ccolor) document.getElementById(key).title = "قیمت قبلی" +" " + document.getElementById(key).innerHTML;
+	document.getElementById(key).innerHTML = data[key];
+//	alert (document.getElementById("sekke-nim").innerHTML);
+  }
+setTimeout("ajax_request()",10000);
+
+ }
+</SCRIPT>
+</HEAD>
+<BODY 
+style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px">
+<DIV align=center>
+<TABLE dir=ltr style="FONT-SIZE: 9pt; FONT-FAMILY: Tahoma" cellSpacing=0 
+cellPadding=0 width="95%">
+  <TBODY>
+  <TR align=middle>
+    <TD style="HEIGHT: 20px" bgColor=#ccccff colSpan=2><A 
+      style="COLOR: black; TEXT-DECORATION: none" href="http://www.tala.ir/" 
+      target=_blank>قیمت زنده طلا / ارز سایت طلا</A>&nbsp; </TD></TR>
+  <TR align=middle>
+    <TD id=dateam dir=rtl 
+    style="FONT-SIZE: 9pt; FONT-FAMILY: Tahoma; HEIGHT: 20px" colSpan=2>تاریخ 
+      : &nbsp;سه شنبه 10:38:50 </TD></TR><!--	<font color="#FF0000"> توجه: قیمت های قرمز رنگ معتبر نمی باشند </font> -->
+  <TR bgColor=#ffdfff>
+    <TD id=bazartehran style="HEIGHT: 20px" align=middle>1516000</TD>
+    <TD align=middle><FONT color=#000000>بازار تهران</FONT></TD></TR>
+  <TR bgColor=#ffffff>
+    <TD id=pbt style="HEIGHT: 20px" align=middle>1509700</TD>
+    <TD align=middle><FONT color=#000000>پیشبینی</FONT></TD></TR>
+  <TR bgColor=#ffffff>
+    <TD id=ounce style="HEIGHT: 20px" align=middle>1359.7</TD>
+    <TD align=middle><FONT color=#000000>انس</FONT></TD></TR>
+  <TR bgColor=#ffffff>
+    <TD id=pound style="HEIGHT: 20px" align=middle>17240</TD>
+    <TD align=middle><FONT color=#000000>پوند</FONT></TD></TR>
+  <TR bgColor=#ffffff>
+    <TD id=dolar style="HEIGHT: 20px" align=middle>10600</TD>
+    <TD align=middle><FONT color=#000000>دلار</FONT></TD></TR>
+  <TR bgColor=#ffffff>
+    <TD id=silver style="HEIGHT: 20px" align=middle>25.64</TD>
+    <TD align=middle><FONT color=#000000>نقره</FONT></TD></TR>
+  <TR bgColor=#ffffff>
+    <TD id=sekke-gad style="HEIGHT: 20px" align=middle>3730000</TD>
+    <TD align=middle><FONT color=#000000>سکه قدیم</FONT></TD></TR>
+  <TR bgColor=#ffffff>
+    <TD id=sekke-jad style="HEIGHT: 20px" align=middle>3420000</TD>
+    <TD align=middle><FONT color=#000000>سکه جدید</FONT></TD></TR>
+  <TR bgColor=#ffffff>
+    <TD id=sekke-nim style="HEIGHT: 20px" align=middle>1720000</TD>
+    <TD align=middle><FONT color=#000000>سکه نیم</FONT></TD></TR>
+  <TR bgColor=#ffffff>
+    <TD id=sekke-rob style="HEIGHT: 20px" align=middle>870000</TD>
+    <TD align=middle><FONT color=#000000>سکه ربع</FONT></TD></TR>
+  <TR bgColor=#ffffff>
+    <TD id=euro style="HEIGHT: 20px" align=middle>14600</TD>
+    <TD align=middle><FONT color=#000000>یورو</FONT></TD></TR>
+  <TR bgColor=#ffdfff>
+    <TD id=geram18 style="HEIGHT: 20px" align=middle>349970</TD>
+    <TD align=middle><FONT color=#000000>گرم 18 عیار</FONT></TD></TR>
+  <TR dir=rtl>
+    <TD style="HEIGHT: 20px" align=middle colSpan=2><A 
+      style="COLOR: black; TEXT-DECORATION: none" 
+      href="http://www.tala.ir/webservice.php" target=_blank>دریافت کد از سایت 
+      tala.ir</A></TD></TR>
+  <TR>
+    <TD style="HEIGHT: 20px" align=middle bgColor=black colSpan=2><A 
+      style="COLOR: #ffffff; TEXT-DECORATION: none" 
+      href="http://www.talaserver.com/webservice/"><SPAN>قیمت لحظه ای طلا 
+      9092301141</SPAN></A></TD></TR></TBODY></TABLE></DIV></BODY></HTML>

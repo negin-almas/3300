@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'BYekan';
+    src:  url('../fonts/YekanWeb-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BYekan';
+    src:  url('../fonts/YekanWeb-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'WIranian';
+    src: url('../fonts/IranianSerifWeb.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#redux-container .redux-action_bar {
+	float: left !important;
+}
+#redux-container #expand_options , #redux-sidebar , .cb-enable, .cb-disable, .cb-enable span, .cb-disable span
+,#redux-footer #redux-share{
+	float: right !important;
+}
+
+.redux-main {
+	margin-left: 0px;
+	border-left: 0px solid #D8D8D8;
+	margin-right: 201px;
+	border-right: 1px solid #D8D8D8;
+	padding: 10px 20px;
+	moz-box-shadow: inset 0 1px 0 #fff;
+	-webkit-box-shadow: inset 0 1px 0 #FFF;
+	box-shadow: inset 0 1px 0 #FFF;
+}
+
+.redux-sidebar {
+float: right;
+}
+
+#redux-main {
+	border-left: 0px !important;
+	margin-left: 0px !important;
+	border-right: 1px solid #d8d8d8 !important;
+	margin-right: 201px !important;
+}
+.redux-group-tab-link-a span.group_title {
+	padding-left: 0px !important;
+	padding-right: 30px !important;
+}
+.redux_slider {
+	margin-left: 0px !important;
+	margin-right: 15px !important;
+}
+
+.ui-button .ui-button-text {
+	font-family: Tahoma;
+}
+.redux-container-switch .switch-options {
+	float: right !important;
+}
+.redux-container-switch .cb-disable {
+	float: right !important;
+}
+.redux-container-switch .cb-enable {
+	float: left !important;
+}
+.redux-sidebar .redux-group-menu li a {
+	padding: 10px 14px 10px 4px;
+}
+#redux-header .display_header {
+	float: right;
+}
+strong {
+	font-weight: bold;
+}
+.redux-main .button.remove-image {
+	margin-left: 0;
+	margin-right: 10px;
+}
+.redux-main input[type=text],.redux-main textarea {
+	font-family: Tahoma;
+}
+input.regular-text, .large-text {
+	direction: ltr;
+}
+textarea {
+	resize: vertical;
+}
