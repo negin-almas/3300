@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>راهنمای  ارسال و دریافت پیامک 
+با استفاده از وب سرویس 
+نگین  ارتباط
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+	      href="../css/rest_api.css"/>
+    </head>
+    <body>
+        <div class="container" >
+                <nav class="docs-sidebar">
+                    <ul class="nav">
+                        <li id="title" >راهنمای  ارسال و دریافت پیامک 
+                                        با استفاده از وب سرویس 
+                                        نگین  ارتباط
+                        </li>
+                        <li class=""><a href="#Introduction">مقدمه</a></li>
+                        <li class=""><a href="#definitions">تعاریف </a></li>
+                        <li class=""><a href="#fault-codes">  کدهای  خطا</a></li>
+                        <li class=""><a href="#status-code">  کد  وضعیت پیامک</a></li>
+                        <li class=""><a href="#return-vlaues">   مقادیر بازگشتی در فراخوانی توابع </a></li>
+                        <li class=""><a href="#functions-list">  لیست توابع پرکاربرد</a></li>
+                        <li class=""><a href="#return-notes"> ملاحظات لازم در ارتباط با فراخوانی متدها </a></li>
+                    </ul>
+                </nav>
+                <div class="docs-content" >
+                    <section class="markdown-body entry-content" id="Introduction">
+                        <h2>مقدمه
+                        </h2>
+                        <p>مستند حاضر برای استفاده برنامه نویسانی طراحی شده است که می خواهند توسط برنامه خود نسبت به ارسال و دریافت پیامک بر بستر وب با استفاده از پروتکل SOAP اقدام نمایند. این وب سرویس امکاناتی از قبیل :</p>
+                        <ul>
+                            <li>	ارسال پیامک تکی و آرایه ای(چند تایی)</li>
+                            <li>	دریافت پیامک رسیده به خط پیامک</li>
+                            <li>	بررسی اعتبار خط پیامک و ...</li>
+                        </ul> 
+                        <p>را در اختیار شما قرار می دهد.</p>
+                        <p><b>نکته 1: توجه داشته باشید که کلمه عبور وب سرویس شما عبارتی غیر از کلمه عبور پنل پیامکی شما بوده و لازم است خودتان آن را انتخاب نمایید. </b></p>
+                        <p>مراحل کار:</p>
+                        <ul>
+                            <li>مرحله اول: ورود به پنل پیامک نگین </li>
+                            <li>مرحله دوم: ورود به بخش خدمات برنامه نویسان (از منوی سمت راست)</li>
+                            <li>مرحله دوم: ورود به بخش خدمات برنامه نویسان (از منوی سمت راست)</li>
+                        </ul>
+                        <h3>آدرس وب سرویس  <p>(بنابر تشخیص خود، یکی از دو آدرس زیر را انتخاب نمایید)</p></h3>
+                        <pre><a href="http://sms.3300.ir/almassms.asmx" target="blank">http://sms.3300.ir/almassms.asmx</a></pre>
+                        <pre><a href="https://sms.3300.ir/almassms.asmx" target="blank">https://sms.3300.ir/almassms.asmx</a></pre>
+                        <p>جهت مشاهده لیست توابع وب سرویس وارد این صفحه شوید: </p>
+                        <pre><a href="http://sms.3300.ir/almassms.asmx?wsdl"  target="blank">http://sms.3300.ir/almassms.asmx?wsdl</a></pre>
+                    </section>
+                    
+                    <section class="markdown-body entry-content" id="definitions">
+                        <h2>تعاریف
+                        </h2>
+                        <p>ارسال پیام به صورت نظیر به نظیر : در این حالت تمام پارامترهای متد باید دارای آرایه‌ا‌ی هم سایز و متناظر با آرایه پارامتر شماره دریافت کنندگان باشد. در این صورت میتوان SMS های گوناگونی به گیرندگان ارسال نمود.</p>
+                        <h3>ارسال پیام به صورت یک به چند  (بالک):</h3>
+                        <p>این حالت تمام پارامترهای متد به جز پارامتر شماره دریافت کنندگان باید دارای آرایه‌ا‌ی به طول یک باشد. در این صورت یک متن واحد برای چندین نفر (شماره گیرنده) فرستاده می‌شود.</p>
+                        <h3>شماره فرستنده :</h3>
+                        <p>هر حساب می‌تواند شماره‌های گوناگونی برای ارسال پیام کوتاه در اختیار داشته باشد و SMSهای خود را با هریک از آن شماره‌ها ارسال کند.</p>
+                        <h3>طول استاندارد پیامک: </h3>
+                        <p>سایز استاندارد پیامک 140 بایت می‌باشد. در صورتی که در متن پیامک از کاراکترهای Alphanumeric استفاده شود طول یک پیامک حداکثرمیتواند 160 کاراکتر، و در صورتی که از Unicode دو بایتی (کاراکترهای فارسی) استفاده شود طول استاندارد آن 65 و  طول حداکثر  پیامک (پیامک اول) 70 کاراکتر می‌تواند باشد.</p>
+                        <h3>Encodings: </h3>
+                        <p>عددی از نوع Integer است که برای مشخص کردن urlEncode پیام بکار می‌رود. مقادیر مجاز برای این پارامتر 1 ، 2 ، 5 یا 6 می‌باشد.</p>
+                        <ul>
+                            <li>عدد یک برای حالتی است که متن پیام حاوی کاراکترهای لاتین(ISO-8859-1) باشد.</li>
+                            <li>عدد دو برای حالتی که متن پیام حاوی کاراکترهای فارسی (UTF-8) باشد.</li>
+                            <li>عدد پنج برای حالتی که متن پیام حاوی Data (8-BIT) مانند ملودی باشد.</li>
+                            <li>عدد شش برای حالاتی متن پیام باینری (BINARY) باشد.</li>
+                        </ul>
+                        <p>مثال: اگر متن پیام شامل کاراکترهای خاص باشد باید از این encoding استفاده نمایید.</p>
+                        <h3>UDH : </h3>
+                        <p>رشته کدی است که برای اضافه کردن حالات خاص و گسترش قابلیت پیامک بکار می‌رود. در زیر به چند نمونه از این قابلیت ها اشاره می‌شود:</p>
+                        <ul>
+                            <li>Application Port Addressing: ارسال پیامک به گونه ای که گیرنده آن را بر روی پورت خاصی دریافت کند. این قابلیت برای نرم‌افزار‌های مبتنی بر موبایل کاربرد دارد.</li>
+                            <li>EMS (Enhanced Message Service: ارسال عکس، صدا و ... از طریق پیامک و همچنین فرمت دادن به متن پیام های ارسالی مانند: ایتالیک، بولد و ...</li>
+                        </ul>
+                        <h3>Message-class: </h3>
+                        <p>با تنظیم این پارامتر می‌توان نحوه دریافت پیامک روی گوشی گیرنده را به دلخواه تغییر داد، مقادیر قابل قبول برای این پارامتر چهار عدد 0، 1، 2 و 3 می‌باشد.</p>
+                        <ul>
+                            <li>: 0 پیامک بصورت مستقیم به روی صفحة موبایل شخص گیرنده فرستاده می‌شود. در این حالت پیامک در موبایل یا سیم کارت شخص گیرنده بصورت اتوماتیک ذخیره نمی‌شود.</li>
+                            <li>: 1 پیامک در حافظة موبایل شخص گیرنده ذخیره می‌شود.</li>
+                            <li>: 2 پیامک برروی حافظة سیم کارت شخص گیرنده ذخیره می‌شود.</li>
+                            <li>: 3 در صورتی که موبایل شخص گیرنده دارای یک نرم‌افزار کاربردی خاص برای ذخیره پیامک باشد و یا به یک نرم‌افزار کاربردی خاص بر روی یک کامپیوتر متصل باشد، پیامک دریافتی در آن نرم افزارها ذخیره می‌شود.</li>
+                        </ul>
+                        <h3>شماره پیامک: </h3>
+                        <p>وب سرویس نگین ارتباط به ازای هر درخواست ارسال پیامک که از کاربران دریافت می کند یک شناسه یکتا به آنها بر می‌گرداند و کاربران می‌توانند با استفاده از آن شناسه وضعیت ارسال پیامک خود را پیگیری کنند. </p>
+                        <p>در صورتی که این شماره پیامک کمتر از 1000 باشد کد خطا بوده و هزینه ارسال آن از اعتبار کاربر کسر نخواهد شد. شرح مقادیر کدهای خطا در جدول زیر آمده است:</p>
+                    </section>
+                    
+                    <section class="markdown-body entry-content" id="fault-codes">
+                        <h2>کدهای  خطا
+                        </h2>
+                               <table>
+                                 <tr>
+                                   <td>کد خطا</td>
+                                   <td>توضیحات  </td>
+                                 </tr>
+                                 <tr>
+                                   <td>1</td>
+                                   <td>شماره گیرنده(mobile)  نامعتبر (خالی) است.</td>
+                                 </tr>
+                                 <tr>
+                                   <td>2</td>
+                                   <td>مقدار پارامتر line نامعتبر است. (خطوط 3000 با 983000….. شروع می شوند)</td>
+                                 </tr>
+                                 <tr>
+                                     <td>3</td>
+                                     <td>مقدار پارامتر encoding نامعتبر است.</td>
+                                 </tr>
+                                 <tr>
+                                     <td>4</td>
+                                     <td>مقدار پارامتر messageClass نامعتبر  است.</td>
+                                 </tr>
+                                 <tr>
+                                     <td>6</td>
+                                     <td>مقدار پارامتر messageClass نامعتبر  است.</td>
+                                 </tr>
+                                 <tr>
+                                     <td>13</td>
+                                     <td>پیامک (ترکیب udh و message ) خالی است.</td>
+                                 </tr>
+                                 <tr>
+                                     <td>14</td>
+                                     <td>حساب اعتبار مورد نیاز را دارا نمی‌باشد.</td>
+                                 </tr>
+                                 <tr>
+                                     <td>15</td>
+                                     <td>سرور در هنگام ارسال پیام مشغول برطرف نمودن ایراد داخلی بوده و لازم است پیام‌ها دوباره ارسال شوند.</td>
+                                 </tr>
+                                 <tr>
+                                     <td>16</td>
+                                     <td>حساب غیر فعال می باشد.</td>
+                                 </tr>
+                                 <tr>
+                                     <td>17</td>
+                                     <td>حساب منقضی شده است. (expired)</td>
+                                 </tr>
+                                 <tr>
+                                     <td>18</td>
+                                     <td>نام کاربر و یا کلمه ی عبور نامعتبر است.</td>
+                                 </tr>
+                                 <tr>
+                                     <td>19</td>
+                                     <td>درخواست دارای اعتبار نمی‌باشد. (authentication failure)</td>
+                                 </tr>
+                                 <tr>
+                                     <td>22</td>
+                                     <td>استفاده از این سرویس برای این حساب مقدور نمی‌باشد.</td>
+                                 </tr>
+                                 <tr>
+                                     <td>23</td>
+                                     <td>به دلیل ترافیک بالا، سرور آمادگی دریافت پیام جدید را ندارد. دوباره سعی کنید.</td>
+                                 </tr>
+                                 <tr>
+                                     <td>24</td>
+                                     <td>شناسه پیامک معتبر نمی‌باشد.</td>
+                                 </tr>
+                                 <tr>
+                                     <td>25</td>
+                                     <td>نوع سرویس درخواستی نامعتبر است.</td>
+                                 </tr>
+                                 <tr>
+                                     <td>27</td>
+                                     <td>انصراف مخاطب از دریافت پیامک اینترنتی</td>
+                                 </tr>
+                                 <tr>
+                                     <td>101</td>
+                                     <td>طول آرایه پارامتر messages با طول آرایه گیرندگان تطابق ندارد.</td>
+                                 </tr>
+                                 <tr>
+                                     <td>102</td>
+                                     <td>طول آرایه پارامتر messageClass با طول آرایه گیرندگان تطابق ندارد.</td>
+                                 </tr>
+                                 <tr>
+                                     <td>104</td>
+                                     <td>طول آرایه پارامتر udhs با طول آرایه گیرندگان تطابق ندارد.</td>
+                                 </tr>
+                                 <tr>
+                                     <td>105</td>
+                                     <td>طول آرایه پارامتر priorities با طول آرایه گیرندگان تطابق ندارد.</td>
+                                 </tr>
+                                 <tr>
+                                     <td>106</td>
+                                     <td>آرایه‌ی گیرندگان خالی می باشد.</td>
+                                 </tr>
+                                 <tr>
+                                     <td>107</td>
+                                     <td>طول آرایه پارامتر گیرندگان بیشتر از طول مجاز است.</td>
+                                 </tr>
+                                 <tr>
+                                     <td>108</td>
+                                     <td>آرایه ی فرستندگان خالی می‌باشد.</td>
+                                 </tr>
+                                 <tr>
+                                     <td>109</td>
+                                     <td>طول آرایه پارامتر priorities با طول آرایه گیرندگان تطابق ندارد.</td>
+                                 </tr>
+                                 <tr>
+                                     <td>409</td>
+                                     <td>حداقل فاصله زمانی بین درخواست ها رعایت نشده است. (حداقل پنج ثانیه)</td>
+                                 </tr>
+                               </table>
+                    </section>
+                    
+                    <section class="markdown-body entry-content" id="status-code">
+                        <h2>  
+کد  وضعیت پیامک                              
+                        </h2>
+                        <p>کد‌های وضعیت ارسال به شرح ذیل می‌باشد.</p>
+                        <ul>
+                            <li>کد 1- : ارسال نشده</li>
+                            <li>کد 1: گیرنده، پیام ارسالی را دریافت کرده است.</li>
+                            <li>کد 2: گیرنده، پیام ارسالی را دریافت نکرده است و پیام fail شده است و در صورت نیاز برنامه سمت مشتری می‌تواند مجدداً عملیات ارسال را تکرار نماید.</li>
+                            <li>کد 8: مخابرات، پیام ارسالی را دریافت کرده است.</li>
+                            <li>کد 16: مخابرات، پیام ارسالی را دریافت نکرده است. و در صورت نیاز برنامه سمت مشتری می‌تواند مجدداً عملیات ارسال را تکرار نماید.</li>
+                        </ul>
+                    </section>
+                    
+                    <section class="markdown-body entry-content" id="return-vlaues">
+                        <h2>  مقادیر بازگشتی در فراخوانی توابع 
+                        </h2>
+                        <p> کلیه متد های وب سرویس یک عدد را در خروجی خود بر می گردانند. 
+                            این عدد به برنامه نویس می گوید آیا متد به درستی اجرا شده است یا خیر.
+                            معنی مقادیر بازگشتی توسط متد ها در جدول زیر خلاصه شده است:
+                        </p>
+                        <table>
+                            <tr>
+                                <td>کد خطا</td>
+                                <td>شرح</td>
+                            </tr>
+                            <tr>
+                                <td>2- (عدد منفی)</td>
+                                <td>متد با موفقیت اجرا شده است </td>
+                            </tr>
+                            <tr>
+                                <td>0</td>
+                                <td>اجرای سرویس با خطای غیر منتظره (Exception) مواجه شده است.لطفا پارامتر های خود را چک نمایید </td>
+                            </tr>
+                            <tr>
+                                <td>14</td>
+                                <td>اعتبار ریالی کافی برای اجرای متد وجود ندارد </td>
+                            </tr>
+                            <tr>
+                                <td>18</td>
+                                <td>نام کاربری و یا کلمه عبور اشتباه است. (نکته 1 از مقدمه همین راهنما را ملاحظه کنید)</td>
+                            </tr>
+                            <tr>
+                                <td>20</td>
+                                <td>شناسه پیامک اشتباه است </td>
+                            </tr>
+                            <tr>
+                                <td>100</td>
+                                <td>طول آرایه ENCODING اشتباه است </td>
+                            </tr>
+                            <tr>
+                                <td>101</td>
+                                <td>طول آرایه MESSAGE اشتباه است </td>
+                            </tr>
+                            <tr>
+                                <td>102</td>
+                                <td>طول آرایه اشتباه MCLASS است </td>
+                            </tr>
+                            <tr>
+                                <td>103</td>
+                                <td>طول آرایه MOBILES اشتباه است </td>
+                            </tr>
+                            <tr>
+                                <td>104</td>
+                                <td>طول آرایه UDH اشتباه است </td>
+                            </tr>
+                        </table>
+                    </section>
+                    
+                    <section class="markdown-body entry-content" id="functions-list">
+                        <h2>  
+                            لیست توابع پرکاربرد
+                        </h2>
+                        <h3>SendSms (برای ارسال پیامک)</h3>
+                        <h4>نحوه فراخوانی</h4>
+                        <div class="alert alert-info" style="text-align: left">public long SendSms(string pUsername, string pPassword, string[] messages, string[] mobiles , out long[] pMessageIds)</div>
+                        <h4>پارامتر های ورودی</h4>
+                        <div class="alert alert-info">
+                            <ul>
+                                <li>pUsername: نام کاربری</li>
+                                <li>pPassword: کلمه عبور</li>
+                                <li>Messages: آرایه ای از متن پیامکها</li>
+                                <li>Mobiles: آرایه ای از شماره های همراه دریافت کننده پیامک</li>
+                            </ul>
+                        </div>
+                        <h4>پارامترهای خروجی</h4>
+                        <div class="alert alert-info">pMessageIds: آرایه ای از شناسه های پیام</div>
+                        <h4>مقدار بازگشتی</h4>
+                        <div class="alert alert-info" >در صورت صحت اجرای متد، عددی منفی و در صورت رخ دادن خطا، شماره خطا  </div>
+                        
+                        <h3>SendSms2 (برای ارسال پیامک)</h3>
+                        <h4>نحوه فراخوانی</h4>
+                        <div class="alert alert-info" style="text-align: left">public long SendSms2(string pUsername, string pPassword, string[] messages, string[] mobiles, string[] UDH, int[] encodings,int[] mclass, out long[] pMessageIds)</div>
+                        <h4>پارامتر های ورودی</h4>
+                        <div class="alert alert-info">
+                            <ul>
+                                <li>pUsername: نام کاربری</li>
+                                <li>pPassword: کلمه عبور</li>
+                                <li>Messages: آرایه ای از متن پیامکها</li>
+                                <li>Mobiles: آرایه ای از شماره های همراه دریافت کننده پیامک</li>
+                                <li>UDH</li>
+                                <li>Encodings</li>
+                                <li>mClass</li>
+                            </ul>
+                        </div>
+                        <h4>پارامترهای خروجی</h4>
+                        <div class="alert alert-info">pMessageIds: آرایه ای از شناسه های پیام</div>
+                        <h4>مقدار بازگشتی</h4>
+                        <div class="alert alert-info" >در صورت صحت اجرای متد، عددی منفی و در صورت رخ دادن خطا، شماره خطا</div>
+                        
+                        <h3>GetMessageStatus2 (برای دریافت وضعیت پیامک ها)</h3>
+                        <h4>نحوه فراخوانی</h4>
+                        <div class="alert alert-info" style="text-align: left">public long GetMessageStatus2(string pUsername, string pPassword, long[] pMessageIds, out int[] pStatuses, out long[] pMsgIds)</div>
+                        <h4>پارامتر های ورودی</h4>
+                        <div class="alert alert-info">
+                            <ul>
+                                <li>pUsername: نام کاربری</li>
+                                <li>pPassword: کلمه عبور</li>
+                                <li>Messages: آرایه ای از متن پیامکها</li>
+                            </ul>
+                        </div>
+                        <h4>پارامترهای خروجی</h4>
+                        <div class="alert alert-info">
+                            <ul>
+                                <li>pStatuses: آرایه ای از وضعیت مخابرات مربوط به شناسه های پیام</li>
+                                <li>pMsgIds: آرایه شناسه های پیام متناظر با ارایه وضعیتها</li>
+                            </ul>
+                        </div>
+                        <h4>مقدار بازگشتی</h4>
+                        <div class="alert alert-info" >در صورت صحت اجرای متد، عددی منفی و در صورت رخ دادن خطا، شماره خطا</div>
+                        
+                        <h3>GetReceivedSms2 (برای دریافت پیامک های دریافت شده)</h3>
+                        <h4>نحوه فراخوانی</h4>
+                        <div class="alert alert-info" style="text-align: left">public long GetReceivedSms2(string pUsername, string pPassword, out string pMessages, out string pFroms, out string pSmsc, out string pMessageIds, out DateTime pEnteredDate)</div>
+                        <h4>پارامتر های ورودی</h4>
+                        <div class="alert alert-info">
+                            <ul>
+                                <li>pUsername: نام کاربری</li>
+                                <li>pPassword: کلمه عبور</li>
+                            </ul>
+                        </div>
+                        <h4>پارامترهای خروجی</h4>
+                        <div class="alert alert-info">
+                            <ul>
+                                <li>pMessages</li>
+                                <li>pFroms</li>
+                                <li>pSmsc</li>
+                                <li>pMessageIds</li>
+                                <li>pEnteredDate</li>
+                            </ul>
+                        </div>
+                        <h4>مقدار بازگشتی</h4>
+                        <div class="alert alert-info" >در صورت صحت اجرای متد، عددی منفی و در صورت رخ دادن خطا، شماره خطا</div>
+                        
+                        <h3>ChangePassword (برای تغییر کلمه عبور)</h3>
+                        <h4>نحوه فراخوانی</h4>
+                        <div class="alert alert-info" style="text-align: left">public int ChangePassword(string pUsername, string pPassword, string pNewPassword)</div>
+                        <h4>پارامتر های ورودی</h4>
+                        <div class="alert alert-info">
+                            <ul>
+                                <li>pUsername: نام کاربری</li>
+                                <li>pPassword: کلمه عبور</li>
+                                <li>pNewPassword: کلمه عبور جدید</li>
+                            </ul>
+                        </div>
+                        <h4>پارامترهای خروجی</h4>
+                        <div class="alert alert-info"></div>
+                        <h4>مقدار بازگشتی</h4>
+                        <div class="alert alert-info" >در صورت صحت اجرای متد، عددی منفی و در صورت رخ دادن خطا، شماره خطا</div>
+                        
+                        <h3>GetCredit (برای دریافت میزان اعتبار باقیمانده)</h3>
+                        <h4>نحوه فراخوانی</h4>
+                        <div class="alert alert-info" style="text-align: left">public long GetCredit(string pUsername, string pPassword, out long pCredit)</div>
+                        <h4>پارامتر های ورودی</h4>
+                        <div class="alert alert-info">
+                            <ul>
+                                <li>pUsername: نام کاربری</li>
+                                <li>pPassword: کلمه عبور</li>
+                            </ul>
+                        </div>
+                        <h4>پارامترهای خروجی</h4>
+                        <div class="alert alert-info">
+                                pCredit: میزان اعتبار باقیمانده به ریال
+                        </div>
+                        <h4>مقدار بازگشتی</h4>
+                        <div class="alert alert-info" >در صورت صحت اجرای متد، عددی منفی و در صورت رخ دادن خطا، شماره خطا</div>
+                        
+                        <h3>GetSmsCost (برای مشاهده هزینه یک پیامک)</h3>
+                        <h4>نحوه فراخوانی</h4>
+                        <div class="alert alert-info" style="text-align: left">public int GetSmsCost(string pUsername, string pPassword, string sms, out int cost)</div>
+                        <h4>پارامتر های ورودی</h4>
+                        <div class="alert alert-info">
+                            <ul>
+                                <li>pUsername: نام کاربری</li>
+                                <li>pPassword: کلمه عبور</li>
+                                <li>sms: متن پیامک</li>
+                            </ul>
+                        </div>
+                        <h4>پارامترهای خروجی</h4>
+                        <div class="alert alert-info">
+                                cost: هزینه ارسال پیامک به ریال
+                        </div>
+                        <h4>مقدار بازگشتی</h4>
+                        <div class="alert alert-info" >در صورت صحت اجرای متد، عددی منفی و در صورت رخ دادن خطا، شماره خطا</div>
+                        <p>در این بخش حالات ممکن برای ارسال بررسی می‌شود. 
+                        برای هر یک از دو پارامتر  messages و mobiles، می توان یکی از مقدار 1 و N را در نظر گرفت.
+                        در اینصورت، 2 حالت کلی برای ارسال پیامک وجود دارد:
+                        </p>
+                        <p>1-	ارسال یک پیام برای چند گیرنده: messages = 1 , mobiles = N </p>
+                        <p>2-	ارسال چند پیام برای چند گیرنده: messages = N , mobiles = N</p>
+                        <p>در صورتی‌ که قصد مقدار دهی آرایه‌های encodings, udh, mClass را دارید، توجه داشته باشید که طول این آرایه ها یا باید برابر با طول دیگر پارامترها یا برابر با یک  باشند. </p>
+                        <p>در حالت اول مقدار پارامترها برای تمامی پیام‌ها برای همه یکسان و برابر با پارامتر ارسالی – که طول آن یک است – در نظر گرفته خواهد شد. در حالت دوم، مقادیر آنها برای هر پیام به صورت متناظر و بر اساس مقادیر ارسالی برای هر پیام ارسال خواهند شد. </p>
+                    </section>
+                    
+                    <section class="markdown-body entry-content" id="return-notes">
+                        <h2>   ملاحظات لازم در ارتباط با فراخوانی متدها
+                        </h2>
+                        <ul>
+                            <li>ترتیب پارامترها دارای اهمیت است و جابجایی مجاز نیست.</li>
+                            <li>حداکثر تعداد عناصر آرایه‌ در هر بار ارسال 50 پیام می‌باشد.</li>
+                            <li>پارامترهای ورودی، حتماً باید به عنوان ورودی به متد ارسال شوند و در صورت خالی گذاشتن آنها پیغام خطا داده می‌شود.</li>
+                            <li>در بالک نظیر به نظیر لازم است ملاحظات لازم در مورد طول آرایه‌ها – که در بخش‌های پیشین آمد – مد نظرقرار داده شوند.</li>
+                            <li>در هنگام تعیین وضعیت مخابرات، فقط تا 7 روز بعد از ارسال پیامک، امکان بررسی وضعیت وجود دارد و بعد از آن وضعیت پیامک، نامشخص خواهد بود.</li>
+                        </ul>
+                       </section>
+                </div>
+        </div>
+        
+        <nav class="nav-container navbar"
+                role="navigation">
+                   <div class="collapse navbar-collapse"
+                        id="navbar-top">
+                           <ul class="nav navbar-nav">
+                                   <li class="active">
+                                           <a href="index.php#home"
+                                              class="page-scroll">خانه
+                                           </a>
+                                   </li>
+                                   <li>
+                                           <a href="index.php#traffic"
+                                              class="page-scroll">تامین ترافیک
+                                           </a>
+                                   </li>
+                                   <li>
+                                           <a href="index.php#panel"
+                                              class="page-scroll">سامانه ها
+                                           </a>
+                                   </li>
+                                   <li>
+                                           <a href="index.php#webservice"
+                                              class="page-scroll">وب سرویس
+                                           </a>
+                                   </li>
+                                   <li>
+                                           <a href="index.php#bulk"
+                                              class="page-scroll">ارسال تبلیغاتی
+                                           </a>
+                                   </li>
+                                   <li>
+                                           <a href="index.php#about"
+                                              class="page-scroll">نگین ارتباط
+                                           </a>
+                                   </li>
+                                   <li>
+                                           <a href="index.php#contact"
+                                              class="page-scroll">تماس با ما
+                                           </a>
+                                   </li>
+                           </ul>
+                   </div>
+           </nav>
+    </body>
+    
+</html>
