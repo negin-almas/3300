@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>راهنمای ارسال و دریافت وضعیت پیامک 
+با استفاده از REST API
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+	      href="../css/rest_api.css"/>
+    </head>
+    <body>
+        <div class="container" >
+                <nav class="docs-sidebar">
+                    <ul class="nav">
+                        <li id="title" >راهنمای ارسال و دریافت وضعیت پیامک 
+با استفاده از                                    REST API
+                        </li>
+                        <li class=""><a href="#sms-send">ارسال پیامک با استفاده از Rest Api</a></li>
+                        <li class=""><a href="#first-senario">سناریوی شماره یک : ارسال پیامک تکی</a></li>
+                        <li class=""><a href="#second-senario">سناریوی شماره دو : ارسال پیامک با خط خدماتی متعلق به نگین رایانه</a></li>
+                        <li class=""><a href="#third-senario">سناریوی شماره سه : ارسال پیامک با خط اینترنتی و پشتیبانی خط دوم</a></li>
+                        <li class=""><a href="#fourth-senario">سناریوی شماره چهار : ارسال پیامک با خط اینترنتی و پشتیبانی چلچله</a></li>
+                        <li class=""><a href="#fifth-senario">سناریوی شماره پنج : ارسال پیامک با خط اینترنتی و پشتیبانی خط خدماتی نگین رایانه</a></li>
+                        <li class=""><a href="#status">دریافت وضعیت پیامک با استفاده از Rest Api</a></li>
+                    </ul>
+                </nav>
+                <div class="docs-content" >
+                    <section class="markdown-body entry-content" id="basic-intro">
+                        <h2>معرفی REST API
+                        </h2>
+                        <p>همان طور که شاید تا به حال شنیده باشید API مخفف عبارت Application Programming Interface می‌باشد که به برنامه نویسان امکان رد و بدل کردن اطلاعات مابین پلتفرم های مختلف را از طریق ارسال یک درخواست HTTP(S) ساده و فراخوانی متد های مورد نظر می‌دهد</p>
+                        <p>در واقع REST یک روش ساده و انعطاف پذیری برای استفاده از API است و البته محبوب ترین و پر کاربرد ترین که می‌توان توسط این ساختار از هر کلاینت و پلتفرمی ‌درخواست ساده HTTP(S) را ارسال و پاسخ آن را دریافت نمود.</p>
+                        <p>حال فرض کنید در خواست مورد نظر اطلاعات مربوط به ارسال یک پیامک باشد و جواب آن نتیجه و وضعیت پیامک ارسالی باشد.
+وب سرویس ارسال پیامک کاوه نگار شماره گیرنده ، متن پیامک و شماره فرستنده را از طریق پارامتر های ورودی در متد GET یا POST دریافت می‌کند و خروجی را در غالب فرمت های XML و JSON برگشت می‌دهد.</p>
+                        <p>نکته : اگر با JSON آشنائی ندارید می‌توانید با مراجعه به سایت json.org هم از ساختار فرمت آن مطلع شوید و هم درایور مربوط به زبان برنامه نویسی مورد نظر خود را دریافت نمائید.
+
+</p>
+                    </section>
+                    
+                    <section class="markdown-body entry-content" id="sms-send">
+                        <h2>ارسال پیامک با استفاده از   REST API
+                        </h2>
+                        <pre>
+Request
+    url= http://sms.3300.ir/api/wsSend.ashx
+
+POST parameters
+    username:USERNAME
+    password:PASSWORD
+    mobile:MOBILE
+    message:MESSAGE_TEXT
+    line:SMS_LINE_NUMBER
+    line2:SMS_LINE_NUMBER2
+    type:0
+    template:0
+
+Response sample
+{
+  "data": {
+    "message_id": 3403,
+    "line": 9830003300,
+    "mobile": "989395213300"
+  },
+  "status": -1,
+  "msg": "success"
+}
+                        </pre>
+                        <div class="alert alert-info" >
+                            line2: اگر ارسال پیامک با line به خطای انصراف از دریافت خورد، پیامک با line2 ارسال می شود.
+                        </div>
+                        <div class="alert alert-info">
+                            type: یکی از سه مقدار روبرو را می تواند داشته باشد: 0 = ارسال معمولی 1 = ارسال با چلچله 2 = ارسال با خط خدماتی نگین رایانه
+                        </div>
+                    </section>
+                    
+                    <section class="markdown-body entry-content" id="first-senario">
+                        <h2>سناریوی شماره یک : ارسال پیامک تکی
+                        </h2>
+                        <pre>
+Request
+    url= http://sms.3300.ir/api/wsSend.ashx
+
+POST parameters
+    username:USERNAME
+    password:PASSWORD
+    mobile:MOBILE
+    message:MESSAGE_TEXT
+    line:SMS_LINE_NUMBER
+                        </pre>
+                    </section>
+                    
+                    <section class="markdown-body entry-content" id="second-senario">
+                        <h2> سناریوی شماره دو : ارسال پیامک با خط خدماتی متعلق به نگین رایانه 
+                        </h2>
+                        <pre>
+Request
+    url= http://sms.3300.ir/api/wsSend.ashx
+
+POST parameters
+    username:USERNAME
+    password:PASSWORD
+    mobile:MOBILE
+    message:MESSAGE_TEXT
+    type:2
+                        </pre>
+                    </section>
+                    
+                    <section class="markdown-body entry-content" id="third-senario">
+                        <h2> سناریوی شماره سه : ارسال پیامک با خط اینترنتی و پشتیبانی خط دوم
+                        </h2>
+                        <p>                        در صورتی که ارسال با خط اینترنتی به مشکل انصراف از دریافت برخورد کرد، ارسال با خط دوم انجام می شود
+                        </p>
+                        <pre>
+Request
+    url= http://sms.3300.ir/api/wsSend.ashx
+
+POST parameters
+    username:USERNAME
+    password:PASSWORD
+    mobile:MOBILE
+    message:MESSAGE_TEXT
+    line:SMS_LINE_NUMBER
+    line2:SMS_LINE_NUMBER2
+                        </pre>
+                    </section>
+                    
+                    <section class="markdown-body entry-content" id="fourth-senario">
+                        <h2> سناریوی شماره چهار : ارسال پیامک با خط اینترنتی و پشتیبانی چلچله
+                        </h2>
+                        <p>                        درصورتی که ارسال پیامک با خط اینترنتی به مشکل انصراف از دریافت برخورد کرد، ارسال از طریق چلچله انجام خواهد شد. 
+                        </p>
+                        <pre>
+Request
+    url= http://sms.3300.ir/api/wsSend.ashx
+
+POST parameters
+    username:USERNAME
+    password:PASSWORD
+    mobile:MOBILE
+    message:MESSAGE_TEXT
+    line:SMS_LINE_NUMBER
+    type:1
+                        </pre>
+                    </section>
+                    
+                    <section class="markdown-body entry-content" id="fifth-senario">
+                        <h2> سناریوی شماره پنج : ارسال پیامک با خط اینترنتی و پشتیبانی خط خدماتی نگین رایانه
+                        </h2>
+                        <p>                       درصورتی که ارسال پیامک با خط اینترنتی به مشکل انصراف از دریافت برخورد کرد، ارسال از طریق خط خدماتی متعلق به نگین رایانه انجام خواهد شد.
+                        </p>
+                        <pre>
+Request
+    url= http://sms.3300.ir/api/wsSend.ashx
+
+POST parameters
+    username:USERNAME
+    password:PASSWORD
+    mobile:MOBILE
+    message:MESSAGE_TEXT
+    line:SMS_LINE_NUMBER
+    type:2
+    template:0
+                        </pre>
+                        <div class="alert alert-info">template: در صورتی که بیش از یک متن برای ارسال با خط خدماتی نگین رایانه وجود دارد شماره تمپلیت را ارسال کنید.</div>
+                    </section>
+                    
+                    <section class="markdown-body entry-content" id="status">
+                        <h2> دریافت وضعیت پیامک با استفاده از   REST API
+                        </h2>
+                        <p>                        درصورتی که ارسال پیامک با خط اینترنتی به مشکل انصراف از دریافت برخورد کرد، ارسال از طریق خط خدماتی متعلق به نگین رایانه انجام خواهد شد.
+                        </p>
+                        <pre>
+Request
+    url= http://sms.3300.ir/api/wsStates.ashx
+
+POST parameters
+    username:USERNAME
+    password:PASSWORD
+    message_ids: "6062,6063,6064"
+Response sample
+{
+"data": {
+" msgIds": "6062,6063,6064",
+  	"states":  "1,0,8"
+  	},
+"status": -1,
+"msg": "success"
+}
+
+                        </pre>
+                        <div class="alert alert-info">message_ids: شناسه پیامکهایی که هنگام ارسال پیامک از سرور دریافت شده اند. این شناسه ها باید با کاما (,) از  یکدیگر جدا شوند.</div>
+                        <div class="alert alert-info">فیلد data  در پاسخ بازگشتی از سرور در صورتی که فیلد status  برابر 1-  باشد دارای دو خصوصیت msgIds و states است.</div>
+                        <div class="alert alert-info">فیلد msgIds شامل شناسه های پیام است که با کاما از هم جدا شده اند و فیلد states شامل وضعیت پیامها به صورت نظیر به نظیر با فیلد msgIds است و با کاما از هم جدا شده اند. وضعیت هر پیام می تواند یکی از کدهای زیر باشد:</div>
+                        <table style="width:100%">
+                          <tr>
+                            <td>1- : ارسال نشده به اپراتور</td>
+                            <td>2: عدم دریافت توسط گوشی</td> 
+                          </tr>
+                          <tr>
+                            <td>0: نامشخص</td>
+                            <td>8 : دریافت شده توسط اپراتور</td> 
+                          </tr>
+                          <tr>
+                            <td>1: دریافت توسط گوشی</td>
+                            <td>16: عدم دریافت توسط اپراتور</td> 
+                          </tr>
+                        </table>
+                    </section>
+                </div>
+        </div>
+        
+        <nav class="nav-container navbar"
+                role="navigation">
+                   <div class="collapse navbar-collapse"
+                        id="navbar-top">
+                           <ul class="nav navbar-nav">
+                                   <li class="active">
+                                           <a href="index.php#home"
+                                              class="page-scroll">خانه
+                                           </a>
+                                   </li>
+                                   <li>
+                                           <a href="index.php#traffic"
+                                              class="page-scroll">تامین ترافیک
+                                           </a>
+                                   </li>
+                                   <li>
+                                           <a href="index.php#panel"
+                                              class="page-scroll">سامانه ها
+                                           </a>
+                                   </li>
+                                   <li>
+                                           <a href="index.php#webservice"
+                                              class="page-scroll">وب سرویس
+                                           </a>
+                                   </li>
+                                   <li>
+                                           <a href="index.php#bulk"
+                                              class="page-scroll">ارسال تبلیغاتی
+                                           </a>
+                                   </li>
+                                   <li>
+                                           <a href="index.php#about"
+                                              class="page-scroll">نگین ارتباط
+                                           </a>
+                                   </li>
+                                   <li>
+                                           <a href="index.php#contact"
+                                              class="page-scroll">تماس با ما
+                                           </a>
+                                   </li>
+                           </ul>
+                   </div>
+           </nav>
+    </body>
+    
+</html>

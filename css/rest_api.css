@@ -1,0 +1,296 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+
+@font-face {
+	font-family : 'Yekan';
+	font-weight : normal;
+	src         : url('../fonts/yekan-regular.woff') format('woff');
+}
+
+@font-face {
+	font-family : 'Yekan';
+	font-weight : bold;
+	src         : url('../fonts/yekan-bold.woff') format('woff');
+}
+
+@font-face {
+	font-family : 'IranSans';
+	font-weight : normal;
+	src         : url('../fonts/IRAN%20Sans.ttf') format('woff');
+}
+
+@font-face {
+	font-family : 'IranSans';
+	font-weight : bold;
+	src         : url('../fonts/IRAN%20Sans%20Bold.ttf') format('woff');
+}
+
+html {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    background: #fcb941 url(../images/traffic-back.jpg)}
+
+body {
+	padding-top: 30px;
+        direction: rtl;
+        text-align: right;
+        font-family : 'Yekan', Arial, sans-serif;
+}
+div {
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.docs-sidebar {
+    padding-bottom: 70px;
+    padding-top: 15px;
+    width: 300px;
+    position: fixed;
+    overflow-y: auto;
+    height: calc(100vh - (0px +0px));
+    display: block;
+    border-right: 1px solid #dddddd;
+    background: rgba(240,230,131, 0.6);
+}
+
+
+.nav {
+    padding-right: 0;
+    padding-left: initial;
+    margin-bottom: 0;
+    list-style: none;
+    display: block;
+}
+
+ul {
+    margin-top: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+#title {
+    padding: 5px 5px;
+    text-align: center;
+    border-bottom: 1px solid #dddddd;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 1px 1px 0 #000;  
+    font-family : 'IranSans', Arial, sans-serif;
+}
+
+.nav > li {
+    position: relative;
+    display: block;
+    text-align: -webkit-match-parent;
+    margin: 10px 0;
+}
+
+.docs-sidebar ul > li > a {
+    padding: 5px 15px;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: rgba(0,0,0,0.8);
+    text-transform: capitalize;
+    font-family : 'Yekan', Arial, sans-serif;    
+    position: relative;
+    display: block;
+    text-decoration: none;
+    background-color: transparent;
+    line-height: 25px;
+}
+
+.docs-sidebar ul > li > a:hover {
+    background-color: #555;
+    color: white;
+}
+.docs-content {
+    width: calc(100% - 300px);
+    float: left;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+
+
+.markdown-body {
+    background: rgba(240,230,131, 0.6);
+    /*background-color: #fff;*/
+    border: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    line-height: 2;
+    margin-bottom: 15px;
+    padding: 30px !important;
+}
+
+.markdown-body > *:first-child {
+    margin-top: 0 !important;
+}
+
+.markdown-body h2 {
+    font-weight: 500;
+    color: #24292e;
+    padding-bottom: 0.3em;
+    font-size: 1.5em;
+    border-bottom: 1px solid #696969;
+    margin-bottom: 16px;
+    line-height: 1.25;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family : 'IranSans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.markdown-body p {
+    margin-top: 0;
+    margin-bottom: 16px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: rgba(0,0,0,0.8);
+    text-align: justify;
+
+}
+
+.markdown-body pre {
+    background-color: rgba(237, 242, 249,0.8);
+    direction: ltr;
+    text-align: left;
+    padding: 16px;
+    overflow: auto;
+    font-size: 14px;
+    line-height: 1.45;
+    border-radius: 3px;
+    margin-top: 0;
+    margin-bottom: 16px;
+    display: block;
+    margin: 0 0 10px;
+    color: #333;
+    word-break: break-all;
+    border: 1px solid #ccc;
+    white-space: pre;
+}
+
+.alert-info {
+    border: 1px solid #dee6f1;
+    border-radius: .5rem;
+    background-color: rgba(237, 242, 249,0.8);    
+    background-clip: border-box;
+    font-size: .9em;
+    color: #31708f;
+}
+
+.alert {
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+}
+
+table {
+        background-color: rgba(237, 242, 249,0.8);
+        width: 100%;
+}
+
+table, td {
+    border: 1px solid #A9A9A9;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 14px;
+    color: rgba(0,0,0,0.8);
+}
+
+td {
+    padding: 5px;
+}
+
+
+.nav-container {
+    right: 0px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(255,140,0);
+    height: 100px;
+    margin-bottom: 0;
+    text-align: center;
+    -moz-box-shadow: 0 2px 10px 0 rgba(94, 94, 94, 0.2);
+    box-shadow: 0 2px 10px 0 rgb(94 94 94 / 20%);
+    -webkit-transition: background 0.4s ease-out, height 0.4s ease;
+    z-index: 1000;
+    float: none;
+}
+
+.navbar {
+    border-radius: 5px;
+    min-height: 50px;
+    border: 1px solid transparent;
+}
+
+.navbar-collapse.collapse {
+    display: block!important;
+    height: auto!important;
+    padding-bottom: 0;
+    overflow: visible!important;
+}
+
+.navbar-collapse {
+    width: auto;
+    border-top: 0;
+    box-shadow: none;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navbar-nav {
+    float: none;
+    margin: 0;
+}
+
+.nav-container .navbar-nav > li {
+    float: none;
+    display: inline-block;
+    position: relative;
+    text-align: -webkit-match-parent;
+    margin: 20px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    min-width: 130px;
+    text-shadow: none;
+    line-height: 20px;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    color: #fff !important;
+    text-decoration: none;
+    background: 0 0;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 1px 1px 0 #000;  
+    font-family : 'IranSans', Arial, sans-serif;
+}
+
+.navbar-nav > li > a :hover {
+    background-color: #555;
+    color: white;
+}
+
