@@ -532,7 +532,7 @@ if (!is_null($name) && (!is_null($phone) || !is_null($email)) && !is_null($messa
 											<tr>
 												<td>فایل راهنمای وب سرویس</td>
 												<td>
-													<a href="/webservice/راهنمای وب سرویس - 990620.pdf"
+													<a href="/webservice/send-receive-guide.html"
 													   class="btn btn-success btn-sm">
 														<span class="fa fa-cloud-download"></span>
 													</a>
@@ -596,7 +596,7 @@ if (!is_null($name) && (!is_null($phone) || !is_null($email)) && !is_null($messa
 											<tr>
 												<td>راهنمای ارسال پیامک با rest api</td>
 												<td>
-													<a target="_blank" href="/webservice/راهنمای ارسال پیامک با استفاده از Rest نگارش 990308.pdf"
+													<a target="_blank" href="/webservice/rest_api.html"
 													   class="btn btn-success btn-sm">
 														<span class="fa fa-cloud-download"></span>
 													</a>
