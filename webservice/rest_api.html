@@ -17,10 +17,10 @@ and open the template in the editor.
     <body>
         <div class="container" >
                 <nav class="docs-sidebar">
-                    <ul class="nav">
-                        <li id="title" >راهنمای ارسال و دریافت وضعیت پیامک 
+                    <h1 id="title" >راهنمای ارسال و دریافت وضعیت پیامک 
 با استفاده از                                    REST API
-                        </li>
+                        </h1>
+                    <ul class="nav">
                         <li class=""><a href="#sms-send">ارسال پیامک با استفاده از Rest Api</a></li>
                         <li class=""><a href="#first-senario">سناریوی شماره یک : ارسال پیامک تکی</a></li>
                         <li class=""><a href="#second-senario">سناریوی شماره دو : ارسال پیامک با خط خدماتی متعلق به نگین رایانه</a></li>
@@ -34,13 +34,19 @@ and open the template in the editor.
                     <section class="markdown-body entry-content" id="basic-intro">
                         <h2>معرفی REST API
                         </h2>
-                        <p>همان طور که شاید تا به حال شنیده باشید API مخفف عبارت Application Programming Interface می‌باشد که به برنامه نویسان امکان رد و بدل کردن اطلاعات مابین پلتفرم های مختلف را از طریق ارسال یک درخواست HTTP(S) ساده و فراخوانی متد های مورد نظر می‌دهد</p>
-                        <p>در واقع REST یک روش ساده و انعطاف پذیری برای استفاده از API است و البته محبوب ترین و پر کاربرد ترین که می‌توان توسط این ساختار از هر کلاینت و پلتفرمی ‌درخواست ساده HTTP(S) را ارسال و پاسخ آن را دریافت نمود.</p>
-                        <p>حال فرض کنید در خواست مورد نظر اطلاعات مربوط به ارسال یک پیامک باشد و جواب آن نتیجه و وضعیت پیامک ارسالی باشد.
-وب سرویس ارسال پیامک کاوه نگار شماره گیرنده ، متن پیامک و شماره فرستنده را از طریق پارامتر های ورودی در متد GET یا POST دریافت می‌کند و خروجی را در غالب فرمت های XML و JSON برگشت می‌دهد.</p>
-                        <p>نکته : اگر با JSON آشنائی ندارید می‌توانید با مراجعه به سایت json.org هم از ساختار فرمت آن مطلع شوید و هم درایور مربوط به زبان برنامه نویسی مورد نظر خود را دریافت نمائید.
-
-</p>
+                        <p>REST مخفف واژگان Representational State Transfer است که از سال ۲۰۰۵ در وب شناخته شد که در ظاهر کمی گیج‌کننده به نظر می‌رسد، اما با کمی توضیح، می‌توان این مفهوم در ظاهر پیچیده را رمزگشایی کرد!</p>
+                        <p>اگر خیلی ساده بخواهیم به این قضیه نگاه کنیم، REST عبارت است از راه کارها و روش‌هایی که با استفاده از آن‌ها می‌توان به رد و بدل دیتا از طریق شبکه پرداخت. به عبارت دیگر، REST راهی ساده به منظور سازماندهی تعاملات مابین سیستم‌های مجزا از یکدیگر می‌باشد.</p>
+                        <p>در مقابل REST، پروتکل SOAP که مخفف واژگان Simple Object Access Protocol است قرار دارد که از طریق آن می‌توان به رد و بدل دیتا از طریق شبکه در قالب وب سرویس های مختلفی با فرمت XML پرداخت.</p>
+                        <p>API هم مخفف واژگان Application Programming Interface است که دربرگیرنده ی متدهایی برای ارتباط با سایر لایبرری ها یا اپلیکیشن ها است. </p>
+                        <p>حال اگر این اصطلاحات در کنار یکدیگر قرار دهیم و چیزی تحت عنوان RESTful API بسازیم، منظورمان سازوکارهایی برای ارتباط با سایر سرویس ها با استفاده از معماری خاصی است. معماری REST دارای یکسری ویژگی‌ها است که شاخص ترین آن‌ها عبارتند از:</p>
+                        <p>- ثبات و یکنواختی این معماری در جای جای API</p>
+                        <p>- عدم برخورداری از سشن در سمت سرور</p>
+                        <p>- به‌کارگیری از کدهای وضعیت اچ تی تی پی</p>
+                        <p>- استفاده از یو آر ال ها برای مشخص ساختن مسیرهای مد نظر</p>
+                        <p>- اِعمال کوئری ها در یو آر ال به جای هدر پروتکل اچ تی تی پی</p>
+                        <p>با این تفاسیر، RESTful API ها به خدمت توسعه‌دهندگان وب آمده‌اند تا فرایند توسعه ی وب، ایجاد تجربه ی کاربری بهتر، سهولت در استفاده از ای پی آی ها و نقل و انتقال داده‌ها از طریق پروتکل اچ تی تی پی را امکان‌پذیر سازند.</p>
+                        <p>علاوه بر این، توجه داشته باشیم که REST بیش از آنکه پروتکل باشد، یکسری راهنما، اصول و قواعدی است که با استفاده از آن‌ها می‌توانیم به برقراری ارتباط مابین منابع مختلف بپردازیم.</p>
+                        
                     </section>
                     
                     <section class="markdown-body entry-content" id="sms-send">
@@ -71,6 +77,7 @@ Response sample
   "msg": "success"
 }
                         </pre>
+                        <div class="alert alert-info">نکته: سرشماره‌هایی که با 3000شروع می‌شوند به صورت 983000 و سرشماره‌هایی که با 1000 شروع می‌شوند بدون 98 استفاده می‌شوند.</div>
                         <div class="alert alert-info" >
                             line2: اگر ارسال پیامک با line به خطای انصراف از دریافت خورد، پیامک با line2 ارسال می شود.
                         </div>
@@ -215,49 +222,46 @@ Response sample
                 </div>
         </div>
         
-        <nav class="nav-container navbar"
-                role="navigation">
-                   <div class="collapse navbar-collapse"
-                        id="navbar-top">
-                           <ul class="nav navbar-nav">
-                                   <li class="active">
-                                           <a href="index.php#home"
-                                              class="page-scroll">خانه
-                                           </a>
-                                   </li>
-                                   <li>
-                                           <a href="index.php#traffic"
-                                              class="page-scroll">تامین ترافیک
-                                           </a>
-                                   </li>
-                                   <li>
-                                           <a href="index.php#panel"
-                                              class="page-scroll">سامانه ها
-                                           </a>
-                                   </li>
-                                   <li>
-                                           <a href="index.php#webservice"
-                                              class="page-scroll">وب سرویس
-                                           </a>
-                                   </li>
-                                   <li>
-                                           <a href="index.php#bulk"
-                                              class="page-scroll">ارسال تبلیغاتی
-                                           </a>
-                                   </li>
-                                   <li>
-                                           <a href="index.php#about"
-                                              class="page-scroll">نگین ارتباط
-                                           </a>
-                                   </li>
-                                   <li>
-                                           <a href="index.php#contact"
-                                              class="page-scroll">تماس با ما
-                                           </a>
-                                   </li>
-                           </ul>
-                   </div>
-           </nav>
+        <nav class="nav-container">
+                
+            <ul>
+                    <li class="active">
+                            <a href="../index.php#home"
+                               class="page-scroll">خانه
+                            </a>
+                    </li>
+                    <li>
+                            <a href="../index.php#traffic"
+                               >تامین ترافیک
+                            </a>
+                    </li>
+                    <li>
+                            <a href="../index.php#panel"
+                               >سامانه ها
+                            </a>
+                    </li>
+                    <li>
+                            <a href="../index.php#webservice"
+                               >وب سرویس
+                            </a>
+                    </li>
+                    <li>
+                            <a href="../index.php#bulk"
+                               >ارسال تبلیغاتی
+                            </a>
+                    </li>
+                    <li>
+                            <a href="../index.php#about"
+                               >نگین ارتباط
+                            </a>
+                    </li>
+                    <li>
+                            <a href="../index.php#contact"
+                               >تماس با ما
+                            </a>
+                    </li>
+            </ul>
+        </nav>
     </body>
     
 </html>
