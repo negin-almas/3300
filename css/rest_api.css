@@ -53,7 +53,7 @@ div {
     width: 300px;
     position: fixed;
     overflow-y: auto;
-    height: calc(100vh - (0px +0px));
+    /* height: calc(100vh - (0px +0px)); */
     display: block;
     border-right: 1px solid #dddddd;
     background: rgba(240,230,131, 0.6);
@@ -66,7 +66,7 @@ div {
     margin-bottom: 0;
     list-style: none;
     display: block;
-    
+
 }
 
 ul {
@@ -101,7 +101,7 @@ ul {
     text-align: center;
     color: rgba(0,0,0,0.8);
     text-transform: capitalize;
-    font-family : 'Yekan', Arial, sans-serif;    
+    font-family : 'Yekan', Arial, sans-serif;
     position: relative;
     display: block;
     text-decoration: none;
@@ -152,7 +152,7 @@ ul {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-family : 'IranSans', Arial, sans-serif;
-/*    font-weight: bold;*/
+   font-weight: bold;
 }
 
 .markdown-body p {
@@ -190,10 +190,11 @@ ul {
 .alert-info {
     border: 1px solid #dee6f1;
     border-radius: .5rem;
-    background-color: rgba(237, 242, 249,0.8);    
+    background-color: rgba(237, 242, 249,0.8);
     background-clip: border-box;
     font-size: .9em;
     color: #31708f;
+		text-align: justify;
 }
 
 .alert {
@@ -211,6 +212,7 @@ table, td {
     border-collapse: collapse;
     text-align: center;
     font-size: 14px;
+		font-weight: bold;
     color: rgba(0,0,0,0.8);
 }
 
@@ -253,7 +255,7 @@ td {
 
 
 .nav-container ul li a {
-    
+
     min-width: 130px;
     text-shadow: none;
     line-height: 20px;
@@ -265,7 +267,7 @@ td {
     font-family : 'IranSans', Arial, sans-serif;
     width: 100%;
     height: 100%;
-    
+
 }
 
 
@@ -276,4 +278,183 @@ td {
     top: 0;
 }
 
+input {
+	display: none;
+}
 
+@media screen and (max-width: 991px){
+	body {
+		padding-top: 40px;
+	        direction: rtl;
+	        text-align: right;
+	        font-family : 'Yekan', Arial, sans-serif;
+	}
+
+	.container {
+	    margin-left: 5px;
+	    margin-right: 5px;
+	}
+
+	.docs-sidebar {
+	    padding-bottom: 70px;
+	    padding-top: 15px;
+			margin: 0px 0px;
+	    width: 100%;
+	    position: relative;
+	    /* overflow-y: auto; */
+	    /* height: calc(100vh - (0px +0px)); */
+	    /* display: block; */
+	    border-right: 1px solid #dddddd;
+	    background: rgba(240,230,131, 0.6);
+	}
+
+	.docs-content {
+	    width: 100%;
+			position: relative;
+	    /* float: left; */
+	    margin: 0px 0px;
+	    /* margin-right: -15px; */
+	    margin-top: 5px;
+	    margin-bottom: 100px;
+	}
+
+	/* .nav-container{
+		display: none;
+	} */
+
+	.markdown-body h2{
+		font-size: 18px;
+		line-height: 30px;
+		font-weight: bold;
+	}
+
+	.markdown-body pre{
+		font-size: 9px
+	}
+	table, td {
+	    font-size: 12px;
+			font-weight: bold;
+	    color: rgba(0,0,0,0.8);
+	}
+
+
+	.nav-container {
+	    right: 0px;
+	    position: fixed;
+	    width: 100%;
+	    top: 0;
+			/* display: none; */
+	    background-color: rgb(255,140,0);
+	    height: 50px;
+	    margin-bottom: 0;
+	    text-align: center;
+	    box-shadow: 0 2px 10px 0 rgb(94 94 94 / 20%);
+	    z-index: 1000;
+	    float: none;
+	}
+
+	.nav-container .menu {
+	  position: absolute;
+	  left: 18px;
+	  top: 9px;
+	  z-index: 100;
+	  width: 40px;
+	  height: 33px;
+	  background: rgba(255,255,255,0.4);
+	  border-radius: 5px;
+	  transition: .5s ease-in-out;
+	  box-shadow: 0 0 0 0 #000, 0 0 0 0 #000;
+	  cursor: pointer;
+	}
+
+	.nav-container .hamburger {
+	  position: absolute;
+	  top: 15px;
+	  left: 13px;
+	  width: 12px;
+	  height: 2px;
+	  background: #FFF;
+	  display: block;
+	  transform-origin: center;
+	  transition: .5s ease-in-out;
+	}
+
+	/* ایجاد نشان گر منو در قسمت بالای سمت راست */
+	.nav-container .hamburger:after, .nav-container .hamburger:before {
+	  transition: .5s ease-in-out;
+	  content: "";
+	  position: absolute;
+	  display: block;
+	  width: 100%;
+	  height: 100%;
+	  background: #FFF;
+	}
+
+	.nav-container .hamburger:before { top: -5px; }
+
+	.nav-container .hamburger:after { bottom: -5px; }
+
+	.nav-container input { display: none; }
+
+	/* ایجاد انیمیشن حرکت صفحه سفید و نمایش آیتم های منو */
+	.nav-container input:checked + .menu {
+	  box-shadow: 0 0 0 100vw rgba(255,140,0,0.7);
+	  border-radius: 0;
+	}
+
+	/*تغییر زاویه  علامت نشانگر منو*/
+	.nav-container input:checked + .menu .hamburger {
+	  transform: rotate(45deg);
+	}
+	.nav-container input:checked + .menu .hamburger:after {
+	  transform: rotate(90deg);
+	  bottom: 0;
+	}
+
+
+	.nav-container input:checked + .menu .hamburger:before {
+	  -webkit-transform: rotate(90deg);
+	  transform: rotate(90deg);
+	  top: 0;
+	}
+
+	.nav-container input:checked + .menu + ul { opacity: 1; }
+
+	/* نمایش آیتم های منو */
+	.nav-container ul {
+	  z-index: 200;
+	  position: absolute;
+	  top: 370%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  opacity: 0;
+	  transition: .25s 0s ease-in-out;
+}
+	.nav-container ul li{
+	    float: none;
+	    display: inline-block;
+	    position: relative;
+	    text-align: -webkit-match-parent;
+	    height: 100%;
+	    width: 70px;
+	    padding-top: 10px;
+	    padding-bottom: 10px;
+			margin: 10px 9px;
+			font-weight: bold;
+	}
+	.nav-container ul li a {
+
+	    min-width: 90px;
+	    text-shadow: none;
+	    line-height: 25px;
+	    position: relative;
+	    display: inline-block;
+	    color: #FFF !important;
+	    text-decoration: none;
+	    font-size: 14px;
+	    font-family : 'IranSans', Arial, sans-serif;
+	    width: 100%;
+	    height: 100%;
+
+	}
+}

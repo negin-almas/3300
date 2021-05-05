@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>راهنمای ارسال و دریافت وضعیت پیامک 
+        <title>راهنمای ارسال و دریافت وضعیت پیامک
 با استفاده از REST API
         </title>
         <meta charset="UTF-8">
@@ -17,7 +17,7 @@ and open the template in the editor.
     <body>
         <div class="container" >
                 <nav class="docs-sidebar">
-                    <h1 id="title" >راهنمای ارسال و دریافت وضعیت پیامک 
+                    <h1 id="title" >راهنمای ارسال و دریافت وضعیت پیامک
 با استفاده از                                    REST API
                         </h1>
                     <ul class="nav">
@@ -27,6 +27,9 @@ and open the template in the editor.
                         <li class=""><a href="#third-senario">سناریوی شماره سه : ارسال پیامک با خط اینترنتی و پشتیبانی خط دوم</a></li>
                         <li class=""><a href="#fourth-senario">سناریوی شماره چهار : ارسال پیامک با خط اینترنتی و پشتیبانی چلچله</a></li>
                         <li class=""><a href="#fifth-senario">سناریوی شماره پنج : ارسال پیامک با خط اینترنتی و پشتیبانی خط خدماتی نگین رایانه</a></li>
+												<li class="">
+													<a href="#sixth-senario">سناریوی شماره شش : ارسال پیامک از طریق url به سایت</a>
+												</li>
                         <li class=""><a href="#status">دریافت وضعیت پیامک با استفاده از Rest Api</a></li>
                     </ul>
                 </nav>
@@ -46,9 +49,9 @@ and open the template in the editor.
                         <p>- اِعمال کوئری ها در یو آر ال به جای هدر پروتکل اچ تی تی پی</p>
                         <p>با این تفاسیر، RESTful API ها به خدمت توسعه‌دهندگان وب آمده‌اند تا فرایند توسعه ی وب، ایجاد تجربه ی کاربری بهتر، سهولت در استفاده از ای پی آی ها و نقل و انتقال داده‌ها از طریق پروتکل اچ تی تی پی را امکان‌پذیر سازند.</p>
                         <p>علاوه بر این، توجه داشته باشیم که REST بیش از آنکه پروتکل باشد، یکسری راهنما، اصول و قواعدی است که با استفاده از آن‌ها می‌توانیم به برقراری ارتباط مابین منابع مختلف بپردازیم.</p>
-                        
+
                     </section>
-                    
+
                     <section class="markdown-body entry-content" id="sms-send">
                         <h2>ارسال پیامک با استفاده از   REST API
                         </h2>
@@ -85,7 +88,7 @@ Response sample
                             type: یکی از سه مقدار روبرو را می تواند داشته باشد: 0 = ارسال معمولی 1 = ارسال با چلچله 2 = ارسال با خط خدماتی نگین رایانه
                         </div>
                     </section>
-                    
+
                     <section class="markdown-body entry-content" id="first-senario">
                         <h2>سناریوی شماره یک : ارسال پیامک تکی
                         </h2>
@@ -101,9 +104,9 @@ POST parameters
     line:SMS_LINE_NUMBER
                         </pre>
                     </section>
-                    
+
                     <section class="markdown-body entry-content" id="second-senario">
-                        <h2> سناریوی شماره دو : ارسال پیامک با خط خدماتی متعلق به نگین رایانه 
+                        <h2> سناریوی شماره دو : ارسال پیامک با خط خدماتی متعلق به نگین رایانه
                         </h2>
                         <pre>
 Request
@@ -117,7 +120,7 @@ POST parameters
     type:2
                         </pre>
                     </section>
-                    
+
                     <section class="markdown-body entry-content" id="third-senario">
                         <h2> سناریوی شماره سه : ارسال پیامک با خط اینترنتی و پشتیبانی خط دوم
                         </h2>
@@ -136,11 +139,11 @@ POST parameters
     line2:SMS_LINE_NUMBER2
                         </pre>
                     </section>
-                    
+
                     <section class="markdown-body entry-content" id="fourth-senario">
                         <h2> سناریوی شماره چهار : ارسال پیامک با خط اینترنتی و پشتیبانی چلچله
                         </h2>
-                        <p>                        درصورتی که ارسال پیامک با خط اینترنتی به مشکل انصراف از دریافت برخورد کرد، ارسال از طریق چلچله انجام خواهد شد. 
+                        <p>                        درصورتی که ارسال پیامک با خط اینترنتی به مشکل انصراف از دریافت برخورد کرد، ارسال از طریق چلچله انجام خواهد شد.
                         </p>
                         <pre>
 Request
@@ -155,7 +158,7 @@ POST parameters
     type:1
                         </pre>
                     </section>
-                    
+
                     <section class="markdown-body entry-content" id="fifth-senario">
                         <h2> سناریوی شماره پنج : ارسال پیامک با خط اینترنتی و پشتیبانی خط خدماتی نگین رایانه
                         </h2>
@@ -176,7 +179,22 @@ POST parameters
                         </pre>
                         <div class="alert alert-info">template: در صورتی که بیش از یک متن برای ارسال با خط خدماتی نگین رایانه وجود دارد شماره تمپلیت را ارسال کنید.</div>
                     </section>
-                    
+
+										<section class="markdown-body entry-counter" id="sixth-senario">
+											<h2>سناریوی شماره شش : ارسال پیامک از طریق url به سایت
+											</h2>
+											<pre>
+Request
+	url= http://sms.3300.ir/api/wsSend.ashx
+
+POST parameters
+	username:USERNAME
+	password:PASSWORD
+	to:TO
+	text:TEXT
+	line:SMS_LINE_NUMBER
+										</section>
+
                     <section class="markdown-body entry-content" id="status">
                         <h2> دریافت وضعیت پیامک با استفاده از   REST API
                         </h2>
@@ -207,23 +225,23 @@ Response sample
                         <table style="width:100%">
                           <tr>
                             <td>1- : ارسال نشده به اپراتور</td>
-                            <td>2: عدم دریافت توسط گوشی</td> 
+                            <td>2: عدم دریافت توسط گوشی</td>
                           </tr>
                           <tr>
                             <td>0: نامشخص</td>
-                            <td>8 : دریافت شده توسط اپراتور</td> 
+                            <td>8 : دریافت شده توسط اپراتور</td>
                           </tr>
                           <tr>
                             <td>1: دریافت توسط گوشی</td>
-                            <td>16: عدم دریافت توسط اپراتور</td> 
+                            <td>16: عدم دریافت توسط اپراتور</td>
                           </tr>
                         </table>
                     </section>
                 </div>
         </div>
-        
-        <nav class="nav-container">
-                
+        <label class="nav-container">
+					<input type='checkbox'>
+					<span class='menu'> <span class='hamburger'></span> </span>
             <ul>
                     <li class="active">
                             <a href="../index.php#home"
@@ -261,7 +279,7 @@ Response sample
                             </a>
                     </li>
             </ul>
-        </nav>
+        </label>
     </body>
-    
+
 </html>

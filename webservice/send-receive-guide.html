@@ -6,8 +6,8 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>راهنمای  ارسال و دریافت پیامک 
-با استفاده از وب سرویس 
+        <title>راهنمای  ارسال و دریافت پیامک
+با استفاده از وب سرویس
 نگین  ارتباط
         </title>
         <meta charset="UTF-8">
@@ -19,8 +19,8 @@ and open the template in the editor.
         <div class="container" >
                 <nav class="docs-sidebar">
                     <h1 id="title">
-                        راهنمای  ارسال و دریافت پیامک 
-                                        با استفاده از وب سرویس 
+                        راهنمای  ارسال و دریافت پیامک
+                                        با استفاده از وب سرویس
                                         نگین  ارتباط
                     </h1>
                     <ul class="nav">
@@ -42,7 +42,7 @@ and open the template in the editor.
                             <li>	ارسال پیامک تکی و آرایه ای(چند تایی)</li>
                             <li>	دریافت پیامک رسیده به خط پیامک</li>
                             <li>	بررسی اعتبار خط پیامک و ...</li>
-                        </ul> 
+                        </ul>
                         <p>را در اختیار شما قرار می دهد.</p>
                         <p><b>نکته 1: توجه داشته باشید که کلمه عبور وب سرویس شما عبارتی غیر از کلمه عبور پنل پیامکی شما بوده و لازم است خودتان آن را انتخاب نمایید. </b></p>
                         <p>مراحل کار:</p>
@@ -57,7 +57,7 @@ and open the template in the editor.
                         <p>جهت مشاهده لیست توابع وب سرویس وارد این صفحه شوید: </p>
                         <pre><a href="http://sms.3300.ir/almassms.asmx?wsdl"  target="blank">http://sms.3300.ir/almassms.asmx?wsdl</a></pre>
                     </section>
-                    
+
                     <section class="markdown-body entry-content" id="definitions">
                         <h2>تعاریف
                         </h2>
@@ -95,7 +95,7 @@ and open the template in the editor.
                         <p>وب سرویس نگین ارتباط به ازای هر درخواست ارسال پیامک که از کاربران دریافت می کند یک شناسه یکتا به آنها بر می‌گرداند و کاربران می‌توانند با استفاده از آن شناسه وضعیت ارسال پیامک خود را پیگیری کنند. </p>
                         <p>در صورتی که این شماره پیامک کمتر از 1000 باشد کد خطا بوده و هزینه ارسال آن از اعتبار کاربر کسر نخواهد شد. شرح مقادیر کدهای خطا در جدول زیر آمده است:</p>
                     </section>
-                    
+
                     <section class="markdown-body entry-content" id="fault-codes">
                         <h2>کدهای  خطا
                         </h2>
@@ -210,10 +210,10 @@ and open the template in the editor.
                                  </tr>
                                </table>
                     </section>
-                    
+
                     <section class="markdown-body entry-content" id="status-code">
-                        <h2>  
-کد  وضعیت پیامک                              
+                        <h2>
+کد  وضعیت پیامک
                         </h2>
                         <p>کد‌های وضعیت ارسال به شرح ذیل می‌باشد.</p>
                         <ul>
@@ -224,11 +224,11 @@ and open the template in the editor.
                             <li>کد 16: مخابرات، پیام ارسالی را دریافت نکرده است. و در صورت نیاز برنامه سمت مشتری می‌تواند مجدداً عملیات ارسال را تکرار نماید.</li>
                         </ul>
                     </section>
-                    
+
                     <section class="markdown-body entry-content" id="return-vlaues">
-                        <h2>  مقادیر بازگشتی در فراخوانی توابع 
+                        <h2>  مقادیر بازگشتی در فراخوانی توابع
                         </h2>
-                        <p> کلیه متد های وب سرویس یک عدد را در خروجی خود بر می گردانند. 
+                        <p> کلیه متد های وب سرویس یک عدد را در خروجی خود بر می گردانند.
                             این عدد به برنامه نویس می گوید آیا متد به درستی اجرا شده است یا خیر.
                             معنی مقادیر بازگشتی توسط متد ها در جدول زیر خلاصه شده است:
                         </p>
@@ -279,9 +279,9 @@ and open the template in the editor.
                             </tr>
                         </table>
                     </section>
-                    
+
                     <section class="markdown-body entry-content" id="functions-list">
-                        <h2>  
+                        <h2>
                             لیست توابع پرکاربرد
                         </h2>
                         <h3>SendSms (برای ارسال پیامک)</h3>
@@ -300,7 +300,7 @@ and open the template in the editor.
                         <div class="alert alert-info">pMessageIds: آرایه ای از شناسه های پیام</div>
                         <h4>مقدار بازگشتی</h4>
                         <div class="alert alert-info" >در صورت صحت اجرای متد، عددی منفی و در صورت رخ دادن خطا، شماره خطا  </div>
-                        
+
                         <h3>SendSms2 (برای ارسال پیامک)</h3>
                         <h4>نحوه فراخوانی</h4>
                         <div class="alert alert-info" style="text-align: left">public long SendSms2(string pUsername, string pPassword, string[] messages, string[] mobiles, string[] UDH, int[] encodings,int[] mclass, out long[] pMessageIds)</div>
@@ -320,7 +320,7 @@ and open the template in the editor.
                         <div class="alert alert-info">pMessageIds: آرایه ای از شناسه های پیام</div>
                         <h4>مقدار بازگشتی</h4>
                         <div class="alert alert-info" >در صورت صحت اجرای متد، عددی منفی و در صورت رخ دادن خطا، شماره خطا</div>
-                        
+
                         <h3>GetMessageStatus2 (برای دریافت وضعیت پیامک ها)</h3>
                         <h4>نحوه فراخوانی</h4>
                         <div class="alert alert-info" style="text-align: left">public long GetMessageStatus2(string pUsername, string pPassword, long[] pMessageIds, out int[] pStatuses, out long[] pMsgIds)</div>
@@ -341,7 +341,7 @@ and open the template in the editor.
                         </div>
                         <h4>مقدار بازگشتی</h4>
                         <div class="alert alert-info" >در صورت صحت اجرای متد، عددی منفی و در صورت رخ دادن خطا، شماره خطا</div>
-                        
+
                         <h3>GetReceivedSms2 (برای دریافت پیامک های دریافت شده)</h3>
                         <h4>نحوه فراخوانی</h4>
                         <div class="alert alert-info" style="text-align: left">public long GetReceivedSms2(string pUsername, string pPassword, out string pMessages, out string pFroms, out string pSmsc, out string pMessageIds, out DateTime pEnteredDate)</div>
@@ -364,7 +364,7 @@ and open the template in the editor.
                         </div>
                         <h4>مقدار بازگشتی</h4>
                         <div class="alert alert-info" >در صورت صحت اجرای متد، عددی منفی و در صورت رخ دادن خطا، شماره خطا</div>
-                        
+
                         <h3>ChangePassword (برای تغییر کلمه عبور)</h3>
                         <h4>نحوه فراخوانی</h4>
                         <div class="alert alert-info" style="text-align: left">public int ChangePassword(string pUsername, string pPassword, string pNewPassword)</div>
@@ -380,7 +380,7 @@ and open the template in the editor.
                         <div class="alert alert-info"></div>
                         <h4>مقدار بازگشتی</h4>
                         <div class="alert alert-info" >در صورت صحت اجرای متد، عددی منفی و در صورت رخ دادن خطا، شماره خطا</div>
-                        
+
                         <h3>GetCredit (برای دریافت میزان اعتبار باقیمانده)</h3>
                         <h4>نحوه فراخوانی</h4>
                         <div class="alert alert-info" style="text-align: left">public long GetCredit(string pUsername, string pPassword, out long pCredit)</div>
@@ -397,7 +397,7 @@ and open the template in the editor.
                         </div>
                         <h4>مقدار بازگشتی</h4>
                         <div class="alert alert-info" >در صورت صحت اجرای متد، عددی منفی و در صورت رخ دادن خطا، شماره خطا</div>
-                        
+
                         <h3>GetSmsCost (برای مشاهده هزینه یک پیامک)</h3>
                         <h4>نحوه فراخوانی</h4>
                         <div class="alert alert-info" style="text-align: left">public int GetSmsCost(string pUsername, string pPassword, string sms, out int cost)</div>
@@ -415,7 +415,7 @@ and open the template in the editor.
                         </div>
                         <h4>مقدار بازگشتی</h4>
                         <div class="alert alert-info" >در صورت صحت اجرای متد، عددی منفی و در صورت رخ دادن خطا، شماره خطا</div>
-                        <p>در این بخش حالات ممکن برای ارسال بررسی می‌شود. 
+                        <p>در این بخش حالات ممکن برای ارسال بررسی می‌شود.
                         برای هر یک از دو پارامتر  messages و mobiles، می توان یکی از مقدار 1 و N را در نظر گرفت.
                         در اینصورت، 2 حالت کلی برای ارسال پیامک وجود دارد:
                         </p>
@@ -424,7 +424,7 @@ and open the template in the editor.
                         <p>در صورتی‌ که قصد مقدار دهی آرایه‌های encodings, udh, mClass را دارید، توجه داشته باشید که طول این آرایه ها یا باید برابر با طول دیگر پارامترها یا برابر با یک  باشند. </p>
                         <p>در حالت اول مقدار پارامترها برای تمامی پیام‌ها برای همه یکسان و برابر با پارامتر ارسالی – که طول آن یک است – در نظر گرفته خواهد شد. در حالت دوم، مقادیر آنها برای هر پیام به صورت متناظر و بر اساس مقادیر ارسالی برای هر پیام ارسال خواهند شد. </p>
                     </section>
-                    
+
                     <section class="markdown-body entry-content" id="return-notes">
                         <h2>   ملاحظات لازم در ارتباط با فراخوانی متدها
                         </h2>
@@ -438,9 +438,10 @@ and open the template in the editor.
                        </section>
                 </div>
         </div>
-        
-        <nav class="nav-container">
-                
+
+				<label class="nav-container">
+					<input type='checkbox'>
+					<span class='menu'> <span class='hamburger'></span> </span>
             <ul>
                     <li class="active">
                             <a href="../index.php#home"
@@ -478,7 +479,7 @@ and open the template in the editor.
                             </a>
                     </li>
             </ul>
-        </nav>
+        </label>
     </body>
-    
+
 </html>

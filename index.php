@@ -5,7 +5,7 @@ $email   = isset($_POST['email']) ? $_POST['email'] : null;
 $message = isset($_POST['message']) ? $_POST['message'] : null;
 
 if (!is_null($name) && (!is_null($phone) || !is_null($email)) && !is_null($message)) {
-	require_once "recaptchalib.php";	
+	require_once "recaptchalib.php";
 	$secret = "6LdLbCAUAAAAAGmet21Jxn7jOA1p2OZ8ffnV3U0j";
 	$response = null;
 	$reCaptcha = new ReCaptcha($secret);
@@ -437,20 +437,11 @@ if (!is_null($name) && (!is_null($phone) || !is_null($email)) && !is_null($messa
 	<div class="center-container">
 		<div class="center-field">
 			<div class="container">
-				<h2>راسل</h2>
+				<h2>مینی پرتال نگین</h2>
 
 				<div class="row">
 					<div class="col-lg-offset-1 col-lg-7">
-						<p>استفاده از سامانه بر روی مرورگر تلفن همراه تجربه دلچسبی نیست، لذا با استفاده از راسل که یک
-						   نرم افزار
-						   اندروید
-						   می
-						   باشد، می توانید پیامک ارسال کنید، این ارسال از طریق سامانه شما انجام می شود و هزینه ای برای
-						   سیم کارت
-						   شما
-						   نخواهد
-						   داشت، در صورتی که گوشی شما به اینترنت دسترسی داشته باشد، امکانات بیشتری در ارسال خواهید
-						   داشت.
+						<p>در صورتی که گوشی شما به اینترنت دسترسی داشته باشد، با استفاده از مینی پرتال نگین می‌توانید از خدمات سامانه بهره ببرید و پیامک ارسال کنید.همچنین استفاده از نرم‌افزار هیچگونه هزینه اضافی برای شما نخواهد داشت.
 						</p>
 					</div>
 					<div class="col-lg-3">
@@ -460,7 +451,7 @@ if (!is_null($name) && (!is_null($phone) || !is_null($email)) && !is_null($messa
 					</div>
 				</div>
 				<a class="btn btn-lg btn-primary"
-				   href="http://www.3300.ir/RaselSmsManager.apk"
+				   href="https://3300.ir/3300_miniportal.apk"
 				   target="_blank">دریافت نسخه اندروید
 				</a>
 			</div>
