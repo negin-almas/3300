@@ -437,11 +437,11 @@ if (!is_null($name) && (!is_null($phone) || !is_null($email)) && !is_null($messa
 	<div class="center-container">
 		<div class="center-field">
 			<div class="container">
-				<h2>مینی پرتال نگین</h2>
+				<h2>مینی‌پرتال‌نگین</h2>
 
 				<div class="row">
 					<div class="col-lg-offset-1 col-lg-7">
-						<p>در صورتی که گوشی شما به اینترنت دسترسی داشته باشد، با استفاده از مینی پرتال نگین می‌توانید از خدمات سامانه بهره ببرید و پیامک ارسال کنید.همچنین استفاده از نرم‌افزار هیچگونه هزینه اضافی برای شما نخواهد داشت.
+						<p> در صورتی که گوشی شما به اینترنت دسترسی داشته باشد، با استفاده از مینی‌پرتال‌نگین می‌توانید از خدمات سامانه بهره ببرید. همچنین استفاده از نرم‌افزار هیچگونه هزینه اضافی برای شما نخواهد داشت.
 						</p>
 					</div>
 					<div class="col-lg-3">
@@ -603,7 +603,7 @@ if (!is_null($name) && (!is_null($phone) || !is_null($email)) && !is_null($messa
 											<tr>
 												<td>راهنمای تنظیمات برای استفاده از افزونه digits</td>
 												<td>
-													<a target="_blank" href="/webservice/راهنمای تنظیمات برای اتصال به افزونه دیجیتس.png"
+													<a target="_blank" href="/webservice/digits.html"
 													   class="btn btn-success btn-sm">
 														<span class="fa fa-cloud-download"></span>
 													</a>
