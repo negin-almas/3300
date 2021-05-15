@@ -31,9 +31,9 @@ html {
 
 body {
 	padding-top: 30px;
-        direction: rtl;
-        text-align: right;
-        font-family : 'Yekan', Arial, sans-serif;
+  direction: rtl;
+  text-align: right;
+  font-family : 'Yekan', Arial, sans-serif;
 }
 
 div {
@@ -44,16 +44,119 @@ div {
 .container {
     margin-left: 200px;
     margin-right: 200px;
-		text-align: center;
+		/* text-align: center; */
 		margin-bottom: 100px;
 }
 
-.description{
-	font-size: 16px;
-	font-weight: bold;
-	font-family : 'Yekan', Arial, sans-serif;
-	margin-top: 20px;
+.docs-sidebar {
+    padding-bottom: 10px;
+    padding-top: 15px;
+    width: 300px;
+    position: fixed;
+    overflow-y: auto;
+    /* height: calc(100vh - (0px +0px)); */
+    display: block;
+    border-right: 1px solid #dddddd;
+    background: rgba(240,230,131, 0.8);
+		border-radius: 20px;
+}
 
+.docs-sidebar .part {
+	width: 95%;
+	height: 30px;
+	/* margin-top: 20px; */
+	background-clip: border-box;
+	line-height: 5px;
+	margin: 5px 5px;
+	padding-top: 10px;
+
+}
+.docs-sidebar .part1 {
+	background-clip: border-box;
+	line-height: 5px;
+	margin: 5px 5px;
+	font-family : 'IranSans', Arial, sans-serif;
+}
+
+.docs-sidebar .alert-info {
+		font-family : 'IranSans', Arial, sans-serif;
+    font-size: 14px;
+    color: #24rgba(255,255,255,0.4);292e;
+		padding: 0;
+    margin-bottom: 5px;
+		/* width: 50%; */
+		float: left;
+		text-decoration: ltr;
+		line-height: 10px;
+		direction: ltr;
+}
+
+ul {
+    margin-top: 0;
+    display: block;
+    padding-inline-start: 40px;
+    overflow: hidden;
+}
+
+.docs-content {
+    width: calc(100% - 300px);
+    float: left;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+
+.docs-content h2 {
+	font-weight: 500;
+	color: #24292e;
+	padding-bottom: 0.3em;
+	font-size: 1.5em;
+	border-bottom: 1px solid #696969;
+	margin-bottom: 16px;
+	line-height: 1.25;
+	display: block;
+	margin-block-start: 0.83em;
+	margin-block-end: 0.83em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-family : 'IranSans', Arial, sans-serif;
+ font-weight: bold;
+}
+.docs-content {
+	margin-top: 0;
+	margin-bottom: 16px;
+	display: block;
+	color: rgba(0,0,0,0.8);
+	text-align: justify;
+	color: #24292e;
+	font-weight: 500;
+}
+
+.explain {
+	font-family : 'IranSans', Arial, sans-serif;
+	font-size: 12px;
+}
+
+.download-btn {
+	width: 100%;
+	/* height: 0px */
+	background: rgba(255,255,0, 0.3);
+	font-family : 'IranSans', Arial, sans-serif;
+	border-radius: 20px;
+	text-decoration: none;
+	color: #FFF;
+}
+
+#title {
+    padding: 5px 5px;
+    text-align: center;
+    border-bottom: 1px solid #dddddd;
+    color: #24292e;
+    /*font-weight: bold;*/
+    font-size: 14px;
+/*    text-shadow: 1px 1px 0 #000;  */
+    font-family : 'IranSans', Arial, sans-serif;
 }
 
 img {
@@ -67,7 +170,7 @@ h1 {
 	color: #24rgba(255,255,255,0.4);292e;
 	padding-bottom: 0.3em;
 	font-size: 1.5em;
-	border-bottom: 1px solid #696969;
+	/* border-bottom: 1px solid #696969; */
 	margin-bottom: 16px;
 	line-height: 1.25;
 	text-align: center;
@@ -87,7 +190,7 @@ ul {
     overflow: hidden;
 }
 
-.part {
+.docs-content .part {
 	width: 100%;
 	background-color: rgba(255,255,255,0.4);
 	height: 50px;
@@ -110,8 +213,8 @@ ul {
 	margin-inline-end: 0px;
 	margin-right: 20px;
 	font-family : 'IranSans', Arial, sans-serif;
- font-weight: bold;
- float: right;
+ 	font-weight: 200;
+ 	float: right;
 }
 
 .alert-info {
@@ -126,13 +229,6 @@ ul {
 		line-height: 30px;
 }
 
-.btn {
-	font-family : 'IranSans', Arial, sans-serif;
-	font-size: 14px;
-	margin-top: 11px;
-	float: left;
-
-}
 .nav-container {
     right: 0px;
     position: fixed;
@@ -192,6 +288,43 @@ ul {
 
 input {
 	display: none;
+}
+
+.docs-sidebar a {
+    color: #FFF;
+    text-decoration: none;
+		width: 50%;
+		text-shadow: 1px 1px 0 #000;
+		font-family : 'IranSans', Arial, sans-serif;
+		font-size: 16px;
+}
+
+.btn {
+    text-shadow: 1px 1px 0 #91621a;
+    padding: 20px 50px;
+		display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+		user-select: none;
+    border: 1px solid transparent;
+		margin-right: 8%;
+}
+
+.btn-warning {
+	box-shadow: inset 0 1px 0 rgb(255 255 255 / 15%), 0 1px 1px rgb(0 0 0 / 8%);
+	background-repeat: repeat-x;
+  border-color: #ffa100;
+	background-color: #f0ad4e;
+}
+
+.btn-lg {
+    font-size: 18px;
+    line-height: 0.33;
+    border-radius: 25px;
 }
 
 @media screen and (max-width: 991px){
