@@ -601,9 +601,9 @@ if (!is_null($name) && (!is_null($phone) || !is_null($email)) && !is_null($messa
 												</td>
 											</tr>
 											<tr>
-												<td>راهنمای تنظیمات برای استفاده از افزونه digits</td>
+												<td>دانلود رایگان افزونه دیجیتس + راهنمای تنظیمات digits</td>
 												<td>
-													<a target="_blank" href="/webservice/digits.html"
+													<a target="_blank" href="/webservice/download-digits-extension-learn-digits-plugin.html"
 													   class="btn btn-success btn-sm">
 														<span class="fa fa-cloud-download"></span>
 													</a>
